@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cycle_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Cycle Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>FSH</fullName>
+                <default>false</default>
+                <label>FSH</label>
+            </value>
+            <value>
+                <fullName>HRT</fullName>
+                <default>false</default>
+                <label>HRT</label>
+            </value>
+            <value>
+                <fullName>Letrozole</fullName>
+                <default>false</default>
+                <label>Letrozole</label>
+            </value>
+            <value>
+                <fullName>Clomid</fullName>
+                <default>false</default>
+                <label>Clomid</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>STIM_1ST__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+        OV_STIM__c = &quot;y&quot;,
+        BLANKVALUE(LEFT(TEXT(CYCLE_ID__r.STIM_1ST__c), 1), &quot;u&quot;),
+        &quot;&quot;
+    )</formula>
+    <label>STIM_1ST</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

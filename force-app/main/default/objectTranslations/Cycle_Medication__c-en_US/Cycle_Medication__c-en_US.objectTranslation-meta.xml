@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cycle Medication</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cycle Medications</value>
+    </caseValues>
+    <layouts>
+        <layout>Patient Medication Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Medication Details --></label>
+            <section>Medication Details</section>
+        </sections>
+        <sections>
+            <label><!-- Nursing Details --></label>
+            <section>Nursing Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Add_Meds --></label>
+        <name>Add_Meds</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Change_Doses --></label>
+        <name>Change_Doses</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Edit_Meds --></label>
+        <name>Edit_Meds</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Medication_Table --></label>
+        <name>Medication_Table</name>
+    </webLinks>
+</CustomObjectTranslation>

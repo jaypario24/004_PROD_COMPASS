@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ANZARD - Hospital admission with ART rel --></label>
+    <name>MORB_ADM__c</name>
+    <picklistValues>
+        <masterLabel>n = No</masterLabel>
+        <translation><!-- n = No --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>y = Yes</masterLabel>
+        <translation><!-- y = Yes --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

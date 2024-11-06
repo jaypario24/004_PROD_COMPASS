@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Laser_Assisted_Hatching_Performed__c</fullName>
+    <externalId>false</externalId>
+    <label>Laser Assisted Hatching Performed?</label>
+    <summaryFilterItems>
+        <field>Cycle_Event__c.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Laser Assisted Hatching</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Cycle_Event__c.Cycle__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Azoospermia</fullName>
+    <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+    <columns>Analysis_Date_Time__c</columns>
+    <columns>NAME</columns>
+    <columns>Lab_Number__c</columns>
+    <columns>Donor_Owner__c</columns>
+    <columns>Frozen__c</columns>
+    <columns>Comments__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Comments__c</field>
+        <operation>contains</operation>
+        <value>nil sperm</value>
+    </filters>
+    <filters>
+        <field>Comments__c</field>
+        <operation>contains</operation>
+        <value>no sperm</value>
+    </filters>
+    <filters>
+        <field>Comments__c</field>
+        <operation>contains</operation>
+        <value>zero sperm</value>
+    </filters>
+    <filters>
+        <field>Comments__c</field>
+        <operation>contains</operation>
+        <value>azo</value>
+    </filters>
+    <label>Azoospermia</label>
+</ListView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ANZARD_Cycles_Requiring_Outcomes</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Day_1__c</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Doctor_Initiating_Cycle__c</columns>
+    <columns>Cycle_Outcome__c</columns>
+    <columns>Pregnancy_Outcome__c</columns>
+    <columns>Sub_Status__c</columns>
+    <columns>CASES.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Case.OI_Cycle,Case.TARFO_Cycle,Case.Trial_Cycle</value>
+    </filters>
+    <filters>
+        <field>Day_1__c</field>
+        <operation>lessThan</operation>
+        <value>N_WEEKS_AGO:7</value>
+    </filters>
+    <filters>
+        <field>Sub_Status__c</field>
+        <operation>equals</operation>
+        <value>WFPR,Awaiting Clinical Pregnancy</value>
+    </filters>
+    <label>Cycles Requiring Scan Outcomes</label>
+</ListView>

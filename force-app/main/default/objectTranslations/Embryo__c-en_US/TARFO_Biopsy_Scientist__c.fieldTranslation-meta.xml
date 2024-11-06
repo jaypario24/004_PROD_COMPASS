@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- TARFO Biopsy Scientist --></label>
+    <name>TARFO_Biopsy_Scientist__c</name>
+    <relationshipLabel><!-- Embryos (TARFO Biopsy Scientist) --></relationshipLabel>
+</CustomFieldTranslation>

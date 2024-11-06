@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sperm Prep Fresh Frozen --></label>
+    <name>Sperm_Prep_Fresh_Frozen__c</name>
+    <picklistValues>
+        <masterLabel>Fresh</masterLabel>
+        <translation><!-- Fresh --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frozen</masterLabel>
+        <translation><!-- Frozen --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

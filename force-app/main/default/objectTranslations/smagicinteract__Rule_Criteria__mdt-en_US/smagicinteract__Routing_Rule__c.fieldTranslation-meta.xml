@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field will be related to &apos;Routing Rule&apos; object --></help>
+    <label><!-- Routing Rule --></label>
+    <name>smagicinteract__Routing_Rule__c</name>
+    <relationshipLabel><!-- Rule Criterias --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Account Type Options --></label>
+    <name>sumoapp__AccountTypeOptions__c</name>
+    <picklistValues>
+        <masterLabel>Match Person Account by Salesforce Duplicate Rules</masterLabel>
+        <translation><!-- Match Person Account by Salesforce Duplicate Rules --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Match Person Account on the following field</masterLabel>
+        <translation><!-- Match Person Account on the following field --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

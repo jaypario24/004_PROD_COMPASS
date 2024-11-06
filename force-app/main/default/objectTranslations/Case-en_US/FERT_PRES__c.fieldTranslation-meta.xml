@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ANZARD - Fertility preservation --></label>
+    <name>FERT_PRES__c</name>
+    <picklistValues>
+        <masterLabel>1 = No, pregnancy intended ASAP</masterLabel>
+        <translation><!-- 1 = No, pregnancy intended ASAP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2 = Yes, storing for future use ONLY (&gt;12 months time)</masterLabel>
+        <translation><!-- 2 = Yes, storing for future use ONLY (&gt;12 months time) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

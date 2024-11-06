@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BAB2_NND__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(BAB2_OUT__c = &quot;n&quot;,  CYCLE_ID__r.BAB2_NND__c , NULL)</formula>
+    <label>BAB2_NND</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SP_QUAL__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    SP_SOURCE__c = &quot;1&quot; &amp;&amp; SP_SITE__c = &quot;e&quot;,
+    IF(
+        ISBLANK(CYCLE_ID__r.SP_QUAL__c),
+        CYCLE_ID__r.SP_QUAL_RollUp__c,
+        CYCLE_ID__r.SP_QUAL__c
+    ),
+    NULL
+)</formula>
+    <label>SP_QUAL</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPU_Date__c</fullName>
+    <externalId>false</externalId>
+    <formula>DATEVALUE( CYCLE_ID__r.OPU_Date_Formula__c )</formula>
+    <label>OPU_Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

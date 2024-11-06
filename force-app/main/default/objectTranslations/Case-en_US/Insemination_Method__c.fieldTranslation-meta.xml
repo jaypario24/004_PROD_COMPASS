@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Insemination Method --></label>
+    <name>Insemination_Method__c</name>
+    <picklistValues>
+        <masterLabel>Half/Half</masterLabel>
+        <translation><!-- Half/Half --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ICSI</masterLabel>
+        <translation><!-- ICSI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ICSI with Ca++</masterLabel>
+        <translation><!-- ICSI with Ca++ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IVF</masterLabel>
+        <translation><!-- IVF --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

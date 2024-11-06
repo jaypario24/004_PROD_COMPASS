@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancelled_Reason_Picklist__c</fullName>
+    <externalId>false</externalId>
+    <label>Cancelled Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Poor stim/under stim</fullName>
+                <default>false</default>
+                <label>Poor stim/under stim</label>
+            </value>
+            <value>
+                <fullName>Hyper stim</fullName>
+                <default>false</default>
+                <label>Hyper stim</label>
+            </value>
+            <value>
+                <fullName>Medication error</fullName>
+                <default>false</default>
+                <label>Medication error</label>
+            </value>
+            <value>
+                <fullName>Patient unwell</fullName>
+                <default>false</default>
+                <label>Patient unwell</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

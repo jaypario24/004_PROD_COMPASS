@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cycle Outcome --></label>
+    <name>Cycle_Outcome__c</name>
+    <picklistValues>
+        <masterLabel>Clinical Pregnancy</masterLabel>
+        <translation><!-- Clinical Pregnancy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cycle Cancelled</masterLabel>
+        <translation><!-- Cycle Cancelled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Freeze All</masterLabel>
+        <translation><!-- Freeze All --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Got Period</masterLabel>
+        <translation><!-- Got Period --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Live Birth</masterLabel>
+        <translation><!-- Live Birth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Transfer</masterLabel>
+        <translation><!-- No Transfer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Pregnant</masterLabel>
+        <translation><!-- Not Pregnant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Started</masterLabel>
+        <translation><!-- Not Started --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Positive BHCG</masterLabel>
+        <translation><!-- Positive BHCG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Still Birth</masterLabel>
+        <translation><!-- Still Birth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WFPR</masterLabel>
+        <translation><!-- WFPR --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

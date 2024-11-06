@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter the API Name of the Object associated with this stickIt Defaults custom setting. --></help>
+    <label><!-- Object --></label>
+    <name>TSS_StickIt_MR1__Object__c</name>
+</CustomFieldTranslation>

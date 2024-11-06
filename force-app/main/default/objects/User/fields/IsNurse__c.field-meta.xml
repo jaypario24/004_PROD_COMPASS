@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsNurse__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR(
+    CONTAINS(Profile.Name, &apos;Nurse&apos;),
+    CONTAINS(Profile.Name, &apos;System&apos;)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>IsNurse?</label>
+    <type>Checkbox</type>
+</CustomField>

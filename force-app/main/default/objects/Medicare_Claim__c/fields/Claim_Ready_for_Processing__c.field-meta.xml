@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Claim_Ready_for_Processing__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(CONTAINS(&quot;WFPR,Awaiting Live Birth,Awaiting Clinical Pregnancy,Cycle Closed,Cancelled Cycle&quot;,Cycle__r.Sub_Status_Text_Field__c),	Claim_Finalised__c= FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Claim Ready for Processing</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

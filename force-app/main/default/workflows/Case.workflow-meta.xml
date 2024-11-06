@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Alert_Patient_Services_from_Cycle_Object</fullName>
+        <description>Alert Patient Services from Cycle Object</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Admin_Alerts_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Alert_Outstanding_Invoice_1693202827738</template>
+    </alerts>
+    <alerts>
+        <fullName>Cycle_ANZARD_Data_Missing</fullName>
+        <description>Cycle ANZARD Data Missing</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>sarah.newman@compassfertility.com.au</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>simone.coote@compassfertility.com.au</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>SystemAdminAlertEmails/Cycle_Not_Created_Properly_1662009879437</template>
+    </alerts>
+    <alerts>
+        <fullName>Freeze_All_Alert</fullName>
+        <description>Freeze All Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Nursing</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>Patient_Services</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>SystemAdminAlertEmails/Freeze_All_Alert_1649908538537</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Cycle</fullName>
+        <description>New Cycle</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Patient_Services</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>SystemAdminAlertEmails/New_Cycle_Created_1695165545929</template>
+    </alerts>
+</Workflow>

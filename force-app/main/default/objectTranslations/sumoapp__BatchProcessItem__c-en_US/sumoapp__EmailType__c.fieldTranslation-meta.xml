@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>sumoapp__EmailType__c</name>
+    <picklistValues>
+        <masterLabel>BOOKED_SF_ONLY</masterLabel>
+        <translation><!-- BOOKED_SF_ONLY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Booked</masterLabel>
+        <translation><!-- Booked --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CANCELED_SF_ONLY</masterLabel>
+        <translation><!-- CANCELED_SF_ONLY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canceled</masterLabel>
+        <translation><!-- Canceled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REMINDER_SF_ONLY</masterLabel>
+        <translation><!-- REMINDER_SF_ONLY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reminder</masterLabel>
+        <translation><!-- Reminder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UPDATED_SF_ONLY</masterLabel>
+        <translation><!-- UPDATED_SF_ONLY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Updated</masterLabel>
+        <translation><!-- Updated --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

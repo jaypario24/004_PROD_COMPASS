@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select the Text to be displayed as Action Label on UI --></help>
+    <label><!-- Label --></label>
+    <name>righteous__Label__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>true</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>General_Consent_Form_Single_Woman</masterLabel>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>General Consent Form - Single Woman (2).pdf</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

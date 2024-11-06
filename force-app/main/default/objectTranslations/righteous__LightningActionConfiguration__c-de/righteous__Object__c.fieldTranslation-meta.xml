@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select the Object API Name. Actions will be displayed on given Object&apos;s Lightning Record Page. --></help>
+    <label><!-- Object --></label>
+    <name>righteous__Object__c</name>
+    <picklistValues>
+        <masterLabel>Account</masterLabel>
+        <translation><!-- Account --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blood Test</masterLabel>
+        <translation><!-- Blood Test --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Campaign</masterLabel>
+        <translation><!-- Campaign --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contact</masterLabel>
+        <translation><!-- Contact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Current User</masterLabel>
+        <translation><!-- Current User --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lead</masterLabel>
+        <translation><!-- Lead --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opportunity</masterLabel>
+        <translation><!-- Opportunity --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

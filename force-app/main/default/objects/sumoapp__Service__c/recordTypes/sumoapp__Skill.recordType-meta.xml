@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__Skill</fullName>
+    <active>true</active>
+    <label>Host Skills</label>
+    <picklistValues>
+        <picklist>sumoapp__LocationOptions__c</picklist>
+        <values>
+            <fullName>IN_HOUSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IN_PERSON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PHONE_INBOUND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIRTUAL_EVENT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

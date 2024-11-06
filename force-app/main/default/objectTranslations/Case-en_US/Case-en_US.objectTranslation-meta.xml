@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cycle</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cycles</value>
+    </caseValues>
+    <layouts>
+        <layout>Egg Freeze Cycle</layout>
+        <sections>
+            <label><!-- Cancelled Reason --></label>
+            <section>Cancelled Reason</section>
+        </sections>
+        <sections>
+            <label><!-- Cycle Information --></label>
+            <section>Cycle Information</section>
+        </sections>
+        <sections>
+            <label><!-- Cycle Outcome --></label>
+            <section>Cycle Outcome</section>
+        </sections>
+        <sections>
+            <label><!-- Pre-Validation Checks --></label>
+            <section>Pre-Validation Checks</section>
+        </sections>
+        <sections>
+            <label><!-- Related Records --></label>
+            <section>Related Records</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>FET Cycle</layout>
+        <sections>
+            <label><!-- Cancelled Reason --></label>
+            <section>Cancelled Reason</section>
+        </sections>
+        <sections>
+            <label><!-- Cycle Information --></label>
+            <section>Cycle Information</section>
+        </sections>
+        <sections>
+            <label><!-- Cycle Outcome --></label>
+            <section>Cycle Outcome</section>
+        </sections>
+        <sections>
+            <label><!-- Pre-Validation Checks --></label>
+            <section>Pre-Validation Checks</section>
+        </sections>
+        <sections>
+            <label><!-- Related Records --></label>
+            <section>Related Records</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Fresh Egg Donor Cycle</layout>
+        <sections>
+            <label><!-- Cancelled Reason --></label>
+            <section>Cancelled Reason</section>
+        </sections>
+        <sections>
+            <label><!-- Cycle Information --></label>
+            <section>Cycle Information</section>
+        </sections>
+        <sections>
+            <label><!-- Cycle Outcomes --></label>
+            <section>Cycle Outcomes</section>
+        </sections>
+        <sections>
+            <label><!-- Pre-Validation Checks --></label>
+            <section>Pre-Validation Checks</section>
+        </sections>
+        <sections>
+            <label><!-- Related Records --></label>
+            <section>Related Records</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>IUI Cycle</layout>
+        <sections>
+            <label><!-- Cancelled Reason --></label>
+            <section>Cancelled Reason</section>
+        </sections>
+        <sections>
+            <label><!-- Cycle Information --></label>
+            <section>Cycle Information</section>
+        </sections>
+        <sections>
+            <label><!-- Cycle Outcome --></label>
+            <section>Cycle Outcome</section>
+        </sections>
+        <sections>
+            <label><!-- Pre-Validation Checks --></label>
+            <section>Pre-Validation Checks</section>
+        </sections>
+        <sections>
+            <label><!-- Related Records --></label>
+            <section>Related Records</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>IVF Cycle</layout>
+        <sections>
+            <label><!-- Cancelled Reason --></label>
+            <section>Cancelled Reason</section>
+        </sections>
+        <sections>
+            <label><!-- Cycle Information --></label>
+            <section>Cycle Information</section>
+        </sections>
+        <sections>
+            <label><!-- Cycle Outcomes --></label>
+            <section>Cycle Outcomes</section>
+        </sections>
+        <sections>
+            <label><!-- Pre-Validation Checks --></label>
+            <section>Pre-Validation Checks</section>
+        </sections>
+        <sections>
+            <label><!-- Related Records --></label>
+            <section>Related Records</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OI Cycle</layout>
+        <sections>
+            <label><!-- Cycle Information --></label>
+            <section>Cycle Information</section>
+        </sections>
+        <sections>
+            <label><!-- Cycle Outcome --></label>
+            <section>Cycle Outcome</section>
+        </sections>
+        <sections>
+            <label><!-- Pre-Validation Checks --></label>
+            <section>Pre-Validation Checks</section>
+        </sections>
+        <sections>
+            <label><!-- Related Records --></label>
+            <section>Related Records</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TARFO Cycle</layout>
+        <sections>
+            <label><!-- Cancelled Reason --></label>
+            <section>Cancelled Reason</section>
+        </sections>
+        <sections>
+            <label><!-- Cycle Information --></label>
+            <section>Cycle Information</section>
+        </sections>
+        <sections>
+            <label><!-- Cycle Outcome --></label>
+            <section>Cycle Outcome</section>
+        </sections>
+        <sections>
+            <label><!-- Pre-Validation Checks --></label>
+            <section>Pre-Validation Checks</section>
+        </sections>
+        <sections>
+            <label><!-- Related Records --></label>
+            <section>Related Records</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>VOT Cycle</layout>
+        <sections>
+            <label><!-- ANZARD Data --></label>
+            <section>ANZARD Data</section>
+        </sections>
+        <sections>
+            <label><!-- Cancelled Reason --></label>
+            <section>Cancelled Reason</section>
+        </sections>
+        <sections>
+            <label><!-- Cycle Information --></label>
+            <section>Cycle Information</section>
+        </sections>
+        <sections>
+            <label><!-- Cycle Outcome --></label>
+            <section>Cycle Outcome</section>
+        </sections>
+        <sections>
+            <label><!-- Pre-Validation Checks --></label>
+            <section>Pre-Validation Checks</section>
+        </sections>
+        <sections>
+            <label><!-- Related Records --></label>
+            <section>Related Records</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Additional Meds --></label>
+        <name>Add_Additional_Meds</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Clinical Note --></label>
+        <name>Add_Clinical_Note</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Doctors Note --></label>
+        <name>Add_Doctors_Note</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Internal Notes --></label>
+        <name>Add_Internal_Notes</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Book Appointment --></label>
+        <name>Book_Appointment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Book Bloods &amp; Scans --></label>
+        <name>Book_Bloods</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Book Transfer/IUI --></label>
+        <name>Book_Transfer</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- OLD Cancel Cycle --></label>
+        <name>Cancel_Cycle</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Change Cycle Price --></label>
+        <name>Change_Cycle_Price</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Change Cycle Type --></label>
+        <name>Change_Cycle_Type</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Change Priority --></label>
+        <name>Change_Priority</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Cancel Cycle --></label>
+        <name>Close_Cycle</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close Cycle As Not Started --></label>
+        <name>Close_Cycle_As_Not_Started</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close the Case --></label>
+        <name>Close_the_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Additional Cycle Consents --></label>
+        <name>Create_Additional_Cycle_Consents</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Biopsy Cycle Event --></label>
+        <name>Create_Biopsy_Cycle_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Change Over Event --></label>
+        <name>Create_Change_Over_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Cycle Claim --></label>
+        <name>Create_Cycle_Claim</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Cycle Day Events --></label>
+        <name>Create_Cycle_Day_Events</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Day 1 --></label>
+        <name>Create_Day_1</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Day 3 Assessment Cycle Event --></label>
+        <name>Create_Day_3_Assessment_Cycle_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Day 5 Assessment Cycle Event --></label>
+        <name>Create_Day_5_Assessment_Cycle_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Day 6 Assessment Cycle Event --></label>
+        <name>Create_Day_6_Assessment_Cycle_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Denuding/CockTrimming Cycle Event --></label>
+        <name>Create_Denuding_Cycle_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Egg Donation Event --></label>
+        <name>Create_Egg_Donation_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Embryo Transfer Cycle Event --></label>
+        <name>Create_Embryo_Transfer_Cycle_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create LAH Event --></label>
+        <name>Create_LAH_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create New Invoice --></label>
+        <name>Create_New_Invoice</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create New Quote --></label>
+        <name>Create_New_Quote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create OPU Cycle Event --></label>
+        <name>Create_OPU_Cycle_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Cycle Prep Event --></label>
+        <name>Create_OPU_Prep_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Record of Patient Ovulation --></label>
+        <name>Create_Record_of_Patient_Ovulation</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Sperm Preparation Cycle Event --></label>
+        <name>Create_Sperm_Preparation_Cycle_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Trigger --></label>
+        <name>Create_Trigger</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Trigger Event --></label>
+        <name>Create_Trigger_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Waiver --></label>
+        <name>Create_Waiver</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Cycle Details --></label>
+        <name>Cycle_Details</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Cycle Outcome --></label>
+        <name>Cycle_Outcome</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Dr&apos;s Transfer Notes --></label>
+        <name>Dr_s_Transfer_Notes</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- EPU Date Calculator --></label>
+        <name>EPU_Date_Calculator</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Egg Freeze Event --></label>
+        <name>Egg_Freeze_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Egg Thaw Event --></label>
+        <name>Egg_Thaw_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Embryo Thawing --></label>
+        <name>Egg_Thawing</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Embryo Vitrification Cycle Event --></label>
+        <name>Embryo_Vitrification_Cycle_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Fert Check --></label>
+        <name>Fert_Check</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Freeze Eggs --></label>
+        <name>Freeze_Eggs</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Full Cycle Delete --></label>
+        <name>Full_Cycle_Delete</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Generate Cycle Summary --></label>
+        <name>Generate_Cycle_Summary</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Generate Pathology Request --></label>
+        <name>Generate_Pathology_Request</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Insemination Process --></label>
+        <name>Insemination_Process</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log Adverse Event --></label>
+        <name>Log_Adverse_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log Delivery Outcome --></label>
+        <name>Log_Delivery_Outcome</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log Result --></label>
+        <name>Log_Result</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log Sex Advice --></label>
+        <name>Log_Sex_Advice</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Manage Cycle Protocol --></label>
+        <name>Manage_Cycle_Protocol</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Manage Documents --></label>
+        <name>Manage_Documents</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Medications Check --></label>
+        <name>Medications_Check</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Additional Cycle Consents --></label>
+        <name>New_Consent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New IUI Cycle Event --></label>
+        <name>New_IUI_Cycle_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Medications --></label>
+        <name>New_Medications</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Result --></label>
+        <name>New_Result</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Scan --></label>
+        <name>New_Scan</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Post Thaw Assessment --></label>
+        <name>Post_Thaw_Assessment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Quick Appointment --></label>
+        <name>Quick_Appointment2</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Record Change Over --></label>
+        <name>Record_Change_Over</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Record Day 1 --></label>
+        <name>Record_Day_1</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Run Embryo Report --></label>
+        <name>Run_Embryo_Report</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Schedule Appointment --></label>
+        <name>Schedule_Appointment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SocialPublisher --></label>
+        <name>SocialPublisher</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Unlock Cycle --></label>
+        <name>Unlock_Cycle</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- View Scan --></label>
+        <name>View_Scan</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Closed Cycle --></label>
+        <name>Closed_Cycle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A cycle with the intent to pick up and freeze eggs --></description>
+        <label><!-- Egg Freeze Cycle --></label>
+        <name>Egg_Freeze_Cycle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A frozen embryo transfer cycle --></description>
+        <label><!-- FET Cycle --></label>
+        <name>FET_Cycle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A cycle which is always paired with a  second cycle of the same type where eggs are picked up from a donor and embryos are transferred into the patient. --></description>
+        <label><!-- Fresh Egg Donor Cycle --></label>
+        <name>Fresh_Egg_Donor_Cycle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- In uterine insemination cycle which only uses sperm. --></description>
+        <label><!-- IUI Cycle --></label>
+        <name>IUI_Cycle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- IVF or ICSI Cycle where eggs are picked up and grown to blastocyst stage --></description>
+        <label><!-- IVF Cycle --></label>
+        <name>IVF_Cycle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Ovulation Induction Cycle where Patients are monitored for timed intercourse. Includes bloods, scans and management. --></description>
+        <label><!-- OI Cycle --></label>
+        <name>OI_Cycle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A Lab only cycle where embryos are thawed biopsied and refrozen. --></description>
+        <label><!-- TARFO Cycle --></label>
+        <name>TARFO_Cycle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Standard Tracking Cycle which includes bloods and a scan with patients monitored for timed intercourse. --></description>
+        <label><!-- Tracking Cycle --></label>
+        <name>Tracking_Cycle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A trial cycle to determine drug efficacy and Patient reaction. --></description>
+        <label><!-- Trial Cycle --></label>
+        <name>Trial_Cycle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A cycle where eggs are thawed and injected with ICSI to create embryos for transfer. --></description>
+        <label><!-- VOT Cycle --></label>
+        <name>VOT_Cycle</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- In order to cancel this cycle, please use the &quot;Cancel Cycle&quot; action. --></errorMessage>
+        <name>Is_Cancelled_Check</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Conga_Composer_Lab_Cycle_Report --></label>
+        <name>Conga_Composer_Lab_Cycle_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Cycle_Events --></label>
+        <name>Cycle_Events</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Pathology --></label>
+        <name>New_Pathology</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- a269o0000004xRpAAI_500 --></label>
+        <name>a269o0000004xRpAAI_500</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- a269o0000005IoGAAU_500 --></label>
+        <name>a269o0000005IoGAAU_500</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- a269o0000005IoGAAU_500_bulk --></label>
+        <name>a269o0000005IoGAAU_500_bulk</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- a269o0000006r1oAAA_500 --></label>
+        <name>a269o0000006r1oAAA_500</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- EmailAnInvite --></label>
+        <name>sumoapp__EmailAnInvite</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ScheduleNow --></label>
+        <name>sumoapp__ScheduleNow</name>
+    </webLinks>
+</CustomObjectTranslation>

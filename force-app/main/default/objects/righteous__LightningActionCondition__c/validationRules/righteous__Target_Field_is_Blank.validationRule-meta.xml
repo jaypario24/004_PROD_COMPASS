@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>righteous__Target_Field_is_Blank</fullName>
+    <active>true</active>
+    <description>Validate if Target Type is Field and Target Field is Blank</description>
+    <errorConditionFormula>ISPICKVAL(  righteous__Target_Type__c , &apos;Field&apos;) &amp;&amp; ISBLANK( righteous__Target_Field__c )</errorConditionFormula>
+    <errorDisplayField>righteous__Target_Field__c</errorDisplayField>
+    <errorMessage>Value is required when Target Type is &apos;Field&apos;.</errorMessage>
+</ValidationRule>

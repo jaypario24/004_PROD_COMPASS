@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>N_EMBREC_FRESH__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>This data item should be completed in the cycle for the female patient who received the fresh embryos.
+If cryopreserved (frozen) embryos are received, please use N_S_CLTH, N_S_BLTH, N_V_CLTH, N_V_BLTH data items instead to record the number of embryos received.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Number of fresh embryos receive</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Additional Settings --></label>
+    <name>sumoapp__AdditionalSettings__c</name>
+    <picklistValues>
+        <masterLabel>Display Error</masterLabel>
+        <translation><!-- Display Error --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Let User Choose</masterLabel>
+        <translation><!-- Let User Choose --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Resource Pool</masterLabel>
+        <translation><!-- Resource Pool --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

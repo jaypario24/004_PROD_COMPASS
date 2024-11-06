@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ANZARD - Outcome of first- born baby --></label>
+    <name>BAB1_OUT__c</name>
+    <picklistValues>
+        <masterLabel>l = Livebirth/Survived</masterLabel>
+        <translation><!-- l = Livebirth/Survived --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>n = Livebirth/Died &lt; 28 days (neonatal death)</masterLabel>
+        <translation><!-- n = Livebirth/Died &lt; 28 days (neonatal death) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>s = Stillbirth</masterLabel>
+        <translation><!-- s = Stillbirth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>u = baby born but outcome unknown</masterLabel>
+        <translation><!-- u = baby born but outcome unknown --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

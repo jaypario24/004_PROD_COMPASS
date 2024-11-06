@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "7dc039c1-d31e-4b3b-8d63-5a8121397503",
+  "appPageId" : "114f331c-0fca-40ee-ac71-15bbe016807d",
+  "configurationTags" : [ ],
+  "devName" : "EventBooked__c",
+  "id" : "62e5050c-0196-4844-9b5b-4c83174a323d",
+  "label" : "EventBooked",
+  "pageAccess" : "Public",
+  "routeType" : "custom-eventbooked",
+  "type" : "route",
+  "urlPrefix" : "eventbooked"
+}

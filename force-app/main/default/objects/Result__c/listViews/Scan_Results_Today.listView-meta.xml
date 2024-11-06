@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scan_Results_Today</fullName>
+    <columns>NAME</columns>
+    <columns>Collected__c</columns>
+    <columns>Patients_or_Donors__c</columns>
+    <columns>Result_Type__c</columns>
+    <columns>Cycle__c</columns>
+    <columns>Sonographer_Observations__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Result_Type__c</field>
+        <operation>equals</operation>
+        <value>Scan</value>
+    </filters>
+    <filters>
+        <field>Collected__c</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Scan Results Today</label>
+</ListView>

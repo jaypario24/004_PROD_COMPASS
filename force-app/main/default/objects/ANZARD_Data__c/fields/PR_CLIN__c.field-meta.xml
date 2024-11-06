@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PR_CLIN__c</fullName>
+    <externalId>false</externalId>
+    <formula>LEFT(TEXT( CYCLE_ID__r.PR_CLIN__c ),1)</formula>
+    <label>PR_CLIN</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

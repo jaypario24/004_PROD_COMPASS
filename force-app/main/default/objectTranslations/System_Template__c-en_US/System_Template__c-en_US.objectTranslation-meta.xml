@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>System Template</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>System Templates</value>
+    </caseValues>
+    <layouts>
+        <layout>Checklist Templates</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Event Triggered Templates</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>System Template Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Clone This Template --></label>
+        <name>Clone_This_Template</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Template Item --></label>
+        <name>New_Template_Item</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Event Triggered Template --></label>
+        <name>Event_Triggered_Template</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Medication Template --></label>
+        <name>Medication_Template</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Pathology Template --></label>
+        <name>Pathology_Template</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Protocol Templates --></label>
+        <name>Protocol_Templates</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Task Template --></label>
+        <name>Task_Template</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

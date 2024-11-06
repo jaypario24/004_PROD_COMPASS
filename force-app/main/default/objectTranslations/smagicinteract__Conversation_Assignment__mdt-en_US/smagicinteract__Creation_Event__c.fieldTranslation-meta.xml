@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- It will store info about when conversation should be assigned to someone. Eg- Both Incoming and Outgoing, Incoming, Outgoing --></help>
+    <label><!-- Creation Event --></label>
+    <name>smagicinteract__Creation_Event__c</name>
+    <picklistValues>
+        <masterLabel>Both</masterLabel>
+        <translation><!-- Both --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incoming</masterLabel>
+        <translation><!-- Incoming --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Outgoing</masterLabel>
+        <translation><!-- Outgoing --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

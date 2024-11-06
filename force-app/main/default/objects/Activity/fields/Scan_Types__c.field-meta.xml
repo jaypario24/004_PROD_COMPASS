@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scan_Types__c</fullName>
+    <externalId>false</externalId>
+    <label>Scan Types</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Compass Scan</fullName>
+                <default>false</default>
+                <label>Compass Scan</label>
+            </value>
+            <value>
+                <fullName>Sides Scan</fullName>
+                <default>false</default>
+                <label>Sides Scan</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

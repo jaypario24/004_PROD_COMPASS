@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Count_Semen_Samples__c</fullName>
+    <externalId>false</externalId>
+    <label>Count Available Semen Samples</label>
+    <summarizedField>Sperm_Sample__c.Number_of_Straws_Remaining__c</summarizedField>
+    <summaryFilterItems>
+        <field>Sperm_Sample__c.Consumed__c</field>
+        <operation>equals</operation>
+        <value>False</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Sperm_Sample__c.Donor_Owner__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <type>Summary</type>
+</CustomField>

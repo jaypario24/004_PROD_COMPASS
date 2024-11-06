@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__RegisteredAttendeeCount__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Registered Attendee Count</label>
+    <summaryFilterItems>
+        <field>sumoapp__Attendee__c.sumoapp__Status__c</field>
+        <operation>notEqual</operation>
+        <value>CANCELED, WAITLISTED, DRAFT, DECLINED</value>
+    </summaryFilterItems>
+    <summaryForeignKey>sumoapp__Attendee__c.sumoapp__SumoEvent__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

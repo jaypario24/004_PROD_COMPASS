@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Origin Picklist --></label>
+    <name>Origin_Picklist__c</name>
+    <picklistValues>
+        <masterLabel>Compass</masterLabel>
+        <translation><!-- Compass --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Off Site</masterLabel>
+        <translation><!-- Off Site --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

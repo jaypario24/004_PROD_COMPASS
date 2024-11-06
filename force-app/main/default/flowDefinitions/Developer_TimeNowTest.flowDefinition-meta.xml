@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>122</activeVersionNumber>
+    <description>Core screen that renders the Activities today and waiting room status.</description>
+    <masterLabel>Developer Waiting Room Component [WR_002]</masterLabel>
+</FlowDefinition>

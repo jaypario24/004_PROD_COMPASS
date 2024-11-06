@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Associate a Lightning Label to be displayed as Header Text on UI component. Lightning Label can have translated value. --></help>
+    <label><!-- Lightning Label --></label>
+    <name>righteous__LightningLabel__c</name>
+    <relationshipLabel><!-- Lightning Action Configurations --></relationshipLabel>
+</CustomFieldTranslation>

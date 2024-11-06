@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>n = No</fullName>
+        <default>false</default>
+        <label>n = No</label>
+    </customValue>
+    <customValue>
+        <fullName>y = Yes</fullName>
+        <default>false</default>
+        <label>y = Yes</label>
+    </customValue>
+    <customValue>
+        <fullName>u = unknown</fullName>
+        <default>false</default>
+        <label>u = unknown</label>
+    </customValue>
+    <description>n = No;y = Yes;u = unknown</description>
+    <masterLabel>ANZARD_NO_YES_UNKNOWN</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

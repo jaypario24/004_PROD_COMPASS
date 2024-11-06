@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>righteous__LightningActionConfigurationId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Associate this Lightning Action with Object&apos;s Lighting Action Configuration</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Associate this Lightning Action with Object&apos;s Lighting Action Configuration. Action will be displayed on Record Page of Object specified in Lighting Action Configuration.</inlineHelpText>
+    <label>Lightning Action Configuration</label>
+    <referenceTo>righteous__LightningActionConfiguration__c</referenceTo>
+    <relationshipLabel>Lightning Actions</relationshipLabel>
+    <relationshipName>LightningActions</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Assignment Engine Mode --></label>
+    <name>sumoapp__AssignmentEngineMode__c</name>
+    <picklistValues>
+        <masterLabel>Load-Balance</masterLabel>
+        <translation><!-- Load-Balance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Priority Based</masterLabel>
+        <translation><!-- Priority Based --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Random</masterLabel>
+        <translation><!-- Random --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Round-Robin</masterLabel>
+        <translation><!-- Round-Robin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>User Choose</masterLabel>
+        <translation><!-- User Choose --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

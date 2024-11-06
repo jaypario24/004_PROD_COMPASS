@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cycle Record Type Theatre Rating</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cycle Record Type Theatre Ratings</value>
+    </caseValues>
+    <layouts>
+        <layout>Cycle Record Type Theatre Rating Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Rating --></label>
+            <section>Rating</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

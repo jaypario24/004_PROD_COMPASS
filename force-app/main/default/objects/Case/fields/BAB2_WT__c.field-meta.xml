@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BAB2_WT__c</fullName>
+    <description>Birthweight (in grams) of the second-born baby. Every attempt must be made to obtain this information.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Birthweight of second-born baby</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

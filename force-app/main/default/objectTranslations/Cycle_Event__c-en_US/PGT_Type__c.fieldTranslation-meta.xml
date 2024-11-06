@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- PGT Type --></label>
+    <name>PGT_Type__c</name>
+    <picklistValues>
+        <masterLabel>Don&apos;t Touch My Embos</masterLabel>
+        <translation><!-- Don&apos;t Touch My Embos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No PGT</masterLabel>
+        <translation><!-- No PGT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PGT - M</masterLabel>
+        <translation><!-- PGT - M --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PGT - SR</masterLabel>
+        <translation><!-- PGT - SR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PGT- A</masterLabel>
+        <translation><!-- PGT- A --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

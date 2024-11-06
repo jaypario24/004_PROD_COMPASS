@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Associate this Lightning Action with Object&apos;s Lighting Action Configuration. Action will be displayed on Record Page of Object specified in Lighting Action Configuration. --></help>
+    <label><!-- Lightning Action Configuration --></label>
+    <name>righteous__LightningActionConfigurationId__c</name>
+    <relationshipLabel><!-- Lightning Actions --></relationshipLabel>
+</CustomFieldTranslation>

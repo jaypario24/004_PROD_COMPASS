@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Specify the Target URL on Action Link. 
+In case Target Type is URL, specify URL to which user should be redirect. You can redirect to Record Page, Apex Page or any Custom URL. 
+In case Target Type is Flow, provide Visual Flow API Name. -->
+    </help>
+    <label><!-- Target URL --></label>
+    <name>righteous__Target_URL__c</name>
+</CustomFieldTranslation>

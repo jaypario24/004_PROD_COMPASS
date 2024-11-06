@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Triggered_Template</fullName>
+    <active>true</active>
+    <label>Event Triggered Template</label>
+    <picklistValues>
+        <picklist>Cycle_Type__c</picklist>
+        <values>
+            <fullName>Egg Freeze Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FET Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fresh Egg Donor Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IUI Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IVF Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OI Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TARFO Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VOT Cycle</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Day_to_Run__c</picklist>
+        <values>
+            <fullName>Friday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saturday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sunday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thursday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tuesday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wednesday</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Task_Template_Type__c</picklist>
+        <values>
+            <fullName>At Cycle Creation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Template_Type__c</picklist>
+        <values>
+            <fullName>Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pathology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Task</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Triggering_Event__c</picklist>
+        <values>
+            <fullName>Biopsy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Change Over</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Day 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Day 3 Assessment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Day 5 Assessment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Day 6 Assessment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denuding%2FCockTriming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doctor%27s Transfer Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donate Eggs Cycle Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Egg Thaw Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Egg Vitrification Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Embryo Thawing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Embryo Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Embryo Vitrification %28Freezing%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Failed Fert - Sperm Quality Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fertilisation Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IUI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insemination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laser Assisted Hatching</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nurse Medication Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OPU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OPU Preparation Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ovulation Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post Thaw Day 5 Assessment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-Implantation Genetic Testing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pregnancy Scan Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pregnancy Test</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sperm Freeze</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sperm Preparation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trigger Event</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Fertilisation Status --></label>
+    <name>Fertilisation_Status__c</name>
+    <picklistValues>
+        <masterLabel>0PN</masterLabel>
+        <translation><!-- 0PN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1PN</masterLabel>
+        <translation><!-- 1PN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2PN</masterLabel>
+        <translation><!-- 2PN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3PN+</masterLabel>
+        <translation><!-- 3PN+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Abn.</masterLabel>
+        <translation><!-- Abn. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deg</masterLabel>
+        <translation><!-- Deg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GV</masterLabel>
+        <translation><!-- GV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MI</masterLabel>
+        <translation><!-- MI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Oocyte (NO)</masterLabel>
+        <translation><!-- No Oocyte (NO) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RZ</masterLabel>
+        <translation><!-- RZ --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

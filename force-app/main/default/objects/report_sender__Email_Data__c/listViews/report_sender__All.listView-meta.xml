@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>report_sender__All</fullName>
+    <columns>NAME</columns>
+    <columns>report_sender__Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>report_sender__Report_Name__c</columns>
+    <columns>report_sender__Report_Folder__c</columns>
+    <columns>report_sender__NextSendDate__c</columns>
+    <columns>report_sender__File_Type__c</columns>
+    <columns>report_sender__Active__c</columns>
+    <columns>report_sender__Email_From_Address__c</columns>
+    <columns>report_sender__Email_TO__c</columns>
+    <columns>report_sender__Subject__c</columns>
+    <columns>report_sender__Successful_Send__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

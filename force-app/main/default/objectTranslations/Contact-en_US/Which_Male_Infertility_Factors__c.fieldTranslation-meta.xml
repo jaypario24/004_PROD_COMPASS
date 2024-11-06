@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Which Male Infertility Factors? --></label>
+    <name>Which_Male_Infertility_Factors__c</name>
+    <picklistValues>
+        <masterLabel>Congenital Absence of the Vas Deferens/Cystic Fibrosis</masterLabel>
+        <translation><!-- Congenital Absence of the Vas Deferens/Cystic Fibrosis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ejaculatory Disorders (eg. Spinal Injury, Retrograde, Anejaculation)</masterLabel>
+        <translation><!-- Ejaculatory Disorders (eg. Spinal Injury, Retrograde, Anejaculation) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Erectile Dysfunction</masterLabel>
+        <translation><!-- Erectile Dysfunction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Genetic (Klinefelter’s)</masterLabel>
+        <translation><!-- Genetic (Klinefelter’s) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Genetic (Other)</masterLabel>
+        <translation><!-- Genetic (Other) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Genetic (Y Deletion)</masterLabel>
+        <translation><!-- Genetic (Y Deletion) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gonadotrophin Deficiency</masterLabel>
+        <translation><!-- Gonadotrophin Deficiency --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Idiopathic (Unexplained)</masterLabel>
+        <translation><!-- Idiopathic (Unexplained) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Obstructive Disorder (other)</masterLabel>
+        <translation><!-- Obstructive Disorder (other) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Testis Damage (Cancer Treatment)</masterLabel>
+        <translation><!-- Testis Damage (Cancer Treatment) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Testis Damage - Other (incl. past/recent cryptorchidism, vascular, infective,</masterLabel>
+        <translation><!-- Testis Damage - Other (incl. past/recent cryptorchidism, vascular, infective, --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vasectomy</masterLabel>
+        <translation><!-- Vasectomy --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Run_PGT_A_Couple</name>
+        <label>Run PGT-A Couple</label>
+        <locationX>578</locationX>
+        <locationY>674</locationY>
+        <actionName>pdffiller_sfree__ProcessToFlowController</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>Success_Screen</targetReference>
+        </connector>
+        <flowTransactionModel>Automatic</flowTransactionModel>
+        <inputParameters>
+            <name>flowId</name>
+            <value>
+                <stringValue>96AA3155-6100-0000-0000BA29</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recordId</name>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>pdffiller_sfree__ProcessToFlowController</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Run_PGT_A_Single</name>
+        <label>Run PGT-A Single</label>
+        <locationX>50</locationX>
+        <locationY>674</locationY>
+        <actionName>pdffiller_sfree__ProcessToFlowController</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>Success_Screen</targetReference>
+        </connector>
+        <flowTransactionModel>Automatic</flowTransactionModel>
+        <inputParameters>
+            <name>flowId</name>
+            <value>
+                <stringValue>E1511F45-6100-0000-0000BA29</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recordId</name>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>pdffiller_sfree__ProcessToFlowController</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_Bug_Report</name>
+        <label>Send Bug Report</label>
+        <locationX>842</locationX>
+        <locationY>674</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>Error_Email_Template</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <stringValue>grace.lanspeary@pariosolutions.com.au,michael.cooke@pariosolutions.com.au</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Bug Report</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>51.0</apiVersion>
+    <assignments>
+        <name>Assign_Icons</name>
+        <label>Assign Icons</label>
+        <locationX>710</locationX>
+        <locationY>350</locationY>
+        <assignmentItems>
+            <assignToReference>IconVar</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>standard:orders</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>IconVar</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>standard:opportunity</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>IconVar</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>standard:approval</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>IconVar</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>standard:product</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Consents_Quick_Choice</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Icons_0</name>
+        <label>Assign Icons</label>
+        <locationX>182</locationX>
+        <locationY>350</locationY>
+        <assignmentItems>
+            <assignToReference>IconVar</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>standard:orders</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>IconVar</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>standard:opportunity</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>IconVar</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>standard:approval</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>IconVar</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>standard:product</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Consents_Quick_Choice_0</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Couple_or_Single_Consent</name>
+        <label>Couple or Single Consent</label>
+        <locationX>644</locationX>
+        <locationY>242</locationY>
+        <defaultConnector>
+            <targetReference>Failure_Screen</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Single_Consent</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Consent.Patients_Donors__r.Partner__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Icons_0</targetReference>
+            </connector>
+            <label>Single Consent</label>
+        </rules>
+        <rules>
+            <name>Couple_Consent</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Consent.Patients_Donors__r.Partner__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Icons</targetReference>
+            </connector>
+            <label>Couple Consent</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Send_Package_or_Single</name>
+        <label>Send Package or Single</label>
+        <locationX>710</locationX>
+        <locationY>566</locationY>
+        <defaultConnector>
+            <targetReference>Send_Bug_Report</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>PGT_A_Couple</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>BundleQuickChoice.value</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Send Repromed PGT-A Request</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Run_PGT_A_Couple</targetReference>
+            </connector>
+            <label>PGT-A</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Send_Package_or_Single_0</name>
+        <label>Send Package or Single</label>
+        <locationX>182</locationX>
+        <locationY>566</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>PGT_A</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>BundleQuickChoice_0.value</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Send Repromed PGT-A Request</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Run_PGT_A_Single</targetReference>
+            </connector>
+            <label>PGT-A</label>
+        </rules>
+    </decisions>
+    <description>Generates and sends either the Compass PGT eConsent or a combination of this and the Repromed PGT Consent.</description>
+    <environments>Default</environments>
+    <interviewLabel>Create PGT Consent {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Create PGT Consent</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>Get_Consent</name>
+        <label>Get Consent</label>
+        <locationX>644</locationX>
+        <locationY>134</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Couple_or_Single_Consent</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Consent_Type__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>PGT Consent</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Consent_Compass__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <screens>
+        <name>Consents_Quick_Choice</name>
+        <label>Consents Quick Choice</label>
+        <locationX>710</locationX>
+        <locationY>458</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Send_Package_or_Single</targetReference>
+        </connector>
+        <fields>
+            <name>Packagetext</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 18px;&quot;&gt;Please select from the options below which consents you&apos;d like to send to the patients.&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>BundleQuickChoice</name>
+            <extensionName>c:fsc_quickChoiceFSC</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>displayMode</name>
+                <value>
+                    <stringValue>Visual</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>numberOfColumns</name>
+                <value>
+                    <stringValue>1</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>includeIcons</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>isResponsive</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>navOnSelect</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>iconSize</name>
+                <value>
+                    <stringValue>large</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>inputMode</name>
+                <value>
+                    <stringValue>Static Choices</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>staticChoicesString</name>
+                <value>
+                    <stringValue>[{&quot;label&quot;:&quot;Send Repromed PGT-A Request&quot;,&quot;value&quot;:&quot;Send Repromed PGT-A Request&quot;}]</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>choiceIcons</name>
+                <value>
+                    <elementReference>IconVar</elementReference>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <storeOutputAutomatically>true</storeOutputAutomatically>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Consents_Quick_Choice_0</name>
+        <label>Consents Quick Choice</label>
+        <locationX>182</locationX>
+        <locationY>458</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Send_Package_or_Single_0</targetReference>
+        </connector>
+        <fields>
+            <name>Packagetext_0</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 18px;&quot;&gt;Please select from the options below which consents you&apos;d like to send to the patient.&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>BundleQuickChoice_0</name>
+            <extensionName>c:fsc_quickChoiceFSC</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>displayMode</name>
+                <value>
+                    <stringValue>Visual</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>numberOfColumns</name>
+                <value>
+                    <stringValue>1</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>includeIcons</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>isResponsive</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>navOnSelect</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>iconSize</name>
+                <value>
+                    <stringValue>large</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>inputMode</name>
+                <value>
+                    <stringValue>Static Choices</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>staticChoicesString</name>
+                <value>
+                    <stringValue>[{&quot;label&quot;:&quot;Send Repromed PGT-A Request&quot;,&quot;value&quot;:&quot;Send Repromed PGT-A Request&quot;}]</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>choiceIcons</name>
+                <value>
+                    <elementReference>IconVar</elementReference>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <storeOutputAutomatically>true</storeOutputAutomatically>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Failure_Screen</name>
+        <label>Failure Screen</label>
+        <locationX>1106</locationX>
+        <locationY>350</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <isGoTo>true</isGoTo>
+            <targetReference>Send_Bug_Report</targetReference>
+        </connector>
+        <fields>
+            <name>Failure_Text</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: rgb(234, 5, 5); font-size: 16px;&quot;&gt;An error has occurred with this process. Please contact administration to notify of this fault.&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Success_Screen</name>
+        <label>Success Screen</label>
+        <locationX>644</locationX>
+        <locationY>1058</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Success_Text</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 16px;&quot;&gt;You have successfully generated PGT Consents. Please allow 30-60 Seconds for this to attach to the Salesforce Record.&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>518</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Consent</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>CompassRepormedInstructions</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hello {!Get_Consent.Patients_Donors__r.First_Name__c},
+
+As discussed, we will need 2 consent forms completed prior to your egg collection should you decide to go ahead with the PGT-A testing. One is a Repromed consent (Repromed, Adelaide is where the testing is done). The other is a Compass consent form. Please check your spam folder if you cannot see them in your inbox. 
+For the Repromed consent form please tick the top box, PGT-A. This is for general screening, the others are for use if we are screening for a genetic condition that you or your partner are a known carrier of.
+
+For the second part of this consent, you can tick “B: Amplify cells and screen all embryos”, or “C: amplify and screen XXXXX Amount of embryos”.
+Option B means we will biopsy and test all viable, good quality blastocysts frozen. Option C you can use if you would like to control the cost; Repromed currently charges $650 per embryo tested, so if you would not like them all tested you can choose a number and we will biopsy that number at most.
+
+Compass will only charge you for the biopsy and transport fee once biopsy has been completed, in case you don’t get any extra embryos for biopsy. Repromed will charge you later for the testing process directly.
+
+If you have any questions about the actual PGT testing now is the time to ask! Please contact Compass on the number below and ask to speak with one of our embryologists for further information. 
+
+Kind Regards,
+Compass Lab Team</text>
+    </textTemplates>
+    <textTemplates>
+        <name>Error_Email_Template</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi there,
+
+An error occurred whilst using the &quot;Create PGT Consent&quot; flow. The User was: {!$User.FirstName} {!$User.LastName}.
+
+Kind Regards,
+
+The Marines</text>
+    </textTemplates>
+    <textTemplates>
+        <name>PGTAInstructions</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hello {!Get_Consent.Patients_Donors__r.First_Name__c},
+
+As discussed, we will need 2 consent forms completed prior to your Day 1 should you decide to go ahead with the PGT-A testing. One is a Repromed consent (Repromed, Adelaide is where the testing is done). The other is a Compass consent form. Please check your spam folder if you cannot see them in your inbox.
+
+Compass will only charge you for the biopsy and transport fee once biopsy has been completed, in case you don’t get any extra embryos for biopsy. Repromed will charge you later for the testing process directly.
+
+If you have any questions about the actual PGT testing now is the time to ask! Please contact Compass on the number below and ask to speak with one of our embryologists for further information.
+
+Kind Regards,
+
+Compass Lab Team</text>
+    </textTemplates>
+    <textTemplates>
+        <name>RepromedOnlyInstructions</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hello {!Get_Consent.Patients_Donors__r.First_Name__c},
+
+As discussed, we will be sending you a Repromed consent for you to complete should you decide to go ahead with the PGT-A testing at Repromed, Adelaide is where this testing is done. 
+
+For the Repromed consent form please tick the top box, PGT-A. This is for general screening, the others are for use if we are screening for a genetic condition that you or your partner are a known carrier of.
+
+For the second part of this consent, you can tick “B: Amplify cells and screen all embryos”, or “C: amplify and screen XXXXX Amount of embryos”.
+
+Option B means we will biopsy and test all viable, good quality blastocysts frozen. Option C you can use if you would like to control the cost; Repromed currently charges $650 per embryo tested, so if you would not like them all tested you can choose a number and we will biopsy that number at most.
+
+Compass will only charge you for the biopsy and transport fee once biopsy has been completed, in case you don’t get any extra embryos for biopsy. Repromed will charge you later for the testing process directly.
+
+If you have any questions about the actual PGT testing now is the time to ask! Please contact Compass on the number below and ask to speak with one of our embryologists for further information.
+
+Kind Regards,
+Compass Lab Team</text>
+    </textTemplates>
+    <variables>
+        <name>IconVar</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

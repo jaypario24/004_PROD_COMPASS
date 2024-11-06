@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Freezing Location --></label>
+    <name>Freezing_Location__c</name>
+    <picklistValues>
+        <masterLabel>K1-30A</masterLabel>
+        <translation><!-- K1-30A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>K1-30B</masterLabel>
+        <translation><!-- K1-30B --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

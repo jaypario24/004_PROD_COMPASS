@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Claim Type --></label>
+    <name>Claim_Type__c</name>
+    <picklistValues>
+        <masterLabel>Defence</masterLabel>
+        <translation><!-- Defence --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Self Funded</masterLabel>
+        <translation><!-- Self Funded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>bulkBill</masterLabel>
+        <translation><!-- bulkBill --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>patientclaim</masterLabel>
+        <translation><!-- patientclaim --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

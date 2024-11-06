@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Embryo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Embryos</value>
+    </caseValues>
+    <layouts>
+        <layout>Embryo Layout</layout>
+        <sections>
+            <label><!-- Current Status --></label>
+            <section>Current Status</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Day 3 Check --></label>
+            <section>Day 3 Check</section>
+        </sections>
+        <sections>
+            <label><!-- Day 5 Check --></label>
+            <section>Day 5 Check</section>
+        </sections>
+        <sections>
+            <label><!-- Day 6 Check --></label>
+            <section>Day 6 Check</section>
+        </sections>
+        <sections>
+            <label><!-- Embryo Status --></label>
+            <section>Embryo Status</section>
+        </sections>
+        <sections>
+            <label><!-- Fertilisation Results --></label>
+            <section>Fertilisation Results</section>
+        </sections>
+        <sections>
+            <label><!-- Insemination Method --></label>
+            <section>Insemination Method</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- PGT --></label>
+            <section>PGT</section>
+        </sections>
+        <sections>
+            <label><!-- Post Thaw Assessments --></label>
+            <section>Post Thaw Assessments</section>
+        </sections>
+        <sections>
+            <label><!-- Storage Information --></label>
+            <section>Storage Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add PGT Result --></label>
+        <name>Add_PGT_Result</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Discard Embryo --></label>
+        <name>Discard_Embryo</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Link Embryo to Cycle --></label>
+        <name>Link_Embryo_to_Cycle</name>
+    </quickActions>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

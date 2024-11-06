@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MORB_ADM__c</fullName>
+    <description>Indicate whether the female patient was admitted to hospital with any condition related to fertility treatment. Examples include but are not limited to OHSS, infection, bleeding after OPU.
+Record as much information as is known about the hospital admission and morbidity in the MORB_INF field.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Hospital admission with ART rel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>n = No</fullName>
+                <default>false</default>
+                <label>n = No</label>
+            </value>
+            <value>
+                <fullName>y = Yes</fullName>
+                <default>false</default>
+                <label>y = Yes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

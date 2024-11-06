@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>First IVF Over 40</label>
+    <protected>false</protected>
+    <values>
+        <field>Cycle_Type__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Insem_Type__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Max_Age__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Max_BMI__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Max_Previous_Egg_Numbers__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Min_Age__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Min_BMI__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Min_Previous_Egg_Numbers__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Number_of_Previous_OPUs__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Rating__c</field>
+        <value xsi:type="xsd:double">0.5</value>
+    </values>
+</CustomMetadata>

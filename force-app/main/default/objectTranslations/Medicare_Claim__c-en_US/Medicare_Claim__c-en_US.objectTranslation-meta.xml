@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Medicare Claim</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Medicare Claims</value>
+    </caseValues>
+    <layouts>
+        <layout>Medicare Claim Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Submit Claim --></label>
+        <name>Submit_Claim</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- a269o0000005IoGAAU_a1t --></label>
+        <name>a269o0000005IoGAAU_a1t</name>
+    </webLinks>
+</CustomObjectTranslation>

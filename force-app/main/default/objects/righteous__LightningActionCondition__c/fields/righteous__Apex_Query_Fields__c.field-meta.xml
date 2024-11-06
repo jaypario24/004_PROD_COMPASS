@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>righteous__Apex_Query_Fields__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Comma separated Field Names of object. Field API Name must be from the Object Selected for current condition.
+
+System will already retrieve record with given fields and provide the values in Class Method. So Developer can avoid writing SOQL Apex method.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Comma separated Field Names of object. Field API Name must be from the Object Selected for current condition.
+
+System will already retrieve record with given fields and provide the values in Class Method. So Developer can avoid writing SOQL Apex method.</inlineHelpText>
+    <label>Apex Query Fields</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

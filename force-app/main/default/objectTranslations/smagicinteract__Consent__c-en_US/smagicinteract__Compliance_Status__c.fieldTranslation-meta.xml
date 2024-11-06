@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Compliance Status --></label>
+    <name>smagicinteract__Compliance_Status__c</name>
+    <picklistValues>
+        <masterLabel>Double Opt-In</masterLabel>
+        <translation><!-- Double Opt-In --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opt-In</masterLabel>
+        <translation><!-- Opt-In --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opt-Out</masterLabel>
+        <translation><!-- Opt-Out --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending</masterLabel>
+        <translation><!-- Pending --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

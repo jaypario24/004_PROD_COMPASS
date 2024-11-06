@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>righteous__Object_is_not_same_Config_Object</fullName>
+    <active>true</active>
+    <description>Object in Condition must match with object value set in Lightning Action Configuration. User is excepted.</description>
+    <errorConditionFormula>IF(ISPICKVAL(righteous__Object__c, &apos;User&apos;), false, 
+OR(
+AND(NOT(ISBLANK(righteous__LightningActionId__c)), TEXT(righteous__Object__c) != TEXT( righteous__LightningActionId__r.righteous__LightningActionConfigurationId__r.righteous__Object__c)),
+AND(NOT(ISBLANK(righteous__LightningActionGroupId__c)), TEXT(righteous__Object__c) != TEXT( righteous__LightningActionGroupId__r.righteous__LightningActionConfigurationId__r.righteous__Object__c))
+))</errorConditionFormula>
+    <errorDisplayField>righteous__Object__c</errorDisplayField>
+    <errorMessage>Condition Object value must be matching with Object specified in Lightning Action Configuration. You may use &apos;Current User&apos; as Object or Object matching with Lightning Action Configuration record for this record.</errorMessage>
+</ValidationRule>

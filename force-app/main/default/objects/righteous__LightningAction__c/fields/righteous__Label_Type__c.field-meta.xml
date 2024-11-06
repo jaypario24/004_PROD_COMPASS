@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>righteous__Label_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Determines the UI Label. 
+1. Value - Static Value from Label field
+2. Custom Label - Reference to given Label name. Provide the API name in Label field
+3. Lightning Label - Data from external object with translations. Lookup to be used.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Determines the UI Label. 
+1. Value - Static Value from Label field
+2. Custom Label - Reference to given Label name. Provide the API name in Label field
+3. Lightning Label - Data from external object with translations. Lookup to be used.</inlineHelpText>
+    <label>Label Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Value</fullName>
+                <default>false</default>
+                <label>Value</label>
+            </value>
+            <value>
+                <fullName>Lightning Label</fullName>
+                <default>false</default>
+                <label>Lightning Label</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

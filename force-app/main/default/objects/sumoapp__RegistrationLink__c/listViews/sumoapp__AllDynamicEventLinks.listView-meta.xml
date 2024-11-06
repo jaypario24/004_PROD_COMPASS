@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__AllDynamicEventLinks</fullName>
+    <columns>NAME</columns>
+    <columns>sumoapp__Type__c</columns>
+    <columns>sumoapp__RegistrationLink__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>sumoapp__Type__c</field>
+        <operation>equals</operation>
+        <value>Dynamic</value>
+    </filters>
+    <label>All Dynamic Event Links</label>
+</ListView>

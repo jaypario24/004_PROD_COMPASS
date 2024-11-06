@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transport_Logbook_export</fullName>
+    <columns>Egg_Cohort__c</columns>
+    <columns>Patient_Donor__c</columns>
+    <columns>Cycle_Egg_Collected_In__c</columns>
+    <columns>Storage_Date__c</columns>
+    <columns>Storage_Location__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Fate__c</field>
+        <operation>equals</operation>
+        <value>Transported</value>
+    </filters>
+    <label>Transport Logbook (export)</label>
+</ListView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Task Allocated to --></label>
+    <name>Task_Allocated_to__c</name>
+    <picklistValues>
+        <masterLabel>Doctors</masterLabel>
+        <translation><!-- Doctors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laboratory</masterLabel>
+        <translation><!-- Laboratory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nursing</masterLabel>
+        <translation><!-- Nursing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient Services</masterLabel>
+        <translation><!-- Patient Services --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

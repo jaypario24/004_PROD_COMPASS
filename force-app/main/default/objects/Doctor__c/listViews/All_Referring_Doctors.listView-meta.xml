@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Referring_Doctors</fullName>
+    <columns>NAME</columns>
+    <columns>Email__c</columns>
+    <columns>Phone_Number__c</columns>
+    <columns>Provider_Number__c</columns>
+    <columns>Practice__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Doctor_Type__c</field>
+        <operation>equals</operation>
+        <value>General Practitioner,Other</value>
+    </filters>
+    <label>All Referring Doctors</label>
+</ListView>

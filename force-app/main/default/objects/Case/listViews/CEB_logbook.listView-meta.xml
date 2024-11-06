@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CEB_logbook</fullName>
+    <columns>Day_1__c</columns>
+    <columns>CONTACT.ACCOUNT</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Age__c</columns>
+    <columns>DON_AGE__c</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>Total_Number_of_Eggs_Thawed__c</columns>
+    <columns>Total_Number_of_Embryos_Transfered__c</columns>
+    <columns>Total_Embryos_Frozen__c</columns>
+    <columns>Cycle_Outcome__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.VOT_Cycle</value>
+    </filters>
+    <label>VOT Cycle logbook</label>
+</ListView>

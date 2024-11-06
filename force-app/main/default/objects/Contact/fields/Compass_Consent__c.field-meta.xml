@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Compass_Consent__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Compass Consent</label>
+    <referenceTo>Consent_Compass__c</referenceTo>
+    <relationshipLabel>Patients &amp; Donors</relationshipLabel>
+    <relationshipName>Patients_Donors</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

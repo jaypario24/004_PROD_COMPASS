@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__LeadTypeOptions__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Lead Type Options</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NEW_LEAD</fullName>
+                <default>true</default>
+                <label>Create a New Lead Everytime</label>
+            </value>
+            <value>
+                <fullName>MATCH_LEAD</fullName>
+                <default>false</default>
+                <label>Match Lead on the following field</label>
+            </value>
+            <value>
+                <fullName>MATCH_LEAD_RULES</fullName>
+                <default>false</default>
+                <label>Match Lead by Salesforce Duplicate Rules</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

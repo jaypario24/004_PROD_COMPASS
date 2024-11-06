@@ -1,0 +1,16 @@
+<template>
+    <div class={containerClass}>
+        <div class="button-container">
+            <template for:each={picklistOptions} for:item="option">
+                <lightning-button key={option.value}
+                                  label={option.label}
+                                  value={option.value}
+                                  icon-name={option.icon}
+                                  variant="brand"
+                                  onclick={handleButtonClick}
+                                  class="button">
+                </lightning-button>
+            </template>
+        </div>
+    </div>
+</template>

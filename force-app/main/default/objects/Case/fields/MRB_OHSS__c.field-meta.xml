@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MRB_OHSS__c</fullName>
+    <description>Indicate whether the female patient experienced ovarian hyperstimulation syndrome at any time during the treatment cycle.
+If the patient did experience OHSS, record as much information as is known in the MORB_INF field.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Morbidity – OHSS</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>n = No</fullName>
+                <default>false</default>
+                <label>n = No</label>
+            </value>
+            <value>
+                <fullName>y = Yes</fullName>
+                <default>false</default>
+                <label>y = Yes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

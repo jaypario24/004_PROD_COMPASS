@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CYC_DATE__c</fullName>
+    <description>&quot;Record the date that the treatment cycle or lab-only cycle began using the following rules:
+1.  The first date where FSH/stimulation drug was administered
+or
+2.  The date of Last Menstrual Period (LMP) for unstimulated cycles (including natural fresh cycles, thaw cycles and donor insemination)
+or
+3.  The date of oocyte/embryo thawing for lab-only cycles&quot;</description>
+    <externalId>false</externalId>
+    <label>ANZARD - The date when a cycle started</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

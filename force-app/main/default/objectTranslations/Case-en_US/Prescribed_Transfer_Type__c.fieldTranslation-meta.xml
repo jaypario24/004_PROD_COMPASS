@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Prescribed Transfer Type --></label>
+    <name>Prescribed_Transfer_Type__c</name>
+    <picklistValues>
+        <masterLabel>Embryo Transfer</masterLabel>
+        <translation><!-- Embryo Transfer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Freeze All</masterLabel>
+        <translation><!-- Freeze All --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

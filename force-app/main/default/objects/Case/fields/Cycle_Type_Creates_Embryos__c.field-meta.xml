@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cycle_Type_Creates_Embryos__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( RecordType.Name = &apos;IVF Cycle&apos;||RecordType.Name =&apos;VOT Cycle&apos;||RecordType.Name =&apos;Fresh Egg Donor Cycle&apos;, TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Cycle Type Creates Embryos</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

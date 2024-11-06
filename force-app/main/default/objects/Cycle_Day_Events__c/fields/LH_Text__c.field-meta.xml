@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LH_Text__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(LH__c = 0, LH_Required__c = TRUE), &quot;X&quot;,
+  IF(LH__c = 0, &quot;&quot;, TEXT(LH__c))
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>LH Text</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

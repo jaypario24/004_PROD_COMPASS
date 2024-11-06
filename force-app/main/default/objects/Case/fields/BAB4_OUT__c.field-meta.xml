@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BAB4_OUT__c</fullName>
+    <description>Outcome of fourth-born baby. Every attempt must be made to obtain this information.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Outcome of fourth-born baby</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>s = Stillbirth</fullName>
+                <default>false</default>
+                <label>s = Stillbirth</label>
+            </value>
+            <value>
+                <fullName>l = Livebirth/Survived</fullName>
+                <default>false</default>
+                <label>l = Livebirth/Survived</label>
+            </value>
+            <value>
+                <fullName>n = Livebirth/Died &lt; 28 days (neonatal death)</fullName>
+                <default>false</default>
+                <label>n = Livebirth/Died &lt; 28 days (neonatal death)</label>
+            </value>
+            <value>
+                <fullName>u = baby born but outcome unknown</fullName>
+                <default>false</default>
+                <label>u = baby born but outcome unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

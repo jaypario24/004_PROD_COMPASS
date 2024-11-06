@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Provide the API Name of Field against which value of &quot;Object Field&quot; should be compared. --></help>
+    <label><!-- Target Field --></label>
+    <name>righteous__Target_Field__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Previous Sperm Quality --></label>
+    <name>Previous_Sperm_Quality__c</name>
+    <picklistValues>
+        <masterLabel>Swim up</masterLabel>
+        <translation><!-- Swim up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wash</masterLabel>
+        <translation><!-- Wash --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

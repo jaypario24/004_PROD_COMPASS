@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MALE_DIAG__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    TEXT(CYCLE_ID__r.Contact.Is_Infertility_Due_to_Male_Factors__c) = &quot;Yes&quot; ||TEXT(CYCLE_ID__r.CI_MALE__c) = &quot;y = Yes&quot;
+    &amp;&amp; PARENT_SEX__c = &quot;1&quot; 
+    &amp;&amp; (CYCLE_TYPE__c = &quot;1&quot; || CYCLE_TYPE__c = &quot;3&quot; || CYCLE_TYPE__c = &quot;4&quot; ||CYCLE_TYPE__c = &quot;5&quot; || CYCLE_TYPE__c = &quot;6&quot; || CYCLE_TYPE__c = &quot;7&quot;),
+    IF(
+        NOT(ISBLANK(TEXT(CYCLE_ID__r.MALE_DIAG__c))),
+        LEFT(TEXT(CYCLE_ID__r.MALE_DIAG__c), 1),
+        IF(
+            NOT(ISBLANK(TEXT(CYCLE_ID__r.Contact.Which_Male_Infertility_Factors__c))),
+            (
+                CASE(
+                    TEXT(CYCLE_ID__r.Contact.Which_Male_Infertility_Factors__c),
+                    &quot;Idiopathic (Unexplained)&quot;, &quot;1&quot;,
+                    &quot;Genetic (Klinefelter’s)&quot;, &quot;2&quot;,
+                    &quot;Genetic (Y Deletion)&quot;, &quot;3&quot;,
+                    &quot;Genetic (Other)&quot;, &quot;4&quot;,
+                    &quot;Testis Damage (Cancer Treatment)&quot;, &quot;5&quot;,
+                    &quot;Testis Damage - Other (incl. past/recent cryptorchidism, vascular, infective,&quot;, &quot;6&quot;,
+                    &quot;Gonadotrophin Deficiency&quot;, &quot;7&quot;,
+                    &quot;Vasectomy&quot;, &quot;8&quot;,
+                    &quot;Congenital Absence of the Vas Deferens/Cystic Fibrosis&quot;, &quot;9&quot;,
+                    &quot;Obstructive Disorder (other)&quot;, &quot;10&quot;,
+                    &quot;Erectile Dysfunction&quot;, &quot;11&quot;,
+                    &quot;Ejaculatory Disorders (eg. Spinal Injury, Retrograde, Anejaculation)&quot;, &quot;12&quot;,
+                    &quot;0&quot;
+                )
+            ),
+            NULL
+        )
+    ),
+    NULL
+)</formula>
+    <label>MALE_DIAG</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

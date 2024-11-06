@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DownReg__c</fullName>
+    <externalId>false</externalId>
+    <label>DownReg?</label>
+    <summaryFilterItems>
+        <field>Cycle_Medication__c.Medication_Type__c</field>
+        <operation>equals</operation>
+        <value>GnRH/down reg</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Cycle_Medication__c.Related_Cycle__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

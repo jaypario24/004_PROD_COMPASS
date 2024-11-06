@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Consent Mode --></label>
+    <name>smagicinteract__Consent_Mode__c</name>
+    <picklistValues>
+        <masterLabel>Consent Not Applicable</masterLabel>
+        <translation><!-- Consent Not Applicable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consent Not Required</masterLabel>
+        <translation><!-- Consent Not Required --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consent Required</masterLabel>
+        <translation><!-- Consent Required --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

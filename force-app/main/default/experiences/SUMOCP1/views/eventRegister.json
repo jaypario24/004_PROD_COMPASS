@@ -1,0 +1,49 @@
+{
+  "appPageId" : "114f331c-0fca-40ee-ac71-15bbe016807d",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "5b290b5e-675a-491d-ad2d-24424740f026",
+  "label" : "EventRegister",
+  "regions" : [ {
+    "id" : "5734aa4b-e1e3-4f30-bdaa-756b0da6c420",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[]",
+        "flowName" : "sumoapp__EventRegistration"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "f0ac310e-936c-42c4-820a-1a3346104efb",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "428262a7-fcb8-419b-91c9-e9a190d24c10",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "b207176d-bffe-4b54-b275-a83b3c014d43",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "EventRegister"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ceee0c40-b66e-4024-b2db-c904ae1c0e71",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "eed9c4e0-dadd-447d-a2f6-67481f20595d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-eventregister"
+}

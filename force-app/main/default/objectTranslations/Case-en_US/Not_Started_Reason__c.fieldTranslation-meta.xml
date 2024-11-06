@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Not Started Reason --></label>
+    <name>Not_Started_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Cost concerns</masterLabel>
+        <translation><!-- Cost concerns --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient changed mind/decided to wait more time</masterLabel>
+        <translation><!-- Patient changed mind/decided to wait more time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient pregnant naturally</masterLabel>
+        <translation><!-- Patient pregnant naturally --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient unwell</masterLabel>
+        <translation><!-- Patient unwell --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

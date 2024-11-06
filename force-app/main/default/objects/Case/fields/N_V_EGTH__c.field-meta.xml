@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>N_V_EGTH__c</fullName>
+    <description>Record the number of vitrified oocytes warmed in this cycle. For oocyte recipient cycles, use this data item to record the number of received cryopreserved oocytes being warmed in this cycle. If fresh oocytes are received, use the N_EGGREC_FRESH data item instead.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Number of vitrified oocytes war</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

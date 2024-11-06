@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Patient_ET_Number_as_Text_Digit_format__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(TEXT(Patient_ET_Number__c), 
+    &quot;One&quot;, &quot;1&quot;, 
+    &quot;Two&quot;, &quot;2&quot;, 
+    &quot;Nil&quot;, &quot;0&quot;, 
+    NULL
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Patient ET Number as Text (Digit format)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

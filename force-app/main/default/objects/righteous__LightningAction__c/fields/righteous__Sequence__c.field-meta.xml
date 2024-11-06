@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>righteous__Sequence__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Specify the Display Order in which this Action should be ordered on UI.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specify the Display Order in which this Action should be ordered on UI.</inlineHelpText>
+    <label>Sequence</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

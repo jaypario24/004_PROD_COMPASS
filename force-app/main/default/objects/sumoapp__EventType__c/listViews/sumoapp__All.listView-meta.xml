@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__All</fullName>
+    <columns>NAME</columns>
+    <columns>sumoapp__EventName__c</columns>
+    <columns>sumoapp__Color__c</columns>
+    <columns>sumoapp__Duration__c</columns>
+    <columns>sumoapp__HostSkill__c</columns>
+    <columns>sumoapp__Hosts__c</columns>
+    <columns>sumoapp__Category__c</columns>
+    <columns>sumoapp__IsRecurring__c</columns>
+    <columns>sumoapp__Virtual__c</columns>
+    <columns>sumoapp__Resources__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All SUMO Event Types</label>
+</ListView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insem_Type_After_Sperm_Prep__c</fullName>
+    <externalId>false</externalId>
+    <label>Insem Type After Sperm Prep</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IVF</fullName>
+                <default>false</default>
+                <label>IVF</label>
+            </value>
+            <value>
+                <fullName>ICSI</fullName>
+                <default>false</default>
+                <label>ICSI</label>
+            </value>
+            <value>
+                <fullName>Both</fullName>
+                <default>false</default>
+                <label>Both</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

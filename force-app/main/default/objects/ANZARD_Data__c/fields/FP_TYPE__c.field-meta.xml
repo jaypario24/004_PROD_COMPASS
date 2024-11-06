@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FP_TYPE__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (TEXT(CYCLE_ID__r.Egg_Freeze_Type__c) = &quot;&quot;, LEFT( TEXT( CYCLE_ID__r.FP_TYPE__c  ) ,1), IF (TEXT(CYCLE_ID__r.Egg_Freeze_Type__c) = &quot;Social Egg Freeze&quot;,&quot;3&quot;, &quot;2&quot;))</formula>
+    <label>FP_TYPE</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Contact Type Options --></label>
+    <name>sumoapp__ContactTypeOptions__c</name>
+    <picklistValues>
+        <masterLabel>Match Contact by Salesforce Duplicate Rules</masterLabel>
+        <translation><!-- Match Contact by Salesforce Duplicate Rules --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Match Contact on the following field</masterLabel>
+        <translation><!-- Match Contact on the following field --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

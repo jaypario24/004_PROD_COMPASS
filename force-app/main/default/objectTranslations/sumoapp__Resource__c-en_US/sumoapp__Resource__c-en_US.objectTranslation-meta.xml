@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Available Fields --></label>
+        <name>sumoapp__AvailableFields</name>
+    </fieldSets>
+    <recordTypes>
+        <label><!-- Laptops --></label>
+        <name>sumoapp__Laptop</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Projectors --></label>
+        <name>sumoapp__Projector</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Rooms --></label>
+        <name>sumoapp__Room</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Tablets --></label>
+        <name>sumoapp__Tablet</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Since rooms exist inside locations, you must choose a location for each room. --></errorMessage>
+        <name>sumoapp__Location_is_required_for_Rooms</name>
+    </validationRules>
+</CustomObjectTranslation>

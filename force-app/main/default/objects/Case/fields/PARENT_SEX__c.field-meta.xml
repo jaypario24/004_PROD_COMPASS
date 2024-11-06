@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PARENT_SEX__c</fullName>
+    <description>Record the sex at birth, not the gender identification, of the intending parents.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Sex of intending parents</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 = Female-male couple</fullName>
+                <default>false</default>
+                <label>1 = Female-male couple</label>
+            </value>
+            <value>
+                <fullName>2 = Single female</fullName>
+                <default>false</default>
+                <label>2 = Single female</label>
+            </value>
+            <value>
+                <fullName>3 = Female-female couple</fullName>
+                <default>false</default>
+                <label>3 = Female-female couple</label>
+            </value>
+            <value>
+                <fullName>4 = Single male</fullName>
+                <default>false</default>
+                <label>4 = Single male</label>
+            </value>
+            <value>
+                <fullName>5 = Male-male couple</fullName>
+                <default>false</default>
+                <label>5 = Male-male couple</label>
+            </value>
+            <value>
+                <fullName>6 = Unknown – only for use in egg donation cycles to unknown intending parents</fullName>
+                <default>false</default>
+                <label>6 = Unknown – only for use in egg donation cycles to unknown intending parents</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

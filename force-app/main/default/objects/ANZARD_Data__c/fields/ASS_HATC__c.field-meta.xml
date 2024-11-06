@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ASS_HATC__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( CYCLE_ID__r.Laser_Assisted_Hatching_Performed__c &gt;0, &quot;y&quot;,&quot;n&quot;)</formula>
+    <label>ASS_HATC</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

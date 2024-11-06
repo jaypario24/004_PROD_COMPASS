@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Lead Type Options --></label>
+    <name>sumoapp__LeadTypeOptions__c</name>
+    <picklistValues>
+        <masterLabel>Create a New Lead Everytime</masterLabel>
+        <translation><!-- Create a New Lead Everytime --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Match Lead by Salesforce Duplicate Rules</masterLabel>
+        <translation><!-- Match Lead by Salesforce Duplicate Rules --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Match Lead on the following field</masterLabel>
+        <translation><!-- Match Lead on the following field --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

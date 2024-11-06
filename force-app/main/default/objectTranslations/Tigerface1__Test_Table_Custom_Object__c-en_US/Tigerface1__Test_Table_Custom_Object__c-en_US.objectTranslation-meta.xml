@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Test All Valid Fields --></label>
+        <name>Tigerface1__Test_All_Valid_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Test Empty Field Set --></label>
+        <name>Tigerface1__Test_Empty_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Test Name and No References --></label>
+        <name>Tigerface1__Test_Name_and_No_References</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Test No Fields Visible Field Set --></label>
+        <name>Tigerface1__Test_No_Fields_Visible_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Test No References or Name --></label>
+        <name>Tigerface1__Test_No_References_or_Name</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Test Parent Field --></label>
+        <name>Tigerface1__Test_Parent_Field</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Test Reference and No Name --></label>
+        <name>Tigerface1__Test_Reference_and_No_Name</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Test Unsupported Field --></label>
+        <name>Tigerface1__Test_Unsupported_Field</name>
+    </fieldSets>
+    <recordTypes>
+        <description><!-- This is used for Apex test classes. --></description>
+        <label><!-- Type 1 --></label>
+        <name>Tigerface1__Type_1</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is used for Apex test classes. --></description>
+        <label><!-- Type 2 --></label>
+        <name>Tigerface1__Type_2</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Right_Eggs_Expected_Formula__c</fullName>
+    <description>The purpose of this field is soley to display &quot;0&quot; on lab worksheets for expected L and R eggs</description>
+    <externalId>false</externalId>
+    <formula>IF(
+    ISBLANK(Number_of_Eggs_Expected_Right__c) || Number_of_Eggs_Expected_Right__c = 0,
+    0,
+    Number_of_Eggs_Expected_Right__c
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Right Eggs Expected Formula</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

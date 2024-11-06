@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ANZARD - Site of sperm used --></label>
+    <name>SP_SITE__c</name>
+    <picklistValues>
+        <masterLabel>e</masterLabel>
+        <translation><!-- e --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>o</masterLabel>
+        <translation><!-- o --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>p</masterLabel>
+        <translation><!-- p --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>t</masterLabel>
+        <translation><!-- t --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>u</masterLabel>
+        <translation><!-- u --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

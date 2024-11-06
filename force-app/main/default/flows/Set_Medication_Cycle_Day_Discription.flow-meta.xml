@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <description>When a medication is created it set the name description for display on cycle days.</description>
+    <environments>Default</environments>
+    <interviewLabel>Set Medication Cycle Day Discription {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Set Medication Cycle Day Discription</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Record_Name</name>
+        <label>Update Record Name</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <inputAssignments>
+            <field>Medication_Cycle_Day_Discription__c</field>
+            <value>
+                <elementReference>Name</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Record_Name</targetReference>
+        </connector>
+        <object>Cycle_Medication__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>Name</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>{!$Record.Linked_Medication_Name_as_Text__c} - {!$Record.Dosage__c} {!$Record.Units__c} {!$Record.Regime__c}</text>
+    </textTemplates>
+</Flow>

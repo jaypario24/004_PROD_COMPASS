@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field will be used to store order of conditions. --></help>
+    <label><!-- Order --></label>
+    <name>smagicinteract__Order__c</name>
+</CustomFieldTranslation>

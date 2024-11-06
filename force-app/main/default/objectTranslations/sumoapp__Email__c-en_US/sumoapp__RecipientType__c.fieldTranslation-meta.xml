@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Recipient Type --></label>
+    <name>sumoapp__RecipientType__c</name>
+    <picklistValues>
+        <masterLabel>ADMIN</masterLabel>
+        <translation><!-- ADMIN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ATTENDEE</masterLabel>
+        <translation><!-- ATTENDEE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OWNER</masterLabel>
+        <translation><!-- OWNER --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__PriorityAssignmentMode__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Priority Based Assignment Mode</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>sumoapp__AssignmentMode__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LOAD_BALANCE</fullName>
+                <default>false</default>
+                <label>Load-Balance</label>
+            </value>
+            <value>
+                <fullName>ROUND_ROBIN</fullName>
+                <default>false</default>
+                <label>Round-Robin</label>
+            </value>
+            <value>
+                <fullName>RANDOM</fullName>
+                <default>false</default>
+                <label>Random</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>PRIORITY_BASED</controllingFieldValue>
+            <valueName>LOAD_BALANCE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PRIORITY_BASED</controllingFieldValue>
+            <valueName>ROUND_ROBIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PRIORITY_BASED</controllingFieldValue>
+            <valueName>RANDOM</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

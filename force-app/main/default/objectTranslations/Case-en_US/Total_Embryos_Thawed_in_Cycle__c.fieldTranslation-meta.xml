@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Total Embryos Thawed in Cycle --></label>
+    <name>Total_Embryos_Thawed_in_Cycle__c</name>
+</CustomFieldTranslation>

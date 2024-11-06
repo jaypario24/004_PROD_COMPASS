@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Medication_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>Patients_Donors__r.LastName   &amp; &quot; - &quot; &amp;   Medication__r.Name &amp; &quot; - &quot; &amp; text(Dosage__c) &amp; text(Units__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Medication Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

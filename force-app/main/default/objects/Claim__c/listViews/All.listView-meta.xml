@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>invoiceReference__c</columns>
+    <columns>sequenceNumber__c</columns>
+    <columns>providerNumber__c</columns>
+    <columns>funder__c</columns>
+    <columns>paymentMethod__c</columns>
+    <columns>patient_id__c</columns>
+    <columns>patientrefId__c</columns>
+    <columns>patientrstName__c</columns>
+    <columns>patientlastName__c</columns>
+    <columns>patientdobString__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Records</label>
+</ListView>

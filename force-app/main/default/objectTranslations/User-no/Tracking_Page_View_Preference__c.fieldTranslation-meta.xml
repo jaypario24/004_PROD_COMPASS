@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Tracking Page View Preference --></label>
+    <name>Tracking_Page_View_Preference__c</name>
+    <picklistValues>
+        <masterLabel>Compact</masterLabel>
+        <translation><!-- Compact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expanded View</masterLabel>
+        <translation><!-- Expanded View --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Results View</masterLabel>
+        <translation><!-- Results View --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

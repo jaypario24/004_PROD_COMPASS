@@ -1,0 +1,21 @@
+<apex:page >
+    <apex:includeLightning />
+    <div id="myNewWaitingRoomContainer"></div>
+    <!-- Correctly reference the static resource -->
+    <img src="{!URLFOR($Resource.cf_logo_greyscale)}" alt="Logo"/>
+    <script src="https://compassfertility.my.salesforce-sites.com/CompassWaitingRoomALPHA/lightning/lightning.out.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            $Lightning.use("c:myNewWaitingRoomTest", function() {
+                $Lightning.createComponent(
+                    "c:myNewWaitingRoomTest",
+                    {},
+                    "myNewWaitingRoomContainer",
+                    function(cmp) {
+                        console.log("Component Loaded");
+                    }
+                );
+            }, "https://compassfertility.my.salesforce-sites.com/CompassWaitingRoomALPHA");
+        });
+    </script>
+</apex:page>

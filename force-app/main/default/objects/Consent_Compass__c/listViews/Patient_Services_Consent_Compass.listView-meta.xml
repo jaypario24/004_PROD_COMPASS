@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Patient_Services_Consent_Compass</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Patient Services</label>
+    <queue>Patient_Services</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

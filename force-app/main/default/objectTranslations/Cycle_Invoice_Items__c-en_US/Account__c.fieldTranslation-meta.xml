@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Account --></label>
+    <name>Account__c</name>
+    <picklistValues>
+        <masterLabel>Administration</masterLabel>
+        <translation><!-- Administration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Andrology</masterLabel>
+        <translation><!-- Andrology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FET &amp; Freeze All</masterLabel>
+        <translation><!-- FET &amp; Freeze All --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IUI</masterLabel>
+        <translation><!-- IUI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IVF</masterLabel>
+        <translation><!-- IVF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nurse</masterLabel>
+        <translation><!-- Nurse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PGS &amp; Assisted Hatching</masterLabel>
+        <translation><!-- PGS &amp; Assisted Hatching --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VOT</masterLabel>
+        <translation><!-- VOT --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Test Multi Select Picklist --></label>
+    <name>Tigerface1__Test_Multi_Select_Picklist__c</name>
+    <picklistValues>
+        <masterLabel>One1</masterLabel>
+        <translation><!-- One1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Three3</masterLabel>
+        <translation><!-- Three3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Two2</masterLabel>
+        <translation><!-- Two2 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

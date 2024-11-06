@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- It will store value of Assign to field in case of specific user or queue, etc. --></help>
+    <label><!-- Routing Rule --></label>
+    <name>smagicinteract__Routing_Rule__c</name>
+    <relationshipLabel><!-- Conversation Assignments --></relationshipLabel>
+</CustomFieldTranslation>

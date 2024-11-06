@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CI_UNEX__c</fullName>
+    <description>This data item should only be completed where PARENT_SEX = female-male couple.
+In the opinion of the treating clinician, the cause of infertility is unexplained in the intending parents.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Cause of infertility is unexpla</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>n = No</fullName>
+                <default>false</default>
+                <label>n = No</label>
+            </value>
+            <value>
+                <fullName>y = Yes</fullName>
+                <default>false</default>
+                <label>y = Yes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

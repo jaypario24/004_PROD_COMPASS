@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Price Type --></label>
+    <name>Price_Type__c</name>
+    <picklistValues>
+        <masterLabel>Bulk Billed</masterLabel>
+        <translation><!-- Bulk Billed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defence</masterLabel>
+        <translation><!-- Defence --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discount IUI</masterLabel>
+        <translation><!-- Discount IUI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Freeze All</masterLabel>
+        <translation><!-- Freeze All --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Full Price</masterLabel>
+        <translation><!-- Full Price --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Full Price Discounted by Number</masterLabel>
+        <translation><!-- Full Price Discounted by Number --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Egg Freeze</masterLabel>
+        <translation><!-- Medical Egg Freeze --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

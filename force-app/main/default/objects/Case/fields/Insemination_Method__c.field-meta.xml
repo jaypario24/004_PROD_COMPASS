@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insemination_Method__c</fullName>
+    <externalId>false</externalId>
+    <label>Insemination Method</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IVF</fullName>
+                <default>false</default>
+                <label>IVF</label>
+            </value>
+            <value>
+                <fullName>ICSI</fullName>
+                <default>false</default>
+                <label>ICSI</label>
+            </value>
+            <value>
+                <fullName>Half/Half</fullName>
+                <default>false</default>
+                <label>Half/Half</label>
+            </value>
+            <value>
+                <fullName>ICSI with Ca++</fullName>
+                <default>false</default>
+                <label>ICSI with Ca++</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Triggering_Event__c</fullName>
+    <externalId>false</externalId>
+    <label>Triggering Event</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Biopsy</fullName>
+                <default>false</default>
+                <label>Biopsy</label>
+            </value>
+            <value>
+                <fullName>Change Over</fullName>
+                <default>false</default>
+                <label>Change Over</label>
+            </value>
+            <value>
+                <fullName>Day 1</fullName>
+                <default>false</default>
+                <label>Day 1</label>
+            </value>
+            <value>
+                <fullName>Day 3 Assessment</fullName>
+                <default>false</default>
+                <label>Day 3 Assessment</label>
+            </value>
+            <value>
+                <fullName>Day 5 Assessment</fullName>
+                <default>false</default>
+                <label>Day 5 Assessment</label>
+            </value>
+            <value>
+                <fullName>Day 6 Assessment</fullName>
+                <default>false</default>
+                <label>Day 6 Assessment</label>
+            </value>
+            <value>
+                <fullName>Denuding/CockTriming</fullName>
+                <default>false</default>
+                <label>Denuding/CockTriming</label>
+            </value>
+            <value>
+                <fullName>Doctor&apos;s Transfer Event</fullName>
+                <default>false</default>
+                <label>Doctor&apos;s Transfer Event</label>
+            </value>
+            <value>
+                <fullName>Donate Eggs Cycle Event</fullName>
+                <default>false</default>
+                <label>Donate Eggs Cycle Event</label>
+            </value>
+            <value>
+                <fullName>Egg Thaw Event</fullName>
+                <default>false</default>
+                <label>Egg Thaw Event</label>
+            </value>
+            <value>
+                <fullName>Egg Vitrification Event</fullName>
+                <default>false</default>
+                <label>Egg Vitrification Event</label>
+            </value>
+            <value>
+                <fullName>Embryo Thawing</fullName>
+                <default>false</default>
+                <label>Embryo Thawing</label>
+            </value>
+            <value>
+                <fullName>Embryo Transfer</fullName>
+                <default>false</default>
+                <label>Embryo Transfer</label>
+            </value>
+            <value>
+                <fullName>Embryo Vitrification (Freezing)</fullName>
+                <default>false</default>
+                <label>Embryo Vitrification (Freezing)</label>
+            </value>
+            <value>
+                <fullName>Failed Fert - Sperm Quality Check</fullName>
+                <default>false</default>
+                <label>Failed Fert - Sperm Quality Check</label>
+            </value>
+            <value>
+                <fullName>Fertilisation Check</fullName>
+                <default>false</default>
+                <label>Fertilisation Check</label>
+            </value>
+            <value>
+                <fullName>Insemination</fullName>
+                <default>false</default>
+                <label>Insemination</label>
+            </value>
+            <value>
+                <fullName>IUI</fullName>
+                <default>false</default>
+                <label>IUI</label>
+            </value>
+            <value>
+                <fullName>Laser Assisted Hatching</fullName>
+                <default>false</default>
+                <label>Laser Assisted Hatching</label>
+            </value>
+            <value>
+                <fullName>Nurse Medication Check</fullName>
+                <default>false</default>
+                <label>Nurse Medication Check</label>
+            </value>
+            <value>
+                <fullName>OPU</fullName>
+                <default>false</default>
+                <label>OPU</label>
+            </value>
+            <value>
+                <fullName>OPU Preparation Event</fullName>
+                <default>false</default>
+                <label>OPU Preparation Event</label>
+            </value>
+            <value>
+                <fullName>Ovulation Event</fullName>
+                <default>false</default>
+                <label>Ovulation Event</label>
+            </value>
+            <value>
+                <fullName>Post Thaw Day 5 Assessment</fullName>
+                <default>false</default>
+                <label>Post Thaw Day 5 Assessment</label>
+            </value>
+            <value>
+                <fullName>Pre-Implantation Genetic Testing</fullName>
+                <default>false</default>
+                <label>Pre-Implantation Genetic Testing</label>
+            </value>
+            <value>
+                <fullName>Pregnancy Scan Event</fullName>
+                <default>false</default>
+                <label>Pregnancy Scan Event</label>
+            </value>
+            <value>
+                <fullName>Pregnancy Test</fullName>
+                <default>false</default>
+                <label>Pregnancy Test</label>
+            </value>
+            <value>
+                <fullName>Sperm Freeze</fullName>
+                <default>false</default>
+                <label>Sperm Freeze</label>
+            </value>
+            <value>
+                <fullName>Sperm Preparation</fullName>
+                <default>false</default>
+                <label>Sperm Preparation</label>
+            </value>
+            <value>
+                <fullName>Trigger Event</fullName>
+                <default>false</default>
+                <label>Trigger Event</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

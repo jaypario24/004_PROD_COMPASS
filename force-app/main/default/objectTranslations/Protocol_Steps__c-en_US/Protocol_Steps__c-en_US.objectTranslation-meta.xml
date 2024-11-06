@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Protocol Step</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Protocol Steps</value>
+    </caseValues>
+    <layouts>
+        <layout>Protocol Step Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Test to Step --></label>
+        <name>Add_Test_to_Step</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

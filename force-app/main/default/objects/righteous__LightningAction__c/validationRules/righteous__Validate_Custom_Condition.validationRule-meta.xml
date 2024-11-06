@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>righteous__Validate_Custom_Condition</fullName>
+    <active>true</active>
+    <description>Advanced Condition Expression must be provided when Condition Met is chosen to be Custom</description>
+    <errorConditionFormula>AND(ISPICKVAL( righteous__Conditions_Met__c, &apos;Custom&apos; ), ISBLANK( righteous__Advanced_Condition__c ))</errorConditionFormula>
+    <errorDisplayField>righteous__Advanced_Condition__c</errorDisplayField>
+    <errorMessage>Advanced Condition Expression must be provided when Condition Met is chosen to be Custom</errorMessage>
+</ValidationRule>

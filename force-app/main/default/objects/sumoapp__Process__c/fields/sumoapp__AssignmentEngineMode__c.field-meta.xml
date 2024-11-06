@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__AssignmentEngineMode__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Assignment Engine Mode</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LOAD_BALANCE</fullName>
+                <default>true</default>
+                <label>Load-Balance</label>
+            </value>
+            <value>
+                <fullName>ROUND_ROBIN</fullName>
+                <default>false</default>
+                <label>Round-Robin</label>
+            </value>
+            <value>
+                <fullName>RANDOM</fullName>
+                <default>false</default>
+                <label>Random</label>
+            </value>
+            <value>
+                <fullName>PRIORITY_BASED</fullName>
+                <default>false</default>
+                <label>Priority Based</label>
+            </value>
+            <value>
+                <fullName>USER_CHOOSE</fullName>
+                <default>false</default>
+                <label>User Choose</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

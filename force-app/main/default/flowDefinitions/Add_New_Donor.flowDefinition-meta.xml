@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>18</activeVersionNumber>
+    <description>Flow allows for the addition of Donors. It limits filed entries and sets the patient record type. There are some formulas in the flow that auto create Donor names to create anonymity.</description>
+    <masterLabel>Add New Donor</masterLabel>
+</FlowDefinition>

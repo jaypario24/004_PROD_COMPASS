@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <apiVersion>55.0</apiVersion>
+    <dynamicChoiceSets>
+        <name>AdmittedtoHospital</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>MORB_ADM__c</picklistField>
+        <picklistObject>Case</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>OHSSYes</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>MRB_OHSS__c</picklistField>
+        <picklistObject>Case</picklistObject>
+    </dynamicChoiceSets>
+    <environments>Default</environments>
+    <interviewLabel>Create Adverse Event {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Create Adverse Event</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>Get_Cycle</name>
+        <label>Get Cycle</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>OHSS_Information</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Case</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Cycle</name>
+        <label>Update Cycle</label>
+        <locationX>176</locationX>
+        <locationY>398</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Date_of_Adverse_Event__c</field>
+            <value>
+                <elementReference>Date_of_Adverse_Event</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>MORB_ADM__c</field>
+            <value>
+                <elementReference>Was_this_Patient_Admitted_to_Hospital</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>MORB_INF__c</field>
+            <value>
+                <elementReference>Further_Details</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>MRB_OHSS__c</field>
+            <value>
+                <elementReference>OHSSYes</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+    </recordUpdates>
+    <screens>
+        <name>OHSS_Information</name>
+        <label>OHSS Information</label>
+        <locationX>176</locationX>
+        <locationY>278</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Update_Cycle</targetReference>
+        </connector>
+        <fields>
+            <name>Date_of_Adverse_Event</name>
+            <dataType>Date</dataType>
+            <fieldText>Date of Adverse Event</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Was_this_Patient_Admitted_to_Hospital</name>
+            <choiceReferences>AdmittedtoHospital</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Was this Patient Admitted to Hospital</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Did_this_patient_suffer_from_OHSS</name>
+            <choiceReferences>OHSSYes</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Did this patient suffer from OHSS?</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Further_Details</name>
+            <dataType>String</dataType>
+            <fieldText>Further Details (Please record as much information as possible)</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+            <validationRule>
+                <errorMessage>&lt;p&gt;Sorry but ANZARD says that you&apos;re too flowery with your language. Please Limit your prose to 255 characters. &lt;/p&gt;</errorMessage>
+                <formulaExpression>LEN({!Further_Details})&lt;256</formulaExpression>
+            </validationRule>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Cycle</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

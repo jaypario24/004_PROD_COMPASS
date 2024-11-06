@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>righteous__Object__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Select Object API Name of the record you wish to evaluate. You must use Object API Name matching with associated Lightning Action Configuration or Current User.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select Object API Name of the record you wish to evaluate. You must use Object API Name matching with associated Lightning Action Configuration or Current User.</inlineHelpText>
+    <label>Object</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>User</fullName>
+                <default>false</default>
+                <label>Current User</label>
+            </value>
+            <value>
+                <fullName>Opportunity</fullName>
+                <default>false</default>
+                <label>Opportunity</label>
+            </value>
+            <value>
+                <fullName>Account</fullName>
+                <default>false</default>
+                <label>Account</label>
+            </value>
+            <value>
+                <fullName>Contact</fullName>
+                <default>false</default>
+                <label>Contact</label>
+            </value>
+            <value>
+                <fullName>Lead</fullName>
+                <default>false</default>
+                <label>Lead</label>
+            </value>
+            <value>
+                <fullName>Campaign</fullName>
+                <default>false</default>
+                <label>Campaign</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

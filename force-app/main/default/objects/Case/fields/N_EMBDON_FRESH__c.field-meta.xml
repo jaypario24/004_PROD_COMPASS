@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>N_EMBDON_FRESH__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>This data item should be completed in the cycle of the individual who provided/donated fresh embryos. To record the number of cryopreserved embryos provided/donated, use one of N_CLFZ_S, N_CLFZ_V, N_BLFZ_S, N_BLFZ_V data items.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Number of fresh embryos provide</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

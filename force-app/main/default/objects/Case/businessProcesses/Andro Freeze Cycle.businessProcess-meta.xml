@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Andro Freeze Cycle</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Cancelled Cycle</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Cycle - Completed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Finalising Admission</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Inventory Update</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Semen Collection</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Semen Collection Booked</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Semen Freeze</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

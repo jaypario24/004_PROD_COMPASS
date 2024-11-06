@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WEIGHT_F__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(CYCLE_TYPE__c = &quot;8&quot;, NULL,
+    IF(NOT(ISBLANK(CYCLE_ID__r.Patient_Weight_at_Cycle_Start__c)) &amp;&amp; CYCLE_ID__r.Patient_Weight_at_Cycle_Start__c &lt;&gt; 0,
+        CYCLE_ID__r.Patient_Weight_at_Cycle_Start__c,
+        IF(NOT(ISBLANK(CYCLE_ID__r.Contact.Weight_kg__c)) &amp;&amp; CYCLE_ID__r.Contact.Weight_kg__c &lt;&gt; 0,
+            CYCLE_ID__r.Contact.Weight_kg__c,
+            999)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>WEIGHT_F</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

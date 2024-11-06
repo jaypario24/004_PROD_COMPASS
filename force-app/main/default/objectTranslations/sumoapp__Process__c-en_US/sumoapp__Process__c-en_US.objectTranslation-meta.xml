@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <label><!-- Event Scheduler --></label>
+        <name>sumoapp__EventScheduler</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Invite Manager --></label>
+        <name>sumoapp__InviteManager</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Online Scheduler --></label>
+        <name>sumoapp__OnlineScheduler</name>
+    </recordTypes>
+</CustomObjectTranslation>

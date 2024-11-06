@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Sample__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of Sample</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ejaculate</fullName>
+                <default>false</default>
+                <label>Ejaculate</label>
+            </value>
+            <value>
+                <fullName>Retrograde</fullName>
+                <default>false</default>
+                <label>Retrograde</label>
+            </value>
+            <value>
+                <fullName>Aspirate</fullName>
+                <default>false</default>
+                <label>Aspirate</label>
+            </value>
+            <value>
+                <fullName>Open Biopsy</fullName>
+                <default>false</default>
+                <label>Open Biopsy</label>
+            </value>
+            <value>
+                <fullName>From Another Clinic</fullName>
+                <default>false</default>
+                <label>From Another Clinic</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

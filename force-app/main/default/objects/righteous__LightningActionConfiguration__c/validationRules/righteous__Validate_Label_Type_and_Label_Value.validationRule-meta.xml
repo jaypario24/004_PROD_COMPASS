@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>righteous__Validate_Label_Type_and_Label_Value</fullName>
+    <active>true</active>
+    <description>If Label Type is selected, validate if Label Value is provided.</description>
+    <errorConditionFormula>AND (
+NOT(ISPICKVAL( righteous__Label_Type__c, &apos;&apos; )),
+ISBLANK( righteous__Label__c ) 
+)</errorConditionFormula>
+    <errorDisplayField>righteous__Label__c</errorDisplayField>
+    <errorMessage>You must provide value for Label when Label Type is selected.</errorMessage>
+</ValidationRule>

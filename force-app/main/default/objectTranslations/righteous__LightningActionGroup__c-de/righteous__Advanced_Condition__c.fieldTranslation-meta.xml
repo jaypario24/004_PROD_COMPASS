@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Provide custom Condition Expression String for evaluation. Supported Boolean functions are AND, OR , XOR, NOT
+
+example: (#1 OR #2) AND (#3 OR #4)
+
+Use #ConditionIndex pattern. -->
+    </help>
+    <label><!-- Advanced Condition --></label>
+    <name>righteous__Advanced_Condition__c</name>
+</CustomFieldTranslation>

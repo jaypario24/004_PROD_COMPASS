@@ -1,0 +1,17 @@
+.one-column .button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.two-columns .button-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.two-columns .button-container lightning-button {
+    flex: 0 0 50%; /* Ensures buttons take up 50% of the width, creating two columns */
+}
+
+.button {
+    margin: 0.5rem;
+}

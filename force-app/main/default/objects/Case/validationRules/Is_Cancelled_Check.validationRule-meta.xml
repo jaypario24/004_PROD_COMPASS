@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Cancelled_Check</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISCHANGED(Status),TEXT(Status)= &quot;Cancelled Cycle&quot;,Is_Cancelled_Check__c = FALSE)</errorConditionFormula>
+    <errorMessage>In order to cancel this cycle, please use the &quot;Cancel Cycle&quot; action.</errorMessage>
+</ValidationRule>

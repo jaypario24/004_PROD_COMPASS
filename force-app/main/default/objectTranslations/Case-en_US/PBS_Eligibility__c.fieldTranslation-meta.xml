@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- PBS Eligibility --></label>
+    <name>PBS_Eligibility__c</name>
+    <picklistValues>
+        <masterLabel>Non-PBS Cycle</masterLabel>
+        <translation><!-- Non-PBS Cycle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PBS Cycle</masterLabel>
+        <translation><!-- PBS Cycle --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Is Treatment Unrelated to Infertility? --></label>
+    <name>Is_Treatment_Unrelated_to_Infertility__c</name>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation><!-- No --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes - Genetic Screening</masterLabel>
+        <translation><!-- Yes - Genetic Screening --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes – Fertility Preservation for Future Use</masterLabel>
+        <translation><!-- Yes – Fertility Preservation for Future Use --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

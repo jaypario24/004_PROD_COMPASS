@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>allSelection_Converse_Desk_Recently_Used_Filters</fullName>
+    <filterScope>Queue</filterScope>
+    <label>allSelection</label>
+    <queue>allSelection</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

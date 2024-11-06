@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPU_Date_Formula__c</fullName>
+    <externalId>false</externalId>
+    <label>OPU Date Formula</label>
+    <summarizedField>Cycle_Event__c.Procedure_Date_Time__c</summarizedField>
+    <summaryFilterItems>
+        <field>Cycle_Event__c.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>OPU</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Cycle_Event__c.Cycle__c</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

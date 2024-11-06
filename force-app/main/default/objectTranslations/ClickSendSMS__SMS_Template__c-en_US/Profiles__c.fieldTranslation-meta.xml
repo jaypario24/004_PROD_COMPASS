@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Profiles --></label>
+    <name>Profiles__c</name>
+    <picklistValues>
+        <masterLabel>Compass Lab</masterLabel>
+        <translation><!-- Compass Lab --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compass Nurses</masterLabel>
+        <translation><!-- Compass Nurses --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compass Patient Services</masterLabel>
+        <translation><!-- Compass Patient Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Doctor</masterLabel>
+        <translation><!-- Doctor --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

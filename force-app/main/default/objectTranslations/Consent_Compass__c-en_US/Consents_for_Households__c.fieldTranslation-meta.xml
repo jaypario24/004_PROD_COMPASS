@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Consents for Households --></label>
+    <name>Consents_for_Households__c</name>
+    <picklistValues>
+        <masterLabel>Disposal Consent</masterLabel>
+        <translation><!-- Disposal Consent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Donor Consent</masterLabel>
+        <translation><!-- Donor Consent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Consent</masterLabel>
+        <translation><!-- General Consent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recipient Consent</masterLabel>
+        <translation><!-- Recipient Consent --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Associate current Action to any Lighting Action Group for logical distribution. 
+Lightning Action Group&apos;s Condition validated first, and then current Action&apos;s Condition. -->
+    </help>
+    <label><!-- Lightning Action Group --></label>
+    <name>righteous__LightningActionGroupId__c</name>
+    <relationshipLabel><!-- Lightning Actions --></relationshipLabel>
+</CustomFieldTranslation>

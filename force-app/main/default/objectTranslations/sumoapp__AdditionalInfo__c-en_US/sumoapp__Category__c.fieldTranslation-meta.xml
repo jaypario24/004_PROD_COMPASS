@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If you would like people to self-register for this Event, you must choose a category to effectively tie this Event to the Online Scheduler. --></help>
+    <label><!-- Category --></label>
+    <name>sumoapp__Category__c</name>
+    <relationshipLabel><!-- Category Activities --></relationshipLabel>
+</CustomFieldTranslation>

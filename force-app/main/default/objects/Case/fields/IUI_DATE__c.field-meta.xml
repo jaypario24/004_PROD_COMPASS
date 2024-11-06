@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IUI_DATE__c</fullName>
+    <description>This data item applies only to treatment cycles where IUI is performed using donated sperm.  Intra-vaginal insemination using donated sperm is not considered in this context and should not be recorded in ANZARD.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Date of intra-uterine insemina</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

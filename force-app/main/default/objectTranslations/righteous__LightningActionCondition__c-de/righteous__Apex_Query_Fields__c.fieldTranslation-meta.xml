@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Comma separated Field Names of object. Field API Name must be from the Object Selected for current condition.
+
+System will already retrieve record with given fields and provide the values in Class Method. So Developer can avoid writing SOQL Apex method. -->
+    </help>
+    <label><!-- Apex Query Fields --></label>
+    <name>righteous__Apex_Query_Fields__c</name>
+</CustomFieldTranslation>

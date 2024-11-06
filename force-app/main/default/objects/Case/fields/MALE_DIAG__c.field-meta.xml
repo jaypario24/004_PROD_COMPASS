@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MALE_DIAG__c</fullName>
+    <description>This data item applies to the male intending parent only (where PARENT_SEX is female-male couple).
+In the opinion of the treating clinician or clinic, the principal cause of male factor infertility. To be completed if male factor infertility is present.
+This field must be completed if CI_MALE is “yes”.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Primary cause of male factor in</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1= Idiopathic (unexplained)</fullName>
+                <default>false</default>
+                <label>1= Idiopathic (unexplained)</label>
+            </value>
+            <value>
+                <fullName>2= Genetic – Klinefelter</fullName>
+                <default>false</default>
+                <label>2= Genetic – Klinefelter</label>
+            </value>
+            <value>
+                <fullName>3= Genetic - Y deletion</fullName>
+                <default>false</default>
+                <label>3= Genetic - Y deletion</label>
+            </value>
+            <value>
+                <fullName>4= Genetic – other aneuploidies, single gene</fullName>
+                <default>false</default>
+                <label>4= Genetic – other aneuploidies, single gene</label>
+            </value>
+            <value>
+                <fullName>5= Testis damage - cancer treatment</fullName>
+                <default>false</default>
+                <label>5= Testis damage - cancer treatment</label>
+            </value>
+            <value>
+                <fullName>6= Testis damage - other (incl. past/present cryptorchidism, vascular, infective, trauma)</fullName>
+                <default>false</default>
+                <label>6= Testis damage - other (incl. past/present cryptorchidism, vascular, infective, trauma)</label>
+            </value>
+            <value>
+                <fullName>7= Gonadotrophin deficiency</fullName>
+                <default>false</default>
+                <label>7= Gonadotrophin deficiency</label>
+            </value>
+            <value>
+                <fullName>8= Vasectomy</fullName>
+                <default>false</default>
+                <label>8= Vasectomy</label>
+            </value>
+            <value>
+                <fullName>9= Congenital absence of the vas deferens/cystic fibrosis</fullName>
+                <default>false</default>
+                <label>9= Congenital absence of the vas deferens/cystic fibrosis</label>
+            </value>
+            <value>
+                <fullName>10= Obstructive disorder (other)</fullName>
+                <default>false</default>
+                <label>10= Obstructive disorder (other)</label>
+            </value>
+            <value>
+                <fullName>11= Erectile dysfunction (incl. psychosexual)</fullName>
+                <default>false</default>
+                <label>11= Erectile dysfunction (incl. psychosexual)</label>
+            </value>
+            <value>
+                <fullName>12= Ejaculatory disorders (incl. spinal injury,  retrograde and anejaculation)</fullName>
+                <default>false</default>
+                <label>12= Ejaculatory disorders (incl. spinal injury,  retrograde and anejaculation)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

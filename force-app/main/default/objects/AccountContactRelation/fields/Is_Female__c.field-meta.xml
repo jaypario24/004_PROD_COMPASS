@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Female__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT(Contact.Sex_at_Birth__c) = &apos;Female&apos;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Female</label>
+    <type>Checkbox</type>
+</CustomField>

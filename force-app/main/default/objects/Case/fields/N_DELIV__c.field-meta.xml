@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>N_DELIV__c</fullName>
+    <description>The number of babies born meeting at least one of the following criteria:
+1. Born at 20 weeks or more gestation
+2. Birthweight is &gt;= 400 grams Include all live born and stillborn babies.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Number of babies born.</label>
+    <precision>1</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

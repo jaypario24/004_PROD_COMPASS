@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__WaitlistedAttendeeCount__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Waitlisted Attendee Count</label>
+    <summaryFilterItems>
+        <field>sumoapp__Attendee__c.sumoapp__Status__c</field>
+        <operation>equals</operation>
+        <value>Waitlisted</value>
+    </summaryFilterItems>
+    <summaryForeignKey>sumoapp__Attendee__c.sumoapp__SumoEvent__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

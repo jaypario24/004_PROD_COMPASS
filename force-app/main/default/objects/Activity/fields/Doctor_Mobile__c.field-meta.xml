@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Doctor_Mobile__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISNULL( Linked_Result__r.Cycle__r.Doctor_Initiating_Cycle__r.Mobile__c ), VALUE(Linked_Result__r.Patients_or_Donors__r.Account.Doctor2__r.Mobile__c) ,VALUE(Linked_Result__r.Cycle__r.Doctor_Initiating_Cycle__r.Mobile__c ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Doctor Mobile</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2023_cycles</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Day_1__c</columns>
+    <columns>Doctor_Initiating_Cycle__c</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>CASES.LAST_UPDATE</columns>
+    <columns>Medicare_Submitted_Date__c</columns>
+    <columns>Sub_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Day_1__c</field>
+        <operation>lessThan</operation>
+        <value>12/31/2023</value>
+    </filters>
+    <filters>
+        <field>Day_1__c</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2022</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Egg_Freeze_Cycle,Case.FET_Cycle,Case.Fresh_Egg_Donor_Cycle,Case.IVF_Cycle,Case.TARFO_Cycle,Case.VOT_Cycle</value>
+    </filters>
+    <filters>
+        <field>Sub_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Cycle Cancelled</value>
+    </filters>
+    <label>2022-3 cycles</label>
+    <sharedTo>
+        <group>Laboratory</group>
+    </sharedTo>
+</ListView>

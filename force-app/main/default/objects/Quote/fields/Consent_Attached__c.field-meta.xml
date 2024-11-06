@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consent_Attached__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <label>Quote &amp; Consent Attached</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

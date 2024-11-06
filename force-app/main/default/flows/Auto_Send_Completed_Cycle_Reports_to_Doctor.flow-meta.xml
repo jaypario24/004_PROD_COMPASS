@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Run_Egg_Freeze_Slate</name>
+        <label>Run Egg Freeze Slate</label>
+        <locationX>538</locationX>
+        <locationY>974</locationY>
+        <actionName>pdffiller_sfree__ProcessToFlowController</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>flowId</name>
+            <value>
+                <stringValue>5C0EA37C-8000-0000-0000BA29</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recordId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>pdffiller_sfree__ProcessToFlowController</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Run_FET_Slate</name>
+        <label>Run FET Slate</label>
+        <locationX>648</locationX>
+        <locationY>914</locationY>
+        <actionName>pdffiller_sfree__ProcessToFlowController</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>flowId</name>
+            <value>
+                <stringValue>29171F6C-8000-0000-0000BA29</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recordId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>pdffiller_sfree__ProcessToFlowController</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Run_IUI_Slate</name>
+        <label>Run IUI Slate</label>
+        <locationX>467</locationX>
+        <locationY>746</locationY>
+        <actionName>pdffiller_sfree__ProcessToFlowController</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>flowId</name>
+            <value>
+                <stringValue>E3802117-8000-0000-0000BA29</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recordId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>pdffiller_sfree__ProcessToFlowController</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Run_IVF_Slate</name>
+        <label>Run IVF Slate</label>
+        <locationX>772</locationX>
+        <locationY>579</locationY>
+        <actionName>pdffiller_sfree__ProcessToFlowController</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>flowId</name>
+            <value>
+                <stringValue>3E4ADA07-8000-0000-0000BA29</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recordId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>pdffiller_sfree__ProcessToFlowController</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Run_OI_Slate</name>
+        <label>Run OI Slate</label>
+        <locationX>704</locationX>
+        <locationY>787</locationY>
+        <actionName>pdffiller_sfree__ProcessToFlowController</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>flowId</name>
+            <value>
+                <stringValue>166A3ABC-8000-0000-0000BA29</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recordId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>pdffiller_sfree__ProcessToFlowController</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Run_VOT_Slate</name>
+        <label>Run VOT Slate</label>
+        <locationX>355</locationX>
+        <locationY>572</locationY>
+        <actionName>pdffiller_sfree__ProcessToFlowController</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>flowId</name>
+            <value>
+                <stringValue>02218968-8000-0000-0000BA29</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recordId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>pdffiller_sfree__ProcessToFlowController</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_Dr_Email_Alert</name>
+        <label>Send Dr Email Alert</label>
+        <locationX>570</locationX>
+        <locationY>416</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Doctor_Initiating_Cycle__r.Email__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Please Review Closed Cycle</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>Body</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>55.0</apiVersion>
+    <decisions>
+        <name>Cycle_Type</name>
+        <label>Cycle Type</label>
+        <locationX>560</locationX>
+        <locationY>588</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>OI_Cycle</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>OI Cycle</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Run_OI_Slate</targetReference>
+            </connector>
+            <label>OI Cycle</label>
+        </rules>
+        <rules>
+            <name>Stim_Cycle</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>IVF Cycle</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Fresh Egg Donor Cycle</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Run_IVF_Slate</targetReference>
+            </connector>
+            <label>IVF Cycle</label>
+        </rules>
+        <rules>
+            <name>VOT_Cycle</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>VOT Cycle</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Run_VOT_Slate</targetReference>
+            </connector>
+            <label>VOT Cycle</label>
+        </rules>
+        <rules>
+            <name>IUI_Cycle</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>IUI Cycle</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Run_IUI_Slate</targetReference>
+            </connector>
+            <label>IUI Cycle</label>
+        </rules>
+        <rules>
+            <name>FET_Cycle</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>FET Cycle</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Run_FET_Slate</targetReference>
+            </connector>
+            <label>FET Cycle</label>
+        </rules>
+        <rules>
+            <name>Egg_Freeze_Cycle</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Egg Freeze Cycle</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Run_Egg_Freeze_Slate</targetReference>
+            </connector>
+            <label>Egg Freeze Cycle</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>Auto Send Completed Cycle Reports to Doctor {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Auto Send Completed Cycle Reports to Doctor</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>439</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Send_Dr_Email_Alert</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>(1 OR 2 OR 3) AND 4</filterLogic>
+        <filters>
+            <field>Cycle_Outcome__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Not Pregnant</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Sub_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Cycle Cancelled</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Doctor_Initiating_Cycle__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>a1c9o000000395UAAQ</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Sub_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Awaiting Clinical Pregnancy</stringValue>
+            </value>
+        </filters>
+        <object>Case</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <textTemplates>
+        <name>Body</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi {!$Record.Doctor_Initiating_Cycle__r.Name},
+This email is to let you know that Cycle {!$Record.CaseNumber} for {!$Record.Contact.First_Name__c} {!$Record.Contact.Last_Name__c} has now been closed/completed.
+Please click this link to review the outcome of this cycle: https://compassfertility.lightning.force.com/lightning/r/Case/{!$Record.Id}/view
+Thanks,
+{!$User.FirstName} {!$User.LastName}</text>
+    </textTemplates>
+</Flow>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cycle_Day_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+ISBLANK(Cycle_Day_Date__c),
+IF(
+NOT(ISBLANK(Cycle_Day_Number__c)),
+&quot;Day &quot; &amp; TEXT(Cycle_Day_Number__c),
+&quot;&quot;
+),
+IF(
+Cycle_Day_Date__c &gt;= Cycle__r.Day_1__c,
+&quot;Day &quot; &amp; TEXT(Day_Cycle_Number_Formula__c),
+&quot;Prior to Day 1&quot;
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Cycle Day Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

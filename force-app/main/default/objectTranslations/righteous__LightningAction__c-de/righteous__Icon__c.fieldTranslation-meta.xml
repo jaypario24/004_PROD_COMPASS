@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Provide name of Icon from Salesforce Lightning Design System. e.g., action:user or custom:custom1 --></help>
+    <label><!-- Icon --></label>
+    <name>righteous__Icon__c</name>
+</CustomFieldTranslation>

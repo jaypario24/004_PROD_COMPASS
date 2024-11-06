@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Salesforce Id of the Document record associated with the label template. --></help>
+    <label><!-- Label 8 --></label>
+    <name>TSS_StickIt_MR1__Label_8__c</name>
+</CustomFieldTranslation>

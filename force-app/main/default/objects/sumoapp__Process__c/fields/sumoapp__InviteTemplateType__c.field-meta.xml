@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__InviteTemplateType__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Invite Template Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SALESFORCE_OBJECTS</fullName>
+                <default>true</default>
+                <label>Salesforce Objects</label>
+            </value>
+            <value>
+                <fullName>INVITE_LINKS_TAB</fullName>
+                <default>false</default>
+                <label>Invite Links Tab</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

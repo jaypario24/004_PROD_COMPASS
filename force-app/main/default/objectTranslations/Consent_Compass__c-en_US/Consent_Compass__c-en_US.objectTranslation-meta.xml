@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Compass Consent</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Compass Consents</value>
+    </caseValues>
+    <layouts>
+        <layout>Consent Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Cycle --></label>
+            <section>Cycle</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Consent Details --></label>
+        <name>Consent_Details</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create &amp; Send PGT Consent --></label>
+        <name>Create_Send_PGT_Consent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Generate Consent --></label>
+        <name>Generate_Consent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Manage Documents --></label>
+        <name>Manage_Documents</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send Multiple Embryo Waiver --></label>
+        <name>Send_Multiple_Embryo_Waiver</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send Recipient Consent --></label>
+        <name>Send_Recipient_Consent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send Storage Consent --></label>
+        <name>Send_Storage_Consent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Test Consent --></label>
+        <name>Test_Consent</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

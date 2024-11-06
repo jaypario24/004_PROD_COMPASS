@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Based on --></label>
+    <name>smagicinteract__Based_on__c</name>
+    <picklistValues>
+        <masterLabel>Advanced Setting</masterLabel>
+        <translation><!-- Advanced Setting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Default Setting</masterLabel>
+        <translation><!-- Default Setting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phone Number and Sender Id Only</masterLabel>
+        <translation><!-- Phone Number and Sender Id Only --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

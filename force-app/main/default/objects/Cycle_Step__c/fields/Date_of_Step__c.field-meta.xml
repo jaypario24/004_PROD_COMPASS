@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_of_Step__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+  ISBLANK(Cycle__r.Day_1__c),
+  &quot;No Day 1 Recorded&quot;,
+  CASE(
+    MOD( ( Cycle__r.Day_1__c + Day_of_Step__c - 1 ) - DATE( 1900, 1, 7 ), 7 ), 
+    0 , &quot;Sunday&quot;,
+    1 , &quot;Monday&quot;,
+    2 , &quot;Tuesday&quot;,
+    3 , &quot;Wednesday&quot;,
+    4 , &quot;Thursday&quot;,
+    5 , &quot;Friday&quot;,
+    6 , &quot;Saturday&quot;,
+    &quot;Error&quot;
+  ) &amp; &quot; &quot; &amp; 
+  TEXT(DAY((Cycle__r.Day_1__c + Day_of_Step__c - 1))) &amp; &quot;/&quot; &amp;
+  TEXT(MONTH((Cycle__r.Day_1__c + Day_of_Step__c - 1))) &amp; &quot;/&quot; &amp;
+  RIGHT(TEXT(YEAR((Cycle__r.Day_1__c + Day_of_Step__c - 1))), 2)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Date of Step</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

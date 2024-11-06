@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pregnancies_of_20_weeks_or_more__c</fullName>
+    <description>Determine if the female patient has previously had any pregnancies of 20 weeks or more gestation regardless if by fertility treatment or with a different partner.</description>
+    <externalId>false</externalId>
+    <label>Pregnancies of 20 weeks or more</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>ANZARD_NO_YES_UNKNOWN</valueSetName>
+    </valueSet>
+</CustomField>

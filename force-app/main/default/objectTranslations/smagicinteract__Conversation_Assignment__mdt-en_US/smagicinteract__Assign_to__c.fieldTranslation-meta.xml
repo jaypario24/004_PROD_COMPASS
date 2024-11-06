@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- It will store assignment senders. 
+Eg- Specific User, queue -->
+    </help>
+    <label><!-- Assign to --></label>
+    <name>smagicinteract__Assign_to__c</name>
+    <picklistValues>
+        <masterLabel>Default Setting</masterLabel>
+        <translation><!-- Default Setting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Queue</masterLabel>
+        <translation><!-- Queue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Record Owner</masterLabel>
+        <translation><!-- Record Owner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SenderId Owner</masterLabel>
+        <translation><!-- SenderId Owner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specific User</masterLabel>
+        <translation><!-- Specific User --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

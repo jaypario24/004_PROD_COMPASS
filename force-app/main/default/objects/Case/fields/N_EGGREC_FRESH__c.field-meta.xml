@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>N_EGGREC_FRESH__c</fullName>
+    <description>Number of fresh (not cryopreserved) oocytes received from another patient.
+If a patient is receiving cryopreserved oocytes, use N_S_EGTH or N_V_EGTH data items to record the number of thawed/warmed oocytes received.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Number of fresh oocytes receive</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

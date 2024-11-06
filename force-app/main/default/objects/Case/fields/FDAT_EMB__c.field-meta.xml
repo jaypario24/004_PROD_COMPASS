@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FDAT_EMB__c</fullName>
+    <description>If there is more than one embryo being thawed/warmed and the embryos have different cryopreservation dates (from different batches), then record the earliest cryopreservation date.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Initial cryopreservation date o</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,32 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction,lightning:availableForFlowScreens" access="global" >
+   
+   <!-- Pass the value of the selected option back to the flow -->
+   <aura:attribute name="value" type="String" />
+    <div style="width: 25%; padding: 2px 0px 5px 0px;" onclick="{!c.handleChange}" data-record="Yes">
+    	<a href="javascript:void(0);" class="slds-box slds-box_link slds-box_x-small slds-media">
+        <div class="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center slds-m-left_xx-small">
+          <span class="slds-icon_container">
+            <lightning:icon iconName="action:approval" aura:id="Yes" 
+            variant="neutral"/>
+          </span>
+        </div>
+          <div class="slds-media__body slds-border_left slds-p-around_small">
+          	<div class="slds-truncate" title="Yes" style="font-size:1rem;">Yes</div>
+          </div>
+      </a>
+    </div>
+    
+    <div style="width: 25%; padding: 2px 0px 5px 0px;" onclick="{!c.handleChange}" data-record="No">
+      <a href="javascript:void(0);" class="slds-box slds-box_link slds-box_x-small slds-media">
+        <div class="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center slds-m-left_xx-small">
+          <span class="slds-icon_container">
+            <lightning:icon iconName="action:close" aura:id="No" 
+            variant="neutral"/>
+          </span>
+        </div>
+          <div class="slds-media__body slds-border_left slds-p-around_small">
+              <div class="slds-truncate" title="No" style="font-size:1rem;">No</div>
+          </div>
+      </a>
+    </div>
+ </aura:component>

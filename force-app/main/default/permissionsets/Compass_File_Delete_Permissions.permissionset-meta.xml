@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows users to delete and modify files, most notable used for email attachments that they don&apos;t &quot;Own&quot;.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ClickSendSMS__SMS_Template__c.SObject_API_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Sperm_Sample__c.Current_Time__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Compass File Delete Permissions</label>
+    <license>Salesforce</license>
+</PermissionSet>

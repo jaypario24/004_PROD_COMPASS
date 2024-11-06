@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>righteous__LightningLabel__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Associate a Lightning Label to be displayed as Header Text on UI component. Lightning Label can have translated value.</inlineHelpText>
+    <label>Lightning Label</label>
+    <referenceTo>righteous__LightningLabel__c</referenceTo>
+    <relationshipLabel>Lightning Action Configurations</relationshipLabel>
+    <relationshipName>LightningActionConfigurations</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

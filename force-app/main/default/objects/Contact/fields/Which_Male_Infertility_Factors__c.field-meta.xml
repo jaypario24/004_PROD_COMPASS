@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Which_Male_Infertility_Factors__c</fullName>
+    <externalId>false</externalId>
+    <label>Which Male Infertility Factors?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Idiopathic (Unexplained)</fullName>
+                <default>false</default>
+                <label>Idiopathic (Unexplained)</label>
+            </value>
+            <value>
+                <fullName>Genetic (Klinefelter’s)</fullName>
+                <default>false</default>
+                <label>Genetic (Klinefelter’s)</label>
+            </value>
+            <value>
+                <fullName>Genetic (Y Deletion)</fullName>
+                <default>false</default>
+                <label>Genetic (Y Deletion)</label>
+            </value>
+            <value>
+                <fullName>Genetic (Other)</fullName>
+                <default>false</default>
+                <label>Genetic (Other)</label>
+            </value>
+            <value>
+                <fullName>Testis Damage (Cancer Treatment)</fullName>
+                <default>false</default>
+                <label>Testis Damage (Cancer Treatment)</label>
+            </value>
+            <value>
+                <fullName>Testis Damage - Other (incl. past/recent cryptorchidism, vascular, infective,</fullName>
+                <default>false</default>
+                <label>Testis Damage - Other (incl. past/recent cryptorchidism, vascular, infective,</label>
+            </value>
+            <value>
+                <fullName>Gonadotrophin Deficiency</fullName>
+                <default>false</default>
+                <label>Gonadotrophin Deficiency</label>
+            </value>
+            <value>
+                <fullName>Vasectomy</fullName>
+                <default>false</default>
+                <label>Vasectomy</label>
+            </value>
+            <value>
+                <fullName>Congenital Absence of the Vas Deferens/Cystic Fibrosis</fullName>
+                <default>false</default>
+                <label>Congenital Absence of the Vas Deferens/Cystic Fibrosis</label>
+            </value>
+            <value>
+                <fullName>Obstructive Disorder (other)</fullName>
+                <default>false</default>
+                <label>Obstructive Disorder (other)</label>
+            </value>
+            <value>
+                <fullName>Erectile Dysfunction</fullName>
+                <default>false</default>
+                <label>Erectile Dysfunction</label>
+            </value>
+            <value>
+                <fullName>Ejaculatory Disorders (eg. Spinal Injury, Retrograde, Anejaculation)</fullName>
+                <default>false</default>
+                <label>Ejaculatory Disorders (eg. Spinal Injury, Retrograde, Anejaculation)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

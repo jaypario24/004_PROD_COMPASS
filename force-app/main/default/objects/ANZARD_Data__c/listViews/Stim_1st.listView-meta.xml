@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stim_1st</fullName>
+    <booleanFilter>1 AND (2 or 3)</booleanFilter>
+    <columns>NAME</columns>
+    <columns>CYCLE_ID__c</columns>
+    <columns>OPU_Date__c</columns>
+    <columns>OV_STIM__c</columns>
+    <columns>STIM_1ST__c</columns>
+    <columns>CYCLE_TYPE__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OV_STIM__c</field>
+        <operation>equals</operation>
+        <value>Y</value>
+    </filters>
+    <filters>
+        <field>STIM_1ST__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>STIM_1ST__c</field>
+        <operation>equals</operation>
+        <value>u</value>
+    </filters>
+    <label>OPU but Stim 1st blank</label>
+</ListView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Type of Text is being used to be displayed on Action Panel Header. Select &apos;Value&apos; if Static Text is going to be used for Label. Select &apos;Custom Label&apos; if header text is coming from System Labels. --></help>
+    <label><!-- Label Type --></label>
+    <name>righteous__Label_Type__c</name>
+    <picklistValues>
+        <masterLabel>Custom Label</masterLabel>
+        <translation><!-- Custom Label --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lightning Label</masterLabel>
+        <translation><!-- Lightning Label --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Value</masterLabel>
+        <translation><!-- Value --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

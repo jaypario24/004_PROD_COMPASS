@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Sumo Event Details Calendar Fields --></label>
+        <name>sumoapp__SUMO_EVENT_DETAILS_CALENDAR_FIELDS</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SUMO Event Details Custom Fields --></label>
+        <name>sumoapp__SUMO_EVENT_DETAILS_CUSTOM_FIELDS</name>
+    </fieldSets>
+    <recordTypes>
+        <label><!-- Appointment --></label>
+        <name>sumoapp__Appointment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Course --></label>
+        <name>sumoapp__Course</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Event --></label>
+        <name>sumoapp__Event</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Event Class --></label>
+        <name>sumoapp__EventClass</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Triggering Event --></label>
+    <name>Triggering_Event__c</name>
+    <picklistValues>
+        <masterLabel>Biopsy</masterLabel>
+        <translation><!-- Biopsy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Change Over</masterLabel>
+        <translation><!-- Change Over --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Day 1</masterLabel>
+        <translation><!-- Day 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Day 3 Assessment</masterLabel>
+        <translation><!-- Day 3 Assessment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Day 5 Assessment</masterLabel>
+        <translation><!-- Day 5 Assessment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Day 6 Assessment</masterLabel>
+        <translation><!-- Day 6 Assessment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denuding/CockTriming</masterLabel>
+        <translation><!-- Denuding/CockTriming --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Doctor&apos;s Transfer Event</masterLabel>
+        <translation><!-- Doctor&apos;s Transfer Event --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Donate Eggs Cycle Event</masterLabel>
+        <translation><!-- Donate Eggs Cycle Event --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Egg Thaw Event</masterLabel>
+        <translation><!-- Egg Thaw Event --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Egg Vitrification Event</masterLabel>
+        <translation><!-- Egg Vitrification Event --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Embryo Thawing</masterLabel>
+        <translation><!-- Embryo Thawing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Embryo Transfer</masterLabel>
+        <translation><!-- Embryo Transfer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Embryo Vitrification (Freezing)</masterLabel>
+        <translation><!-- Embryo Vitrification (Freezing) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Failed Fert - Sperm Quality Check</masterLabel>
+        <translation><!-- Failed Fert - Sperm Quality Check --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fertilisation Check</masterLabel>
+        <translation><!-- Fertilisation Check --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IUI</masterLabel>
+        <translation><!-- IUI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insemination</masterLabel>
+        <translation><!-- Insemination --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laser Assisted Hatching</masterLabel>
+        <translation><!-- Laser Assisted Hatching --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nurse Medication Check</masterLabel>
+        <translation><!-- Nurse Medication Check --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OPU</masterLabel>
+        <translation><!-- OPU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OPU Preparation Event</masterLabel>
+        <translation><!-- OPU Preparation Event --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ovulation Event</masterLabel>
+        <translation><!-- Ovulation Event --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Post Thaw Day 5 Assessment</masterLabel>
+        <translation><!-- Post Thaw Day 5 Assessment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-Implantation Genetic Testing</masterLabel>
+        <translation><!-- Pre-Implantation Genetic Testing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pregnancy Scan Event</masterLabel>
+        <translation><!-- Pregnancy Scan Event --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pregnancy Test</masterLabel>
+        <translation><!-- Pregnancy Test --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sperm Freeze</masterLabel>
+        <translation><!-- Sperm Freeze --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sperm Preparation</masterLabel>
+        <translation><!-- Sperm Preparation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trigger Event</masterLabel>
+        <translation><!-- Trigger Event --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cycle Event</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cycle Events</value>
+    </caseValues>
+    <layouts>
+        <layout>Biopsy Event</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Birth Outcome</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Change Over Event</layout>
+        <sections>
+            <label><!-- Change Over Information --></label>
+            <section>Change Over Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Cycle Outcome</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Day 1</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Day 3 Assessment</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Day 5 Assessment</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Day 6 Assessment</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Denuding</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Doctor&apos;s Transfer Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Egg Thaw Event</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Egg Vitrification</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Embryo Thawing</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Embryo Transfer</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Embryo Vitrification (Freezing)</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Failed Fert - Sperm Quality Check</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Fertilisation Check</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Insemination</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Intra-Uterine Insemination</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>LAH</layout>
+        <sections>
+            <label><!-- Change Over Information --></label>
+            <section>Change Over Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Nursing Medication Check</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OPU</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OPU Preparation Event</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Doctors Instructions --></label>
+            <section>Doctors Instructions</section>
+        </sections>
+        <sections>
+            <label><!-- Eggs --></label>
+            <section>Eggs</section>
+        </sections>
+        <sections>
+            <label><!-- Sperm --></label>
+            <section>Sperm</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Ovulation Event</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Post Thaw Day 5 Assessment</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Pre-Implantation Genetic Testing</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Pregnancy Scan</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sperm Freeze</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sperm Preparation</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Initial &amp; Final Info --></label>
+            <section>Initial &amp; Final Info</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Trigger</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Event --></label>
+        <name>New_Cycle_Event_Button</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Biopsy --></label>
+        <name>Biopsy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Birth Outcome --></label>
+        <name>Birth_Outcome</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Change Over --></label>
+        <name>Change_Over</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Day 1 --></label>
+        <name>Day_1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Day 3 Assessment --></label>
+        <name>Day_3_Assessment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Day 5 Assessment --></label>
+        <name>Day_5_Assessment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Day 6 Assessment --></label>
+        <name>Day_6_Assessment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Denuding/CockTriming --></label>
+        <name>Denuding</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Doctor&apos;s Transfer Event --></label>
+        <name>Doctor_s_Transfer_Event</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Donate Eggs Cycle Event --></label>
+        <name>Donate_Eggs_Cycle_Event</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Egg Thaw Event --></label>
+        <name>Egg_Thaw_Event</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Egg Vitrification Event --></label>
+        <name>Egg_Vitrification_Event</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Embryo Thawing --></label>
+        <name>Embryo_Thawing</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Embryo Transfer --></label>
+        <name>Embryo_Transfer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Embryo Vitrification (Freezing) --></label>
+        <name>Embryo_Vitrification_Freezing</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Failed Fert - Sperm Quality Check --></label>
+        <name>Failed_Fert_Sperm_Quality_Check</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Fertilisation Check --></label>
+        <name>Fertilisation_Check</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- IUI --></label>
+        <name>IUI</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Insemination --></label>
+        <name>Insemination</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Laser Assisted Hatching --></label>
+        <name>Laser_Assisted_Hatching</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Nurse Medication Check --></label>
+        <name>Nurse_Medication_Check</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OPU --></label>
+        <name>OPU</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Cycle Preparation Event --></label>
+        <name>OPU_Preparation_Event</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Ovulation Event --></label>
+        <name>Ovulation_Event</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Post Thaw Day 5 Assessment --></label>
+        <name>Post_Thaw_Day_5_Assessment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Pre-Implantation Genetic Testing --></label>
+        <name>Pre_Implantation_Genetic_Testing</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Pregnancy Scan Event --></label>
+        <name>Pregnancy_Scan_Event</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Pregnancy Test --></label>
+        <name>Pregnancy_Test</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sperm Freeze --></label>
+        <name>Sperm_Freeze</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sperm Preparation --></label>
+        <name>Sperm_Preparation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Trigger Event --></label>
+        <name>Trigger_Event</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

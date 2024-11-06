@@ -1,0 +1,14 @@
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="picklistButtons">
+    <apiVersion>53.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="objectName" type="String" label="Select Object" description="API Name of the Object" />
+            <property name="picklistField" type="String" label="Select Picklist Field" description="API Name of the Picklist Field amke sure to use __c" />
+            <property name="columnLayout" type="String" label="Column Layout" description="Display the buttons in one or two columns" datasource="One Column,Two Columns" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transport_Logbook</fullName>
+    <columns>NAME</columns>
+    <columns>Donor_Owner__c</columns>
+    <columns>Reserved_For__c</columns>
+    <columns>Post_Thaw_Total_Motile_Count__c</columns>
+    <columns>Storage_Date__c</columns>
+    <columns>Comments__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Number_of_Straws_Remaining__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Comments__c</field>
+        <operation>contains</operation>
+        <value>transport</value>
+    </filters>
+    <label>Transport Logbook</label>
+</ListView>

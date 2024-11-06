@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__Color__c</fullName>
+    <defaultValue>CASE($RecordType.DeveloperName, &quot;Event&quot;, &quot;#5679C0&quot;, &quot;Course&quot;, &quot;#5679C0&quot;, &quot;Appointment&quot;, &quot;#EEEEEE&quot;, &quot;#EEEEEE&quot;)</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Html Color Code</description>
+    <externalId>false</externalId>
+    <label>Color</label>
+    <length>32</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

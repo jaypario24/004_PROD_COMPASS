@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Available_Embryos__c</fullName>
+    <externalId>false</externalId>
+    <label>Available Embryos</label>
+    <summaryFilterItems>
+        <field>Embryo__c.Embryo_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Discarded</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Embryo__c.Embryo_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Transferred</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Embryo__c.Embryo_Status__c</field>
+        <operation>notEqual</operation>
+        <value>For Discard</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Embryo__c.Embryo_Status__c</field>
+        <operation>notEqual</operation>
+        <value>PGT Testing In Progress</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Embryo__c.Embryo_Batch2__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>66</activeVersionNumber>
+    <description>Screen used for patient self-check-in.</description>
+    <masterLabel>Developer Waiting Room Patient CheckIn Screen [WR_001]</masterLabel>
+</FlowDefinition>

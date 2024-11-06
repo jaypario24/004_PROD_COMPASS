@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cycle Timing --></label>
+    <name>Cycle_Timing__c</name>
+    <picklistValues>
+        <masterLabel>Lead In OCP</masterLabel>
+        <translation><!-- Lead In OCP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lead In Primolut</masterLabel>
+        <translation><!-- Lead In Primolut --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Natural</masterLabel>
+        <translation><!-- Natural --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Post Zoladex</masterLabel>
+        <translation><!-- Post Zoladex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provera</masterLabel>
+        <translation><!-- Provera --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Random Start</masterLabel>
+        <translation><!-- Random Start --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Procedure Location --></label>
+    <name>Procedure_Location__c</name>
+    <picklistValues>
+        <masterLabel>Barton Private Hospital</masterLabel>
+        <translation><!-- Barton Private Hospital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canberra Private Hospital</masterLabel>
+        <translation><!-- Canberra Private Hospital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compass Fertility</masterLabel>
+        <translation><!-- Compass Fertility --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>National Capital Private Hospital</masterLabel>
+        <translation><!-- National Capital Private Hospital --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

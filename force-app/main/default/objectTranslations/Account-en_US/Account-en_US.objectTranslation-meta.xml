@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Household</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Households</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Process Matching Fields --></label>
+        <name>sumoapp__ProcessMatchingFields</name>
+    </fieldSets>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Credit Card Details --></label>
+            <section>Credit Card Details</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Account Details --></label>
+        <name>Account_Details</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add New Business Contact --></label>
+        <name>Add_New_Business_Contact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add New Donor --></label>
+        <name>Add_New_Donor</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Patients --></label>
+        <name>Add_Patients</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create General Consent --></label>
+        <name>Create_General_Consent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create New Consent --></label>
+        <name>Create_New_General_Consent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Import Genetic Material --></label>
+        <name>Import_Genetic_Material</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Household --></label>
+        <name>New_Household</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Quick Appointment --></label>
+        <name>Quick_Appointment</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Contact Household --></label>
+        <name>Contact_Household</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Household --></label>
+        <name>Household</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Labels --></label>
+        <name>TSS_StickIt_MR1__Generate_Labels</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- a269o00000080vtAAA_001 --></label>
+        <name>a269o00000080vtAAA_001</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- EmailAnInvite --></label>
+        <name>sumoapp__EmailAnInvite</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ScheduleNow --></label>
+        <name>sumoapp__ScheduleNow</name>
+    </webLinks>
+</CustomObjectTranslation>

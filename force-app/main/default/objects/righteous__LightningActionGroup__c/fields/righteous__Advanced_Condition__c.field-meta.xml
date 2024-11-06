@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>righteous__Advanced_Condition__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Provide custom Condition Expression String for evaluation. Supported Boolean functions are AND, OR , XOR, NOT
+
+example: (#1 OR #2) AND (#3 OR #4)
+
+Use #ConditionIndex pattern.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Provide custom Condition Expression String for evaluation. Supported Boolean functions are AND, OR , XOR, NOT
+
+example: (#1 OR #2) AND (#3 OR #4)
+
+Use #ConditionIndex pattern.</inlineHelpText>
+    <label>Advanced Condition</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

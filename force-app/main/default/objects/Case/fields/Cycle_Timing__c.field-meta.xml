@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cycle_Timing__c</fullName>
+    <externalId>false</externalId>
+    <label>Cycle Timing</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Natural</fullName>
+                <default>false</default>
+                <label>Natural</label>
+            </value>
+            <value>
+                <fullName>Lead In OCP</fullName>
+                <default>false</default>
+                <label>Lead In OCP</label>
+            </value>
+            <value>
+                <fullName>Lead In Primolut</fullName>
+                <default>false</default>
+                <label>Lead In Primolut</label>
+            </value>
+            <value>
+                <fullName>Random Start</fullName>
+                <default>false</default>
+                <label>Random Start</label>
+            </value>
+            <value>
+                <fullName>Provera</fullName>
+                <default>false</default>
+                <label>Provera</label>
+            </value>
+            <value>
+                <fullName>Post Zoladex</fullName>
+                <default>false</default>
+                <label>Post Zoladex</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

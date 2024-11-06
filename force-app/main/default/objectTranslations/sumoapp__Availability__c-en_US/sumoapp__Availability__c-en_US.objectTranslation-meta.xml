@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <description><!-- Date specific availability --></description>
+        <label><!-- Date Specific --></label>
+        <name>sumoapp__DateSpecific</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Recurring availability --></description>
+        <label><!-- Recurring --></label>
+        <name>sumoapp__Recurring</name>
+    </recordTypes>
+</CustomObjectTranslation>

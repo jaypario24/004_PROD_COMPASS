@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ANZARD - Why PGT was performed --></label>
+    <name>PGT_REASON__c</name>
+    <picklistValues>
+        <masterLabel>1 = Aneuploidy screening</masterLabel>
+        <translation><!-- 1 = Aneuploidy screening --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2 = Single gene variation</masterLabel>
+        <translation><!-- 2 = Single gene variation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3 = Chromosomal structural rearrangements (e.g. translocations)</masterLabel>
+        <translation><!-- 3 = Chromosomal structural rearrangements (e.g. translocations) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4 = Other</masterLabel>
+        <translation><!-- 4 = Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

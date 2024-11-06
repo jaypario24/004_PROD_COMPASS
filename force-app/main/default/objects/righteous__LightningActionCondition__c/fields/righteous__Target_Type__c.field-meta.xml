@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>righteous__Target_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Select Type against &quot;Object Field&quot; should be validated. 
+&quot;Value&quot; compares &quot;Object Field&quot; with static value provided in &quot;Target Value&quot;.
+&quot;Field&quot; compares &quot;Object Field&quot; with &quot;Target Field&quot; of same record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select Type against &quot;Object Field&quot; should be validated. 
+&quot;Value&quot; compares &quot;Object Field&quot; with static value provided in &quot;Target Value&quot;.
+&quot;Field&quot; compares &quot;Object Field&quot; with &quot;Target Field&quot; of same record.</inlineHelpText>
+    <label>Target Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Field</fullName>
+                <default>false</default>
+                <label>Field</label>
+            </value>
+            <value>
+                <fullName>Value</fullName>
+                <default>false</default>
+                <label>Value</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fresh_Day_6_ETs</fullName>
+    <columns>Day_1_of_Cycle_Transferred_In__c</columns>
+    <columns>NAME</columns>
+    <columns>Household__c</columns>
+    <columns>Insemination_Type__c</columns>
+    <columns>Embryo_Created_In_Cycle__c</columns>
+    <columns>Embryo_Cycle_Transferred_In__c</columns>
+    <columns>Day_6_Cell_Number__c</columns>
+    <columns>Day_6_Grade__c</columns>
+    <columns>Cell_Number__c</columns>
+    <columns>Grading__c</columns>
+    <columns>Outcome_of_Cycle_Transferred_in__c</columns>
+    <columns>Cycle_Outcome_of_Embryo_Transfered_in__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Embryo_Status__c</field>
+        <operation>equals</operation>
+        <value>Transferred</value>
+    </filters>
+    <filters>
+        <field>Cycle_Day__c</field>
+        <operation>equals</operation>
+        <value>6</value>
+    </filters>
+    <filters>
+        <field>Storage_Date__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Freeze_Scientist__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Fresh Day 6 ETs</label>
+</ListView>

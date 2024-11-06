@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recent_Consents</fullName>
+    <columns>NAME</columns>
+    <columns>Patients_Donors__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Consent_Signed__c</columns>
+    <columns>Consent_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Recent Consents</label>
+</ListView>

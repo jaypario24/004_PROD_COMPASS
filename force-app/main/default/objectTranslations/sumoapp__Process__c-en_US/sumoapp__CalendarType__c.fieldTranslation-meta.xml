@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Calendar Type --></label>
+    <name>sumoapp__CalendarType__c</name>
+    <picklistValues>
+        <masterLabel>Day View</masterLabel>
+        <translation><!-- Day View --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Week View</masterLabel>
+        <translation><!-- Week View --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

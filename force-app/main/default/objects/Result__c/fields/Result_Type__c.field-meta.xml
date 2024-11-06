@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Result_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Result Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Blood Test Result</fullName>
+                <default>true</default>
+                <label>Blood Test Result</label>
+            </value>
+            <value>
+                <fullName>Pregnancy Test Result</fullName>
+                <default>false</default>
+                <label>Pregnancy Test Result</label>
+            </value>
+            <value>
+                <fullName>Where in Cycle Blood</fullName>
+                <default>false</default>
+                <label>Where in Cycle Blood</label>
+            </value>
+            <value>
+                <fullName>Infectious Screens</fullName>
+                <default>false</default>
+                <label>Infectious Screens</label>
+            </value>
+            <value>
+                <fullName>Scan</fullName>
+                <default>false</default>
+                <label>Scan</label>
+            </value>
+            <value>
+                <fullName>Pregnancy Scan</fullName>
+                <default>false</default>
+                <label>Pregnancy Scan</label>
+            </value>
+            <value>
+                <fullName>Record Ovulation</fullName>
+                <default>false</default>
+                <label>Record Ovulation</label>
+            </value>
+            <value>
+                <fullName>Pregnancy Histopathology</fullName>
+                <default>false</default>
+                <label>Pregnancy Histopathology</label>
+            </value>
+            <value>
+                <fullName>Antral Follicle Count</fullName>
+                <default>false</default>
+                <label>Antral Follicle Count</label>
+            </value>
+            <value>
+                <fullName>Anti Mullerian Hormone</fullName>
+                <default>false</default>
+                <label>Anti Mullerian Hormone</label>
+            </value>
+            <value>
+                <fullName>PGT Result</fullName>
+                <default>false</default>
+                <label>PGT Result</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

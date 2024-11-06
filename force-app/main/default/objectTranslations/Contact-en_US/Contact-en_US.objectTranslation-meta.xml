@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Patients &amp; Donors</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Patients &amp; Donors</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Process Matching Fields --></label>
+        <name>sumoapp__ProcessMatchingFields</name>
+    </fieldSets>
+    <layouts>
+        <layout>Business Contacts</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label><!-- ANZARD and Other Data --></label>
+            <section>ANZARD and Other Data</section>
+        </sections>
+        <sections>
+            <label><!-- Extra Information --></label>
+            <section>Extra Information</section>
+        </sections>
+        <sections>
+            <label><!-- GP Referral --></label>
+            <section>GP Referral</section>
+        </sections>
+        <sections>
+            <label><!-- Household Information --></label>
+            <section>Household Information</section>
+        </sections>
+        <sections>
+            <label><!-- Male Infertility Factors --></label>
+            <section>Male Infertility Factors</section>
+        </sections>
+        <sections>
+            <label><!-- Medicare Information --></label>
+            <section>Medicare Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Donors</layout>
+        <sections>
+            <label><!-- Confidential Info --></label>
+            <section>Confidential Info</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add New Task --></label>
+        <name>Add_New_Task</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Patient Result --></label>
+        <name>Add_Patient_Result</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Book Appointment --></label>
+        <name>Book_Appointment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Confidential Donor Information --></label>
+        <name>Confidential_Donor_Information</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create New Invoice --></label>
+        <name>Create_New_Invoice</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Semen Sample --></label>
+        <name>Create_Semen_Sample</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Donor Registration --></label>
+        <name>Donor_Registration</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Female Demographics --></label>
+        <name>Female_Demographics</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Generate Pathology Request --></label>
+        <name>Generate_Pathology_Form</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Link Medicare Information --></label>
+        <name>Link_Medicare_Information</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Male Demographics --></label>
+        <name>Male_Demographics</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Manage Documents --></label>
+        <name>Manage_Documents</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Medicare Verification --></label>
+        <name>Medicare_Verification</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Cycle --></label>
+        <name>New_Cycle</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Cycle --></label>
+        <name>New_Cycle_2023</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Referral --></label>
+        <name>New_Referral</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Patient Details --></label>
+        <name>Patient_Details</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Quick Appointment --></label>
+        <name>Quick_Appointment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Resend Induction Form --></label>
+        <name>Resend_Induction_Form</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Schedule Appointment --></label>
+        <name>Schedule_Appointment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send Consents --></label>
+        <name>Send_Consents</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send Email --></label>
+        <name>Send_Email</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Show Medicare Link --></label>
+        <name>Show_Medicare_Link</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Business Contact --></label>
+        <name>Business_Contact</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Donors --></label>
+        <name>Donors</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Patient and Donor --></label>
+        <name>Patient_and_Donor</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Patients and Partners --></label>
+        <name>Patients_and_Partners</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The Medicare number should not have any spaces or non-number characters and must be 11 numbers long --></errorMessage>
+        <name>No_spaces_or_other_charcters</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Send_SMS --></label>
+        <name>ClickSendSMS__Send_SMS</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_SMS_to_All --></label>
+        <name>ClickSendSMS__Send_SMS_to_All</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_SMS_to_Selected --></label>
+        <name>ClickSendSMS__Send_SMS_to_Selected</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_SMS_to_Selected_Contacts --></label>
+        <name>ClickSendSMS__Send_SMS_to_Selected_Contacts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Composer_SP_Client_Letter --></label>
+        <name>Conga_Composer_Composer_SP_Client_Letter</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Patient_Labels --></label>
+        <name>Conga_Composer_Patient_Labels</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Patient_Labels1 --></label>
+        <name>Conga_Composer_Patient_Labels1</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Labels --></label>
+        <name>TSS_StickIt_MR1__Generate_Labels</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- a269o0000004hkfAAA_003 --></label>
+        <name>a269o0000004hkfAAA_003</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- a269o00000081khAAA_003_bulk --></label>
+        <name>a269o00000081khAAA_003_bulk</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- a269o0000008F3xAAE_003 --></label>
+        <name>a269o0000008F3xAAE_003</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Bulk_SMS --></label>
+        <name>smagicinteract__Send_Bulk_SMS</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_SMS --></label>
+        <name>smagicinteract__Send_SMS</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- EmailAnInvite --></label>
+        <name>sumoapp__EmailAnInvite</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ScheduleNow --></label>
+        <name>sumoapp__ScheduleNow</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>COMMENT__c</fullName>
+    <description>Record additional comments or further explanations related to the treatment provided in the cycle or outcomes as a result of treatment.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Additional comments about the c</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

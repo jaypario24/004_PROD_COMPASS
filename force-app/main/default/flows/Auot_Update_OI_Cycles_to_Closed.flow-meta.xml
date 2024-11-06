@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <assignments>
+        <name>Assign_Results_Count</name>
+        <label>Assign Results Count</label>
+        <locationX>50</locationX>
+        <locationY>575</locationY>
+        <assignmentItems>
+            <assignToReference>ResultsCount</assignToReference>
+            <operator>AssignCount</operator>
+            <value>
+                <elementReference>Get_Results</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>More_than_1_Pregnancy_Result</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Does_it_Positive_BHCG</name>
+        <label>Does it = Positive BHCG</label>
+        <locationX>226</locationX>
+        <locationY>335</locationY>
+        <defaultConnector>
+            <targetReference>Update_Record</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Cycle_Outcome__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Positive BHCG</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Results</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>More_than_1_Pregnancy_Result</name>
+        <label>More than 1 Pregnancy Result</label>
+        <locationX>50</locationX>
+        <locationY>695</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>More_than_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ResultsCount</leftValueReference>
+                <operator>GreaterThan</operator>
+                <rightValue>
+                    <numberValue>1.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Record</targetReference>
+            </connector>
+            <label>More than 1</label>
+        </rules>
+    </decisions>
+    <description>Updates the cycle to closed when a Positive BHCG or a Not Pregnant result is entered.</description>
+    <environments>Default</environments>
+    <interviewLabel>Auot Update OI Cycles to Closed {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Auot Update OI Cycles to Closed</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Results</name>
+        <label>Get Results</label>
+        <locationX>50</locationX>
+        <locationY>455</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Results_Count</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Cycle__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Result_Type__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Pregnancy Test Result</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Result__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Record</name>
+        <label>Update Record</label>
+        <locationX>226</locationX>
+        <locationY>1127</locationY>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Closed Cycle - Completed</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Sub_Status__c</field>
+            <value>
+                <stringValue>Cycle Closed</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>100</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Does_it_Positive_BHCG</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>1 AND (2 OR 3)</filterLogic>
+        <filters>
+            <field>RecordTypeId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>0125m0000004KabAAE</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Pregnancy_Outcome__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Not Pregnant</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Cycle_Outcome__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Positive BHCG</stringValue>
+            </value>
+        </filters>
+        <object>Case</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>ResultsCount</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+    </variables>
+</Flow>

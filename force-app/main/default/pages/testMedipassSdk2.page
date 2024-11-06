@@ -1,0 +1,40 @@
+<apex:page >
+    <!-- Add the static resource to the page's <head> -->
+    <apex:includeScript value="{!URLFOR($Resource.medipassPartnerSdk, 'dist/umd/index.min.js')}"/>
+
+    <!-- JavaScript to initialize and test the SDK -->
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if the SDK global object is available
+            if (window.MedipassTransactionSDK) {
+                document.getElementById("message").innerHTML = "SDK is loaded successfully!";
+                
+                // Initialize the SDK with the provided configuration
+                MedipassTransactionSDK.setConfig({
+                    env: 'stg', // Use the staging environment
+                    apiKey: '641d2ab2f759a3006afd80c6:r7m_I1j_wUFdmAJz31Ks6BsvZoZJtzIWm_lYuVxMTPM',
+                    appId: 'pariosolutions-web',
+                    appVersion: '1.0'
+                });
+
+                // Example function call to test the SDK (replace with actual SDK function if available)
+                MedipassTransactionSDK.renderCreateTransaction({}, {
+                    onSuccess: function(transaction) {
+                        console.log('Transaction created successfully:', transaction);
+                    },
+                    onError: function(error) {
+                        console.error('Transaction creation failed:', error);
+                    },
+                    onCancel: function() {
+                        console.log('Transaction creation cancelled.');
+                    }
+                });
+            } else {
+                document.getElementById("message").innerHTML = "Failed to load SDK.";
+            }
+        });
+    </script>
+    
+    <!-- Where the SDK message will appear -->
+    <h1 id="message"></h1>
+</apex:page>

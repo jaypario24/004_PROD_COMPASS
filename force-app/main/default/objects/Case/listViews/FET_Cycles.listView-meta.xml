@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FET_Cycles</fullName>
+    <columns>CONTACT.ACCOUNT</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Age__c</columns>
+    <columns>Day_1__c</columns>
+    <columns>ANZARD_Number_of_Vit_Blast_Thawed__c</columns>
+    <columns>N_V_BLTH__c</columns>
+    <columns>Total_Number_of_Embryos_Transfered__c</columns>
+    <columns>Cycle_Outcome__c</columns>
+    <columns>Sub_Status__c</columns>
+    <columns>N_FH__c</columns>
+    <columns>Cycle_Protocol__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.FET_Cycle</value>
+    </filters>
+    <filters>
+        <field>Sub_Status__c</field>
+        <operation>equals</operation>
+        <value>WFPR,Awaiting Live Birth,Awaiting Clinical Pregnancy,Cycle Closed</value>
+    </filters>
+    <label>FET Cycles</label>
+</ListView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Append disclaimer if &apos;Checked&apos;(true) else don&apos;t. --></help>
+    <label><!-- AppendDisclaimer --></label>
+    <name>smagicinteract__AppendDisclaimer__c</name>
+</CustomFieldTranslation>

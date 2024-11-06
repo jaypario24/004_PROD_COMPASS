@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>CYCLE_ID__c</columns>
+    <columns>SP_SOURCE__c</columns>
+    <columns>SP_SITE__c</columns>
+    <columns>FDAT_EMB__c</columns>
+    <columns>N_V_BLTH__c</columns>
+    <columns>ET_DATE__c</columns>
+    <columns>N_EGGS__c</columns>
+    <columns>N_FERT__c</columns>
+    <columns>N_ICSI__c</columns>
+    <columns>N_IVF__c</columns>
+    <columns>DATE_TTC__c</columns>
+    <columns>PARENT_SEX__c</columns>
+    <columns>ART_REASON__c</columns>
+    <columns>MALE_DIAG__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PARENT_SEX__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>ART_REASON__c</field>
+        <operation>equals</operation>
+        <value>n</value>
+    </filters>
+    <label>All</label>
+</ListView>

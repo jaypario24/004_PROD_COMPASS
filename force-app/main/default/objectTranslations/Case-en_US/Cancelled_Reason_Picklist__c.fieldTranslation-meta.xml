@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cancelled Reason --></label>
+    <name>Cancelled_Reason_Picklist__c</name>
+    <picklistValues>
+        <masterLabel>Hyper stim</masterLabel>
+        <translation><!-- Hyper stim --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medication error</masterLabel>
+        <translation><!-- Medication error --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient unwell</masterLabel>
+        <translation><!-- Patient unwell --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Poor stim/under stim</masterLabel>
+        <translation><!-- Poor stim/under stim --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

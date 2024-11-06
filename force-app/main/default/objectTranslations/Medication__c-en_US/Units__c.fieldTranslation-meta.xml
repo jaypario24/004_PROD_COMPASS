@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Units --></label>
+    <name>Units__c</name>
+    <picklistValues>
+        <masterLabel>Pumps</masterLabel>
+        <translation><!-- Pumps --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>g</masterLabel>
+        <translation><!-- g --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>gm</masterLabel>
+        <translation><!-- gm --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>iu</masterLabel>
+        <translation><!-- iu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>iu SC</masterLabel>
+        <translation><!-- iu SC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mcg</masterLabel>
+        <translation><!-- mcg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mcg SC</masterLabel>
+        <translation><!-- mcg SC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mg</masterLabel>
+        <translation><!-- mg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mg/ml</masterLabel>
+        <translation><!-- mg/ml --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mgm</masterLabel>
+        <translation><!-- mgm --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>tab</masterLabel>
+        <translation><!-- tab --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>tablet</masterLabel>
+        <translation><!-- tablet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>units</masterLabel>
+        <translation><!-- units --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Semen Sample Scientists --></label>
+    <name>Semen_Sample_Scientists_lookup__c</name>
+    <relationshipLabel><!-- Semen Samples (Semen Sample Scientists) --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lab_All</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Donor_Owner__c</columns>
+    <columns>Reserved_For__c</columns>
+    <columns>Post_Thaw_Total_Motile_Count__c</columns>
+    <columns>Storage_Date__c</columns>
+    <columns>Number_of_Straws_Remaining__c</columns>
+    <columns>Storage_Location_Lookup__c</columns>
+    <columns>Storage_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Number_of_Straws_Remaining__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Storage_Type__c</field>
+        <operation>equals</operation>
+        <value>Medical Storage</value>
+    </filters>
+    <filters>
+        <field>Date_Frozen__c</field>
+        <operation>lessThan</operation>
+        <value>7/1/2023</value>
+    </filters>
+    <filters>
+        <field>Storage_Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>7/1/2022</value>
+    </filters>
+    <label>All Storage</label>
+</ListView>

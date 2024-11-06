@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "45956c79-ee55-4d95-ad58-d7b107dd7f4f",
+  "appPageId" : "114f331c-0fca-40ee-ac71-15bbe016807d",
+  "configurationTags" : [ ],
+  "devName" : "InviteManager__c",
+  "id" : "8a88f36f-33f5-40ea-b372-1f8bb859ce9a",
+  "label" : "InviteManager",
+  "pageAccess" : "Public",
+  "routeType" : "custom-invitemanager",
+  "type" : "route",
+  "urlPrefix" : "invitemanager"
+}

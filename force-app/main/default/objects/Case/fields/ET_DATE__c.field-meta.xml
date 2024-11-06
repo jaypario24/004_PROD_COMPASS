@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ET_DATE__c</fullName>
+    <description>Determine the date when embryo transfer to the female patient was performed.
+If no embryos were transferred, leave this data item blank.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Embryo transfer date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

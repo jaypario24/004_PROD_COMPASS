@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FIX_Eggs_Available_0</fullName>
+    <columns>NAME</columns>
+    <columns>Donor_Owner__c</columns>
+    <columns>Storage_Date__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Egg_Available_Rollup__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Egg_Available_Rollup__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <label>FIX!!! Eggs Available &gt;0</label>
+</ListView>

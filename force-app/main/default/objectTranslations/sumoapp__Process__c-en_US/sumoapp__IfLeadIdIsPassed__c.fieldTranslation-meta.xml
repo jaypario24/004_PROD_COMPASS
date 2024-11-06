@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- If LEAD ID is passed --></label>
+    <name>sumoapp__IfLeadIdIsPassed__c</name>
+    <picklistValues>
+        <masterLabel>Prepopulate Read-Only - Pre-Populate the Lead Form when a Lead ID is passed in the URL, but make it read-only, so the user can not make any changes.</masterLabel>
+        <translation><!-- Prepopulate Read-Only - Pre-Populate the Lead Form when a Lead ID is passed in the URL, but make it read-only, so the user can not make any changes. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prepopulate the Lead Form - Pre-Populate the Lead Form when a Lead ID is passed in the URL and update the lead with any changes made in the lead form data.</masterLabel>
+        <translation><!-- Prepopulate the Lead Form - Pre-Populate the Lead Form when a Lead ID is passed in the URL and update the lead with any changes made in the lead form data. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skip the Lead Form - Skip the Lead Form when a Lead ID is passed in the URL.</masterLabel>
+        <translation><!-- Skip the Lead Form - Skip the Lead Form when a Lead ID is passed in the URL. --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

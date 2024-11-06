@@ -1,0 +1,76 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Scoped Header and Footer",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"bdd984f5-0242-41f1-9e80-9c22cbd44d18\",\"columns\":[{\"UUID\":\"d0b65e0a-c93d-4e2d-8098-4954562c1674\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "rgb(255, 255, 255)",
+                "borderColor" : "rgb(37, 116, 169)",
+                "borderRadius" : "0px",
+                "buttonBackgroundColor" : "rgb(37, 116, 169)",
+                "buttonBackgroundHoverColor" : "rgb(37, 116, 169)",
+                "dxpStyle" : { },
+                "iconColor" : "rgb(255, 255, 255)",
+                "placeholderText" : "Search...",
+                "placeholderTextColor" : "#4a4a4a",
+                "showSearchButton" : true,
+                "textColor" : "rgb(51, 51, 51)"
+              },
+              "definition" : "dxp_search:searchInput",
+              "id" : "11b65c24-a301-42b4-aa4a-e2e58c9bfb88",
+              "type" : "component"
+            } ],
+            "id" : "d0b65e0a-c93d-4e2d-8098-4954562c1674",
+            "name" : "headerSection",
+            "title" : "Theme Header",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "bdd984f5-0242-41f1-9e80-9c22cbd44d18",
+          "type" : "component"
+        } ],
+        "id" : "4edf0b4c-f3c9-4ebb-a52a-6dba233e4186",
+        "name" : "header",
+        "title" : "Theme Header",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"87f119b7-9fda-4c87-a7f6-deb742e2ce1c\",\"columns\":[{\"UUID\":\"84b105bb-9000-4564-82e9-3a810d6c9f20\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "id" : "84b105bb-9000-4564-82e9-3a810d6c9f20",
+            "name" : "footerSection",
+            "title" : "Theme Footer",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "87f119b7-9fda-4c87-a7f6-deb742e2ce1c",
+          "type" : "component"
+        } ],
+        "id" : "1e2cd430-1e1c-48c3-91a8-e6a77cec5abb",
+        "name" : "footer",
+        "title" : "Theme Footer",
+        "type" : "region"
+      } ],
+      "definition" : "community_byo:scopedHeaderAndFooter",
+      "id" : "c4038a14-58fb-408c-aad9-1fcb3a268c96",
+      "type" : "component"
+    }
+  },
+  "urlName" : "scoped-header-and-footer"
+}

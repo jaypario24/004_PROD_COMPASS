@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Vitrolife</fullName>
+        <default>true</default>
+        <label>Vitrolife</label>
+    </customValue>
+    <customValue>
+        <fullName>Sage</fullName>
+        <default>false</default>
+        <label>Sage</label>
+    </customValue>
+    <customValue>
+        <fullName>Cook</fullName>
+        <default>false</default>
+        <label>Cook</label>
+    </customValue>
+    <customValue>
+        <fullName>In-House</fullName>
+        <default>false</default>
+        <label>In-House</label>
+    </customValue>
+    <customValue>
+        <fullName>Kitazato</fullName>
+        <default>false</default>
+        <label>Kitazato</label>
+    </customValue>
+    <masterLabel>Freeze Media</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__ProcessType__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Process Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LEADS</fullName>
+                <default>true</default>
+                <label>Prospect Scheduling with Leads</label>
+            </value>
+            <value>
+                <fullName>BUSINESS_CONTACTS</fullName>
+                <default>false</default>
+                <label>Customer Scheduling (Business Contacts)</label>
+            </value>
+            <value>
+                <fullName>PERSON_ACCOUNTS</fullName>
+                <default>false</default>
+                <label>Customer Scheduling (Person Accounts)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

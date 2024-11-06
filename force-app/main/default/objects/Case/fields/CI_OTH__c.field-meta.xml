@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CI_OTH__c</fullName>
+    <description>For female intending parent (where PARENT_SEX = female-male couple); captures whether cause of infertility is due to other female factors apart from endometriosis and tubal disease.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Cause of infertility due to oth</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>ANZARD_NO_YES_UNKNOWN</valueSetName>
+    </valueSet>
+</CustomField>

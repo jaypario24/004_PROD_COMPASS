@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Price Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Full Price</fullName>
+                <default>false</default>
+                <label>Full Price</label>
+            </value>
+            <value>
+                <fullName>Bulk Billed</fullName>
+                <default>false</default>
+                <label>Bulk Billed</label>
+            </value>
+            <value>
+                <fullName>Discounted by Number</fullName>
+                <default>false</default>
+                <label>Full Price Discounted by Number</label>
+            </value>
+            <value>
+                <fullName>Freeze All</fullName>
+                <default>false</default>
+                <label>Freeze All</label>
+            </value>
+            <value>
+                <fullName>Discount IUI</fullName>
+                <default>false</default>
+                <label>Discount IUI</label>
+            </value>
+            <value>
+                <fullName>Medical Egg Freeze</fullName>
+                <default>false</default>
+                <label>Medical Egg Freeze</label>
+            </value>
+            <value>
+                <fullName>Defence</fullName>
+                <default>false</default>
+                <label>Defence</label>
+            </value>
+            <value>
+                <fullName>Discounted by Percentage</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Discounted by Percentage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

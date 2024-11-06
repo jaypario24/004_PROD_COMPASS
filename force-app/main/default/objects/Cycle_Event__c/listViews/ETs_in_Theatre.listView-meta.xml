@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ETs_in_Theatre</fullName>
+    <columns>NAME</columns>
+    <columns>Cycle__c</columns>
+    <columns>Procedure_Date_Time__c</columns>
+    <columns>Scientist_lookup__c</columns>
+    <columns>Doctor_Lookup__c</columns>
+    <columns>Procedure_Location__c</columns>
+    <columns>Transfer_Difficulty__c</columns>
+    <columns>Catheter_Batch_Number__c</columns>
+    <columns>Extra_Equipment_Used__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Cycle_Event__c.Embryo_Transfer</value>
+    </filters>
+    <filters>
+        <field>Procedure_Location__c</field>
+        <operation>equals</operation>
+        <value>National Capital Private Hospital,Barton Private Hospital,Canberra Private Hospital</value>
+    </filters>
+    <label>ETs in Theatre</label>
+</ListView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__All</fullName>
+    <columns>NAME</columns>
+    <columns>sumoapp__Duration__c</columns>
+    <columns>sumoapp__Description__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>sumoapp__BufferTimePost__c</columns>
+    <columns>sumoapp__BufferTimePre__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>sumoapp__Service__c.sumoapp__Service</value>
+    </filters>
+    <label>All Services</label>
+</ListView>

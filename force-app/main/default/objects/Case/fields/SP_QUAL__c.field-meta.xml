@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SP_QUAL__c</fullName>
+    <description>Concentration of sperm in either ejaculated sample used for fertilisation or the most recent NATA analysis, measured in millions per millilitre (x106/ml).</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Semen quality</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EMB_ICSI__c</fullName>
+    <description>Determine if any of the embryos transferred were a result of an oocyte being fertilised using ICSI.
+If no embryo transfer occurred, leave this data item blank.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Whether any transferred embryos</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>n = No</fullName>
+                <default>false</default>
+                <label>n = No</label>
+            </value>
+            <value>
+                <fullName>y = Yes</fullName>
+                <default>false</default>
+                <label>y = Yes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

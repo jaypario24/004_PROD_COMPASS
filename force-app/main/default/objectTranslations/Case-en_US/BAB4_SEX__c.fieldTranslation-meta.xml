@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ANZARD - Sex of fourth-born baby --></label>
+    <name>BAB4_SEX__c</name>
+    <picklistValues>
+        <masterLabel>f = Female</masterLabel>
+        <translation><!-- f = Female --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>m = Male</masterLabel>
+        <translation><!-- m = Male --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>u = sex unknown</masterLabel>
+        <translation><!-- u = sex unknown --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

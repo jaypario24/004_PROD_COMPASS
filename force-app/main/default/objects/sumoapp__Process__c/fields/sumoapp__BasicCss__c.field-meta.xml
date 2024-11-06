@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__BasicCss__c</fullName>
+    <defaultValue>&apos;{&quot;primaryColor&quot;:&quot;#4A90E2&quot;,&quot;buttonsColor&quot;:&quot;#4A90E3&quot;,&quot;backgroundColor&quot;:&quot;#EAEAEA&quot;,&quot;headerColor&quot;:&quot;#4A90E2&quot;,&quot;subHeaderColor&quot;:&quot;#4A90E2&quot;,&quot;mainTextColor&quot;:&quot;#9B9B9B&quot;,&quot;headerFont&quot;:&quot;Salesforce Sans&quot;,&quot;subHeaderFont&quot;:&quot;Salesforce Sans&quot;,&quot;mainTextFont&quot;:&quot;Salesforce Sans&quot;,&quot;primaryColorLighter&quot;:&quot;#59adff&quot;,&quot;buttonsColorDarker&quot;:&quot;#3b73b6&quot;}&apos;</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Basic CSS</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

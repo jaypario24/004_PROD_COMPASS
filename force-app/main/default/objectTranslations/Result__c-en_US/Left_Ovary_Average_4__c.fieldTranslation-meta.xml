@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Left Ovary - Average 4 --></label>
+    <name>Left_Ovary_Average_4__c</name>
+</CustomFieldTranslation>

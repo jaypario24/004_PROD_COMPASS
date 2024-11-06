@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If enabled, once an event is at capacity, people can join the Waitlist, which will email everyone once-a-day on the Waitlist announcing X openings (where participants declined), and the first to register get the spots. --></help>
+    <label><!-- Is Waitlist Managment --></label>
+    <name>sumoapp__IsWaitlistManagment__c</name>
+</CustomFieldTranslation>

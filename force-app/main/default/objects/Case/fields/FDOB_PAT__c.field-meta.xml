@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FDOB_PAT__c</fullName>
+    <description>Required to define age of patient at the time of treatment. The female patient’s DOB is the DOB of the woman who is intending to or receiving treatment.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Female patient’s date of birth.</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

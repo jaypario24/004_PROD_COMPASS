@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Doctors_Date_Field__c</fullName>
+    <externalId>false</externalId>
+    <formula>Account.Doctor2__r.Compass_Doctor_Dates__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Doctors Date Field</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>

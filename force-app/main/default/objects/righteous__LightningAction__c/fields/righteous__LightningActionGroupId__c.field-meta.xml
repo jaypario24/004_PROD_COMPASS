@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>righteous__LightningActionGroupId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Associate current Action to any Lighting Action Group for logical distribution. 
+Lightning Action Group&apos;s Condition validated first, and then current Action&apos;s Condition.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Associate current Action to any Lighting Action Group for logical distribution. 
+Lightning Action Group&apos;s Condition validated first, and then current Action&apos;s Condition.</inlineHelpText>
+    <label>Lightning Action Group</label>
+    <referenceTo>righteous__LightningActionGroup__c</referenceTo>
+    <relationshipLabel>Lightning Actions</relationshipLabel>
+    <relationshipName>LightningActionGroup</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

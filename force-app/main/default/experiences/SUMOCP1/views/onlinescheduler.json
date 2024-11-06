@@ -1,0 +1,46 @@
+{
+  "appPageId" : "114f331c-0fca-40ee-ac71-15bbe016807d",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "bc52673d-392e-4367-9019-9344c1b71777",
+  "label" : "onlinescheduler",
+  "regions" : [ {
+    "id" : "4663c1b1-9e79-49da-8a6d-a217b8c8a45b",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "sumoapp:onlineSchedulerPortalPage",
+      "id" : "ce8b3e2d-a5fb-43fb-8205-bc30a21e21da",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ba04bac5-ed00-4848-9068-9ba97130d612",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "ff108f85-518b-425e-bea5-bda3ff03e004",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "onlinescheduler"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "23d6ce24-079d-4f84-ab9a-75c2eabee510",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0b6594e3-caa7-4cb8-a742-e1a960253aa1",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-onlinescheduler"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PCOS__c</fullName>
+    <description>Whether the female intending parent (where PARENT_SEX is female-male couple) has PCOS, regardless of whether it is contributing to infertility or not.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Whether the female intending pa</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>ANZARD_NO_YES_UNKNOWN</valueSetName>
+    </valueSet>
+</CustomField>

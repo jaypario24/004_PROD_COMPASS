@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Andro_Logbook</fullName>
+    <columns>Collection_Date_Time__c</columns>
+    <columns>Analysis_Date_Time__c</columns>
+    <columns>Lab_Number__c</columns>
+    <columns>Donor_Owner__c</columns>
+    <columns>Patient_ID__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>NAME</columns>
+    <columns>Analysis_Scientist__c</columns>
+    <columns>Comments__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Sample_for_Freeze__c</field>
+        <operation>equals</operation>
+        <value>No</value>
+    </filters>
+    <filters>
+        <field>Related_Cycle__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Comments__c</field>
+        <operation>notContain</operation>
+        <value>freeze</value>
+    </filters>
+    <filters>
+        <field>Comments__c</field>
+        <operation>notContain</operation>
+        <value>fz</value>
+    </filters>
+    <filters>
+        <field>Analysis_Date_Time__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>11/12/2022 12:00 AM</value>
+    </filters>
+    <label>SA Andro Logbook</label>
+</ListView>

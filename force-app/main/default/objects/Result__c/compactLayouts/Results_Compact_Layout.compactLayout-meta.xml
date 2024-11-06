@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Results_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>Result_Type__c</fields>
+    <fields>Collected__c</fields>
+    <fields>Cycle__c</fields>
+    <fields>Patients_or_Donors__c</fields>
+    <label>Results Compact Layout</label>
+</CompactLayout>

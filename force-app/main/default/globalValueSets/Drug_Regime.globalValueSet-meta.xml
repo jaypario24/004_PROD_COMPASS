@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Once a Day</fullName>
+        <default>false</default>
+        <label>Once a Day</label>
+    </customValue>
+    <customValue>
+        <fullName>Twice a Day</fullName>
+        <default>false</default>
+        <label>Twice a Day</label>
+    </customValue>
+    <customValue>
+        <fullName>Three times a Day</fullName>
+        <default>false</default>
+        <label>Three times a Day</label>
+    </customValue>
+    <customValue>
+        <fullName>Four Times Daily</fullName>
+        <default>false</default>
+        <label>Four Times Daily</label>
+    </customValue>
+    <customValue>
+        <fullName>Once Every 2 Days</fullName>
+        <default>false</default>
+        <label>Once Every 2 Days</label>
+    </customValue>
+    <customValue>
+        <fullName>Once Every 3 Days</fullName>
+        <default>false</default>
+        <label>Once Every 3 Days</label>
+    </customValue>
+    <customValue>
+        <fullName>Once a Cycle</fullName>
+        <default>false</default>
+        <label>Once a Cycle</label>
+    </customValue>
+    <masterLabel>Drug Regime</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

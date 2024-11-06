@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Medication Timing --></label>
+    <name>Medication_Timing__c</name>
+    <picklistValues>
+        <masterLabel>AM</masterLabel>
+        <translation><!-- AM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AM &amp; PM</masterLabel>
+        <translation><!-- AM &amp; PM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PM</masterLabel>
+        <translation><!-- PM --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

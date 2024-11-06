@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__AvailabilityOptions__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Availability Options</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>OPEN</fullName>
+                <default>false</default>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>CUSTOM</fullName>
+                <default>false</default>
+                <label>Custom</label>
+            </value>
+            <value>
+                <fullName>ROLLING_WINDOW</fullName>
+                <default>false</default>
+                <label>Rolling Window</label>
+            </value>
+            <value>
+                <fullName>DATE_RANGE</fullName>
+                <default>false</default>
+                <label>Date Range</label>
+            </value>
+            <value>
+                <fullName>TRAVEL_TIME_GAP</fullName>
+                <default>false</default>
+                <label>Buffer Time</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

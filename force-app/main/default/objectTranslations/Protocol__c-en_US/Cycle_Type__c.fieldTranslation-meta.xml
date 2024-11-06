@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cycle Type --></label>
+    <name>Cycle_Type__c</name>
+    <picklistValues>
+        <masterLabel>Clomid</masterLabel>
+        <translation><!-- Clomid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FSH</masterLabel>
+        <translation><!-- FSH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HRT</masterLabel>
+        <translation><!-- HRT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Letrozole</masterLabel>
+        <translation><!-- Letrozole --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

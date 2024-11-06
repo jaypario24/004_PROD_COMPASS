@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pathology_Request</fullName>
+    <active>true</active>
+    <label>Pathology Request</label>
+    <picklistValues>
+        <picklist>Medication_Type__c</picklist>
+        <values>
+            <fullName>Contraceptive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FSH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GnRH%2Fdown reg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luteal support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ov Stim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trigger</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Regime__c</picklist>
+        <values>
+            <fullName>Once Every 2 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Once Every 3 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Once a Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Once a Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Three times a Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Twice a Day</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Task_Allocated_to__c</picklist>
+        <values>
+            <fullName>Doctors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laboratory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nursing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patient Services</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Result</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Results</value>
+    </caseValues>
+    <layouts>
+        <layout>Result Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Scan --></label>
+            <section>Scan</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>System Generated Result</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Scan --></label>
+            <section>Scan</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Book Bloods &amp; Scans --></label>
+        <name>Book_Bloods_Scans</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Sex Event --></label>
+        <name>Create_Sex_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Sonographer Report --></label>
+        <name>Create_Sonographer_Report</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email Doctor --></label>
+        <name>Email_Doctor</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>Email_Results</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Schedule Now --></label>
+        <name>Schedule_Now</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- PGT Result --></label>
+        <name>PGT_Result</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Staff Created Results --></label>
+        <name>Staff_Created_Results</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- System Generated Results --></label>
+        <name>System_Generated_Results</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

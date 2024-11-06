@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fertilisation_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Fertilisation Status</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2PN</fullName>
+                <default>false</default>
+                <label>2PN</label>
+            </value>
+            <value>
+                <fullName>1PN</fullName>
+                <default>false</default>
+                <label>1PN</label>
+            </value>
+            <value>
+                <fullName>0PN</fullName>
+                <default>false</default>
+                <label>0PN</label>
+            </value>
+            <value>
+                <fullName>MI</fullName>
+                <default>false</default>
+                <label>MI</label>
+            </value>
+            <value>
+                <fullName>GV</fullName>
+                <default>false</default>
+                <label>GV</label>
+            </value>
+            <value>
+                <fullName>Deg</fullName>
+                <default>false</default>
+                <label>Deg</label>
+            </value>
+            <value>
+                <fullName>&gt;2PN</fullName>
+                <default>false</default>
+                <label>3PN+</label>
+            </value>
+            <value>
+                <fullName>No Oocyte (NO)</fullName>
+                <default>false</default>
+                <label>No Oocyte (NO)</label>
+            </value>
+            <value>
+                <fullName>RZ</fullName>
+                <default>false</default>
+                <label>RZ</label>
+            </value>
+            <value>
+                <fullName>Abn.</fullName>
+                <default>false</default>
+                <label>Abn.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Post Thaw Day 5 Fragmentation --></label>
+    <name>Post_Thaw_Day_5_Fragmentation__c</name>
+    <picklistValues>
+        <masterLabel>+</masterLabel>
+        <translation><!-- + --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>++</masterLabel>
+        <translation><!-- ++ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>+++</masterLabel>
+        <translation><!-- +++ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0</masterLabel>
+        <translation><!-- 0 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0+</masterLabel>
+        <translation><!-- 0+ --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

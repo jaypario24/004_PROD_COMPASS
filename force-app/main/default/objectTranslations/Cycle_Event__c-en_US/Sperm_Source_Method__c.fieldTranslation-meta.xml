@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sperm Supply Method --></label>
+    <name>Sperm_Source_Method__c</name>
+    <picklistValues>
+        <masterLabel>Ejaculate</masterLabel>
+        <translation><!-- Ejaculate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Needle Aspirate</masterLabel>
+        <translation><!-- Needle Aspirate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Open Biopsy</masterLabel>
+        <translation><!-- Open Biopsy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retrograde</masterLabel>
+        <translation><!-- Retrograde --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

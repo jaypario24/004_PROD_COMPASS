@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type of Sample --></label>
+    <name>Type_of_Sample__c</name>
+    <picklistValues>
+        <masterLabel>Aspirate</masterLabel>
+        <translation><!-- Aspirate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ejaculate</masterLabel>
+        <translation><!-- Ejaculate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>From Another Clinic</masterLabel>
+        <translation><!-- From Another Clinic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Open Biopsy</masterLabel>
+        <translation><!-- Open Biopsy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retrograde</masterLabel>
+        <translation><!-- Retrograde --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

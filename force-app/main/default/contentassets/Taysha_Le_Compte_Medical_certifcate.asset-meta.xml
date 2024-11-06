@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>true</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>Taysha_Le_Compte_Medical_certifcate</masterLabel>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>Taysha Le Compte Medical certifcate.pdf</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PR_REDUC__c</fullName>
+    <description>Determine whether selective reduction was performed.
+If it was performed, provide details about reasons in the ABN_LESS data item.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Selective reduction performed</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>n = No</fullName>
+                <default>false</default>
+                <label>n = No</label>
+            </value>
+            <value>
+                <fullName>y = Yes</fullName>
+                <default>false</default>
+                <label>y = Yes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>N_EGFZ_V__c</fullName>
+    <description>Number of oocytes vitrified in this cycle. For oocyte donation/provision cycles, use this data item to record the number of vitrified oocytes donated/provided. If fresh oocytes are donated/provided, use the N_EGGDON_FRESH data item instead.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Number of oocytes vitrified</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

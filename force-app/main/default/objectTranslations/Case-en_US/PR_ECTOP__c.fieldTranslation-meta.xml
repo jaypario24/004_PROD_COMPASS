@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ANZARD - Ectopic pregnancy --></label>
+    <name>PR_ECTOP__c</name>
+    <picklistValues>
+        <masterLabel>e = ectopic</masterLabel>
+        <translation><!-- e = ectopic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>h = heterotopic</masterLabel>
+        <translation><!-- h = heterotopic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>n = neither ectopic nor heterotopic</masterLabel>
+        <translation><!-- n = neither ectopic nor heterotopic --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

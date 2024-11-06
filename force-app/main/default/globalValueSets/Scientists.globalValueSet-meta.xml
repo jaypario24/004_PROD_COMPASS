@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Simone Coote</fullName>
+        <default>false</default>
+        <label>Simone Coote</label>
+    </customValue>
+    <customValue>
+        <fullName>Vanessa Otten</fullName>
+        <default>false</default>
+        <label>Vanessa Otten</label>
+    </customValue>
+    <customValue>
+        <fullName>Meghan Wray</fullName>
+        <default>false</default>
+        <label>Meghan Wray</label>
+    </customValue>
+    <masterLabel>Scientists</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

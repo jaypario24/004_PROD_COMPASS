@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>recent_thaws</fullName>
+    <columns>CONTACT.ACCOUNT</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Age__c</columns>
+    <columns>Day_1__c</columns>
+    <columns>ANZARD_Number_of_Vit_Blast_Thawed__c</columns>
+    <columns>N_V_BLTH__c</columns>
+    <columns>Total_Number_of_Embryos_Transfered__c</columns>
+    <columns>Cycle_Outcome__c</columns>
+    <columns>Sub_Status__c</columns>
+    <columns>N_FH__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.FET_Cycle</value>
+    </filters>
+    <filters>
+        <field>CYCLE_TYPE_c__c</field>
+        <operation>equals</operation>
+        <value>&quot;1 = Autologous: Female-male couple, single female, female- female&quot;,2 = Non-autologous: Female-female couple</value>
+    </filters>
+    <filters>
+        <field>Age__c</field>
+        <operation>lessOrEqual</operation>
+        <value>37</value>
+    </filters>
+    <filters>
+        <field>Sub_Status__c</field>
+        <operation>equals</operation>
+        <value>Awaiting Live Birth,Awaiting Clinical Pregnancy,Cycle Closed</value>
+    </filters>
+    <label>recent thaws</label>
+    <sharedTo>
+        <group>Laboratory</group>
+    </sharedTo>
+</ListView>

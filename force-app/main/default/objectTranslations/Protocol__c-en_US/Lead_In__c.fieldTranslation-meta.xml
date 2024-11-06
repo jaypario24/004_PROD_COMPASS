@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Lead In --></label>
+    <name>Lead_In__c</name>
+    <picklistValues>
+        <masterLabel>Natural</masterLabel>
+        <translation><!-- Natural --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OCP</masterLabel>
+        <translation><!-- OCP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primolut</masterLabel>
+        <translation><!-- Primolut --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Progesterone</masterLabel>
+        <translation><!-- Progesterone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Syneral</masterLabel>
+        <translation><!-- Syneral --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

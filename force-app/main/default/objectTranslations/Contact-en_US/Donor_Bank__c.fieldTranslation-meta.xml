@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Donor Bank --></label>
+    <name>Donor_Bank__c</name>
+    <picklistValues>
+        <masterLabel>CALC</masterLabel>
+        <translation><!-- CALC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CEB</masterLabel>
+        <translation><!-- CEB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ESB</masterLabel>
+        <translation><!-- ESB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FFX</masterLabel>
+        <translation><!-- FFX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IVMED</masterLabel>
+        <translation><!-- IVMED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MM</masterLabel>
+        <translation><!-- MM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SSB</masterLabel>
+        <translation><!-- SSB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TWESB</masterLabel>
+        <translation><!-- TWESB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>XYT</masterLabel>
+        <translation><!-- XYT --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

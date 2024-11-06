@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Recurring-messaging programs must also display opt-out instructions at regular intervals, whether in content or service messages, at least once per month. --></help>
+    <label><!-- OptOutDisclaimer --></label>
+    <name>smagicinteract__OptOutDisclaimer__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>N_V_BLTH__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>ANZARD defines a blastocyst as an embryo that is five to six days old, after fertilisation.
+For embryo recipient cycles, use this data item to record the number of received, vitrified blastocysts being warmed in the cycle. If fresh embryos were received, use N_EMBREC_FRESH data item instead.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Number of vitrified blastocysts</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MNAM_SUR2__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    TEXT(CYCLE_ID__r.Contact.Partner__r.Sex_at_Birth__c) = &quot;Male&quot;,
+    (
+        IF(
+            CONTAINS(&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz&quot;, LEFT(CYCLE_ID__r.Contact.Partner__r.LastName, 1)),
+            LEFT(CYCLE_ID__r.Contact.Partner__r.LastName, 1),
+            MID(CYCLE_ID__r.Contact.Partner__r.LastName, 2, 1)
+        )
+        &amp;
+        IF(
+            CONTAINS(&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz&quot;, MID(CYCLE_ID__r.Contact.Partner__r.LastName, 2, 1)),
+            MID(CYCLE_ID__r.Contact.Partner__r.LastName, 2, 1),
+            MID(CYCLE_ID__r.Contact.Partner__r.LastName, 3, 1)
+        )
+    ),
+    &quot;&quot;
+)</formula>
+    <label>MNAM_SUR2</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

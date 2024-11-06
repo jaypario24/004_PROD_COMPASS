@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Backlog Type --></label>
+    <name>Backlog_Type__c</name>
+    <picklistValues>
+        <masterLabel>Bug Report</masterLabel>
+        <translation><!-- Bug Report --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Feature Request</masterLabel>
+        <translation><!-- New Feature Request --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cycles_Processed_For_Medicare</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Medicare_Submitted_Date__c</columns>
+    <columns>Price_Type__c</columns>
+    <columns>Cycle_Price__c</columns>
+    <columns>Cycle_Outcome__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Case.OI_Cycle</value>
+    </filters>
+    <filters>
+        <field>Medicare_Submitted__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Cycles Processed For Medicare</label>
+    <sharedTo>
+        <group>Patient_Services</group>
+    </sharedTo>
+</ListView>

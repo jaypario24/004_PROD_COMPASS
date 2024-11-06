@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sub Status --></label>
+    <name>Sub_Status__c</name>
+    <picklistValues>
+        <masterLabel>Awaiting Clinical Pregnancy</masterLabel>
+        <translation><!-- Awaiting Clinical Pregnancy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Awaiting Live Birth</masterLabel>
+        <translation><!-- Awaiting Live Birth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancelled Cycle</masterLabel>
+        <translation><!-- Cancelled Cycle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cycle Closed</masterLabel>
+        <translation><!-- Cycle Closed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Cycle</masterLabel>
+        <translation><!-- In Cycle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WFPR</masterLabel>
+        <translation><!-- WFPR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting to Start</masterLabel>
+        <translation><!-- Waiting to Start --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

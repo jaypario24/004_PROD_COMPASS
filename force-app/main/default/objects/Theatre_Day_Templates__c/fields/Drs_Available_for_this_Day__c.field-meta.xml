@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Drs_Available_for_this_Day__c</fullName>
+    <externalId>false</externalId>
+    <label>Drs Available for this Day</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dr Kristi Bateman</fullName>
+                <default>false</default>
+                <label>Dr Kristi Bateman</label>
+            </value>
+            <value>
+                <fullName>Dr Nicole Sides</fullName>
+                <default>false</default>
+                <label>Dr Nicole Sides</label>
+            </value>
+            <value>
+                <fullName>Dr Sarah Broderick</fullName>
+                <default>false</default>
+                <label>Dr Sarah Broderick</label>
+            </value>
+            <value>
+                <fullName>Dr Sim Hom Tam</fullName>
+                <default>false</default>
+                <label>Dr Sim Hom Tam</label>
+            </value>
+            <value>
+                <fullName>Dr Sonia Hossain</fullName>
+                <default>false</default>
+                <label>Dr Sonia Hossain</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

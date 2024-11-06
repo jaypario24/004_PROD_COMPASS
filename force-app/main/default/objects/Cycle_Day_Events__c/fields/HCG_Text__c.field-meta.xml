@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HCG_Text__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(ISBLANK(HCG__c), HCG_Required__c = TRUE), &quot;X&quot;,
+  IF(AND(NOT(ISBLANK(HCG__c)), HCG__c &lt;= 5), &quot;&lt;5&quot;, 
+    TEXT(HCG__c))
+)</formula>
+    <label>HCG Text</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

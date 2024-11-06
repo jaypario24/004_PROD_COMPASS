@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>upcoming_cycle_protocols</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>Day_1__c</columns>
+    <columns>Doctor_Initiating_Cycle__c</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>CASES.LAST_UPDATE</columns>
+    <columns>Medicare_Submitted_Date__c</columns>
+    <columns>Sub_Status__c</columns>
+    <columns>Linked_Protocol__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Linked_Protocol__c</field>
+        <operation>notEqual</operation>
+        <value>stim cycle master</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Egg_Freeze_Cycle,Case.Fresh_Egg_Donor_Cycle,Case.IVF_Cycle</value>
+    </filters>
+    <filters>
+        <field>Sub_Status__c</field>
+        <operation>equals</operation>
+        <value>Waiting to Start</value>
+    </filters>
+    <label>upcoming cycle protocols</label>
+</ListView>

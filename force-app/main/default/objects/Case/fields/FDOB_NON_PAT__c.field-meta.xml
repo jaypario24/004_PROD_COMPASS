@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FDOB_NON_PAT__c</fullName>
+    <description>Captures the female intending parent’s date of birth who is not receiving treatment in the cycle. Complete this field if this is an embryo transfer for a surrogacy cycle (SURR=y) where the intending parents are female- male couple or single female.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Non-patient, female intending p</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

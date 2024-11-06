@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__IsNotArrived__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>It shows whether the attendee has arrived at the event or not</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Set this value if the attendee did not arrive at the event</inlineHelpText>
+    <label>Is Not Arrived</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

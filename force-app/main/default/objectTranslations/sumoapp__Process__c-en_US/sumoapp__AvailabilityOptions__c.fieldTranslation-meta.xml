@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Availability Options --></label>
+    <name>sumoapp__AvailabilityOptions__c</name>
+    <picklistValues>
+        <masterLabel>Buffer Time</masterLabel>
+        <translation><!-- Buffer Time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom</masterLabel>
+        <translation><!-- Custom --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Date Range</masterLabel>
+        <translation><!-- Date Range --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Open</masterLabel>
+        <translation><!-- Open --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rolling Window</masterLabel>
+        <translation><!-- Rolling Window --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ART_REASON__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    PARENT_SEX__c = &quot;1&quot;,
+    IF(
+        NOT(ISBLANK(TEXT(CYCLE_ID__r.Contact.Is_Treatment_Unrelated_to_Infertility__c))),
+        LEFT(TEXT(CYCLE_ID__r.Contact.Is_Treatment_Unrelated_to_Infertility__c), 1),
+        IF(
+            NOT(ISBLANK(TEXT(CYCLE_ID__r.ART_REASON__c))),
+            MID(TEXT(CYCLE_ID__r.ART_REASON__c), 5, 1),
+            &quot;n&quot;
+        )
+    ),
+    NULL
+)</formula>
+    <label>ART_REASON</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

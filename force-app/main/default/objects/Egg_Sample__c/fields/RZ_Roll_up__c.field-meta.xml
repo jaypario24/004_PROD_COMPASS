@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RZ_Roll_up__c</fullName>
+    <externalId>false</externalId>
+    <label>RZ Roll up</label>
+    <summaryFilterItems>
+        <field>Egg__c.Grade__c</field>
+        <operation>equals</operation>
+        <value>RZ</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Egg__c.Egg_Cohort__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

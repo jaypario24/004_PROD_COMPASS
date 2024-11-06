@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__Location_is_required_for_Rooms</fullName>
+    <active>true</active>
+    <errorConditionFormula>RecordType.DeveloperName = &apos;Room&apos; &amp;&amp; ISBLANK(sumoapp__Location__c)</errorConditionFormula>
+    <errorDisplayField>sumoapp__Location__c</errorDisplayField>
+    <errorMessage>Since rooms exist inside locations, you must choose a location for each room.</errorMessage>
+</ValidationRule>

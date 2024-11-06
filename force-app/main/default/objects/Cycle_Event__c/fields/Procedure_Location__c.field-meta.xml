@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Procedure_Location__c</fullName>
+    <externalId>false</externalId>
+    <label>Procedure Location</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Compass Fertility</fullName>
+                <default>false</default>
+                <label>Compass Fertility</label>
+            </value>
+            <value>
+                <fullName>National Capital Private Hospital</fullName>
+                <default>false</default>
+                <label>National Capital Private Hospital</label>
+            </value>
+            <value>
+                <fullName>Barton Private Hospital</fullName>
+                <default>false</default>
+                <label>Barton Private Hospital</label>
+            </value>
+            <value>
+                <fullName>Canberra Private Hospital</fullName>
+                <default>false</default>
+                <label>Canberra Private Hospital</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

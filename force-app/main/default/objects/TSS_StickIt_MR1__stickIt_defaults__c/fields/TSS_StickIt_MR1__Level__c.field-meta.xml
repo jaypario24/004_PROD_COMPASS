@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TSS_StickIt_MR1__Level__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Level this setting applies to (Organization, Profile, or User). If profile or user, this field should contain the profile/user Id.</description>
+    <externalId>false</externalId>
+    <label>Level</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

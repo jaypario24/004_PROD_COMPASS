@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_PGT</fullName>
+    <booleanFilter>1 AND 2 AND 3</booleanFilter>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Embryo_Status__c</columns>
+    <columns>Embryo_Number__c</columns>
+    <columns>Household__c</columns>
+    <columns>Storage_Date__c</columns>
+    <columns>Related_Cycle__c</columns>
+    <columns>PGT_Result__c</columns>
+    <columns>Notes__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Storage_Date__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>PGT_Result__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Embryo_Status__c</field>
+        <operation>equals</operation>
+        <value>For Freeze,PGT Locked,Frozen</value>
+    </filters>
+    <label>All PGT in storage</label>
+</ListView>

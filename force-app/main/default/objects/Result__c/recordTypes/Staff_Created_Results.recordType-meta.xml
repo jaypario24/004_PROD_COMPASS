@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Staff_Created_Results</fullName>
+    <active>true</active>
+    <label>Staff Created Results</label>
+    <picklistValues>
+        <picklist>ERPeak_Type__c</picklist>
+        <values>
+            <fullName>Non-Receptive Day 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Receptive Day 5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Endometrium_Type__c</picklist>
+        <values>
+            <fullName>Proliferative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secretory</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HEP_B__c</picklist>
+        <values>
+            <fullName>Detected POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Detected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HEP_C__c</picklist>
+        <values>
+            <fullName>Detected POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Detected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HIV__c</picklist>
+        <values>
+            <fullName>Detected POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Detected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Number_of_Heart_Beats__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Number_of_Sacs__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PGT__c</picklist>
+        <values>
+            <fullName>Aneuploid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Risk %28Affected%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inconclusive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Risk %28Carrier%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Risk %28Unaffected%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mosaic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Result</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Result_Type__c</picklist>
+        <values>
+            <fullName>Antral Follicle Count</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blood Test Result</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Infectious Screens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PGT Result</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pregnancy Histopathology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pregnancy Scan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pregnancy Test Result</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Record Ovulation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Where in Cycle Blood</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rubella_Type__c</picklist>
+        <values>
+            <fullName>Immune</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Immune</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sonographer__c</picklist>
+        <values>
+            <fullName>Karen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lori</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Uterus__c</picklist>
+        <values>
+            <fullName>Anteverted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retroverted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

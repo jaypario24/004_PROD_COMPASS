@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Unique Index number for related Action / Group. This Index value can be used in Condition Expression String. --></help>
+    <label><!-- Index --></label>
+    <name>righteous__Index__c</name>
+</CustomFieldTranslation>

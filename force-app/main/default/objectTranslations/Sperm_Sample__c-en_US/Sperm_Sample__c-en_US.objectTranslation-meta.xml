@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Semen Sample</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Semen Samples</value>
+    </caseValues>
+    <layouts>
+        <layout>Sperm Sample Layout</layout>
+        <sections>
+            <label><!-- AirSlate Fields --></label>
+            <section>AirSlate Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Analysis Details --></label>
+            <section>Analysis Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Donor Information --></label>
+            <section>Donor Information</section>
+        </sections>
+        <sections>
+            <label><!-- Post-Thaw Analysis --></label>
+            <section>Post-Thaw Analysis</section>
+        </sections>
+        <sections>
+            <label><!-- Sample for Freeze Details --></label>
+            <section>Sample for Freeze Details</section>
+        </sections>
+        <sections>
+            <label><!-- Storage Information --></label>
+            <section>Storage Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Semen Sample Number</nameFieldLabel>
+    <quickActions>
+        <label><!-- Create New Semen Sample --></label>
+        <name>Create_New_Semen_Sample</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Discard Sample --></label>
+        <name>Discard_Sample</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send Dr Andro Report --></label>
+        <name>Generate_Andro_Report</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Sperm Sample Details --></label>
+        <name>Sperm_Sample_Details</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

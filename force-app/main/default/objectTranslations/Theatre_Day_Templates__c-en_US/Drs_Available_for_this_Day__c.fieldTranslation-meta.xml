@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Drs Available for this Day --></label>
+    <name>Drs_Available_for_this_Day__c</name>
+    <picklistValues>
+        <masterLabel>Dr Kristi Bateman</masterLabel>
+        <translation><!-- Dr Kristi Bateman --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dr Nicole Sides</masterLabel>
+        <translation><!-- Dr Nicole Sides --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dr Sarah Broderick</masterLabel>
+        <translation><!-- Dr Sarah Broderick --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dr Sim Hom Tam</masterLabel>
+        <translation><!-- Dr Sim Hom Tam --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dr Sonia Hossain</masterLabel>
+        <translation><!-- Dr Sonia Hossain --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

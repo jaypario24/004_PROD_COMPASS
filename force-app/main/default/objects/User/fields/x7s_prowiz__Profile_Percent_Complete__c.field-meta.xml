@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>x7s_prowiz__Profile_Percent_Complete__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>(
+IF(ISBLANK(Title), 0, 1) +
+IF(ISBLANK(Department), 0, 1) +
+IF(ISBLANK(Division), 0, 1) +
+
+IF(ISBLANK(Email), 0, 1) +
+IF(ISBLANK(Phone), 0, 1) +
+IF(ISBLANK(MobilePhone), 0, 1) +
+
+IF(ISBLANK(Street), 0, 1) +
+IF(ISBLANK(City) , 0, 1) +
+IF(ISBLANK(State), 0, 1) +
+IF(ISBLANK(PostalCode), 0, 1)
+
+)
+
+
+/ 10</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Profile Percent Complete</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Percent</type>
+</CustomField>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>IO</fullName>
+        <default>false</default>
+        <label>IO</label>
+    </customValue>
+    <customValue>
+        <fullName>IUI</fullName>
+        <default>false</default>
+        <label>IUI</label>
+    </customValue>
+    <customValue>
+        <fullName>IVF</fullName>
+        <default>false</default>
+        <label>IVF</label>
+    </customValue>
+    <customValue>
+        <fullName>FET</fullName>
+        <default>false</default>
+        <label>FET</label>
+    </customValue>
+    <customValue>
+        <fullName>VOT</fullName>
+        <default>false</default>
+        <label>VOT</label>
+    </customValue>
+    <customValue>
+        <fullName>TARFO</fullName>
+        <default>false</default>
+        <label>TARFO</label>
+    </customValue>
+    <customValue>
+        <fullName>Egg Freeze</fullName>
+        <default>false</default>
+        <label>Egg Freeze</label>
+    </customValue>
+    <masterLabel>Cycle Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

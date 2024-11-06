@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Stores the ID of the moc for which the config is done. --></help>
+    <label><!-- Message Object Config --></label>
+    <name>smagicinteract__Message_Object_Config__c</name>
+    <relationshipLabel><!-- Converse Desk User Configs --></relationshipLabel>
+</CustomFieldTranslation>

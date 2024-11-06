@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <label><!-- Appt Services --></label>
+        <name>sumoapp__Service</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Host Skills --></label>
+        <name>sumoapp__Skill</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <apiVersion>56.0</apiVersion>
+    <assignments>
+        <name>Assign_Days</name>
+        <label>Assign Days</label>
+        <locationX>176</locationX>
+        <locationY>518</locationY>
+        <assignmentItems>
+            <assignToReference>DaysVar</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Days</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Make_Date_Variable_today</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Make_Date_Variable_today</name>
+        <label>Make Date Variable today</label>
+        <locationX>176</locationX>
+        <locationY>638</locationY>
+        <assignmentItems>
+            <assignToReference>DateVar</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_Days</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Does_Date_Fall_On_selected_Day</name>
+        <label>Does Date Fall On selected Day?</label>
+        <locationX>440</locationX>
+        <locationY>878</locationY>
+        <defaultConnector>
+            <targetReference>Loop_Days</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>DateVarDay</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>Loop_Days</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Loop_Days</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+        <rules>
+            <name>No</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>DateVarDay</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>Loop_Days</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Loop_Days</targetReference>
+            </connector>
+            <label>No</label>
+        </rules>
+    </decisions>
+    <dynamicChoiceSets>
+        <name>ChooseCalendar</name>
+        <collectionReference>Get_Calendars</collectionReference>
+        <dataType>String</dataType>
+        <displayField>Name</displayField>
+        <object>Calendar</object>
+        <valueField>Id</valueField>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>Days</name>
+        <dataType>Multipicklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Days_of_Week__c</picklistField>
+        <picklistObject>Avalibility__c</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>Minutes</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Minutes__c</picklistField>
+        <picklistObject>Avalibility__c</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>StartHours</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Hours__c</picklistField>
+        <picklistObject>Avalibility__c</picklistObject>
+    </dynamicChoiceSets>
+    <environments>Default</environments>
+    <formulas>
+        <name>CurrentDayoftheWeek</name>
+        <dataType>String</dataType>
+        <expression>CASE(
+  MOD( {!$Flow.CurrentDate}- DATE( 1900, 1, 7 ), 7 ),
+  0, &quot;Sunday&quot;,
+  1, &quot;Monday&quot;,
+  2, &quot;Tuesday&quot;,
+  3, &quot;Wednesday&quot;,
+  4, &quot;Thursday&quot;,
+  5, &quot;Friday&quot;, 
+  &quot;Saturday&quot;
+)</expression>
+    </formulas>
+    <formulas>
+        <name>DateVarDay</name>
+        <dataType>String</dataType>
+        <expression>CASE(
+  MOD( {!DateVar}- DATE( 1900, 1, 7 ), 7 ),
+  0, &quot;Sunday&quot;,
+  1, &quot;Monday&quot;,
+  2, &quot;Tuesday&quot;,
+  3, &quot;Wednesday&quot;,
+  4, &quot;Thursday&quot;,
+  5, &quot;Friday&quot;, 
+  &quot;Saturday&quot;
+)</expression>
+    </formulas>
+    <interviewLabel>Developer Availability Test {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Developer Availability Test</label>
+    <loops>
+        <name>Loop_Days</name>
+        <label>Loop Days</label>
+        <locationX>176</locationX>
+        <locationY>758</locationY>
+        <collectionReference>DaysVar</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Does_Date_Fall_On_selected_Day</targetReference>
+        </nextValueConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>Get_Calendars</name>
+        <label>Get Calendars</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Choose_Calendar</targetReference>
+        </connector>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Calendar</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <screens>
+        <name>Choose_Calendar</name>
+        <label>Choose Calendar</label>
+        <locationX>176</locationX>
+        <locationY>278</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Select_Days_and_Times</targetReference>
+        </connector>
+        <fields>
+            <name>CalendarChoice</name>
+            <choiceReferences>ChooseCalendar</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Choose Calendar You Want to Set Availability for</fieldText>
+            <fieldType>MultiSelectCheckboxes</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Select_Days_and_Times</name>
+        <label>Select Days and Times</label>
+        <locationX>176</locationX>
+        <locationY>398</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Assign_Days</targetReference>
+        </connector>
+        <fields>
+            <name>Choose_Days</name>
+            <choiceReferences>Days</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Choose Days</fieldText>
+            <fieldType>MultiSelectCheckboxes</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Select_Days_and_Times_Section1</name>
+            <fieldType>RegionContainer</fieldType>
+            <fields>
+                <name>Select_Days_and_Times_Section1_Column1</name>
+                <fieldType>Region</fieldType>
+                <fields>
+                    <name>Start_Hours</name>
+                    <choiceReferences>StartHours</choiceReferences>
+                    <dataType>String</dataType>
+                    <fieldText>Start Hours</fieldText>
+                    <fieldType>DropdownBox</fieldType>
+                    <isRequired>true</isRequired>
+                </fields>
+                <inputParameters>
+                    <name>width</name>
+                    <value>
+                        <stringValue>6</stringValue>
+                    </value>
+                </inputParameters>
+                <isRequired>false</isRequired>
+            </fields>
+            <fields>
+                <name>Select_Days_and_Times_Section1_Column2</name>
+                <fieldType>Region</fieldType>
+                <fields>
+                    <name>Start_Minutes</name>
+                    <choiceReferences>Minutes</choiceReferences>
+                    <dataType>String</dataType>
+                    <fieldText>Start Minutes</fieldText>
+                    <fieldType>DropdownBox</fieldType>
+                    <isRequired>false</isRequired>
+                </fields>
+                <inputParameters>
+                    <name>width</name>
+                    <value>
+                        <stringValue>6</stringValue>
+                    </value>
+                </inputParameters>
+                <isRequired>false</isRequired>
+            </fields>
+            <isRequired>false</isRequired>
+            <regionContainerType>SectionWithoutHeader</regionContainerType>
+        </fields>
+        <fields>
+            <name>Select_Days_and_Times_Section2</name>
+            <fieldType>RegionContainer</fieldType>
+            <fields>
+                <name>Select_Days_and_Times_Section2_Column1</name>
+                <fieldType>Region</fieldType>
+                <fields>
+                    <name>End_Hours</name>
+                    <choiceReferences>StartHours</choiceReferences>
+                    <dataType>String</dataType>
+                    <fieldText>End Hours</fieldText>
+                    <fieldType>DropdownBox</fieldType>
+                    <isRequired>false</isRequired>
+                </fields>
+                <inputParameters>
+                    <name>width</name>
+                    <value>
+                        <stringValue>6</stringValue>
+                    </value>
+                </inputParameters>
+                <isRequired>false</isRequired>
+            </fields>
+            <fields>
+                <name>Select_Days_and_Times_Section2_Column2</name>
+                <fieldType>Region</fieldType>
+                <fields>
+                    <name>End_Minutes</name>
+                    <choiceReferences>Minutes</choiceReferences>
+                    <dataType>String</dataType>
+                    <fieldText>End Minutes</fieldText>
+                    <fieldType>DropdownBox</fieldType>
+                    <isRequired>false</isRequired>
+                </fields>
+                <inputParameters>
+                    <name>width</name>
+                    <value>
+                        <stringValue>6</stringValue>
+                    </value>
+                </inputParameters>
+                <isRequired>false</isRequired>
+            </fields>
+            <isRequired>false</isRequired>
+            <regionContainerType>SectionWithoutHeader</regionContainerType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Calendars</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+    <variables>
+        <name>CalendarID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>DateVar</name>
+        <dataType>Date</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>DaysVar</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

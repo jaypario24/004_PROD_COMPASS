@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_Started_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Not Started Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Patient changed mind/decided to wait more time</fullName>
+                <default>false</default>
+                <label>Patient changed mind/decided to wait more time</label>
+            </value>
+            <value>
+                <fullName>Patient pregnant naturally</fullName>
+                <default>false</default>
+                <label>Patient pregnant naturally</label>
+            </value>
+            <value>
+                <fullName>Cost concerns</fullName>
+                <default>false</default>
+                <label>Cost concerns</label>
+            </value>
+            <value>
+                <fullName>Patient unwell</fullName>
+                <default>false</default>
+                <label>Patient unwell</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

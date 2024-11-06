@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>righteous__Label__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Label is used for internal identification. Provide logical name of condition. e.g., Is Opportunity is Closed Won. 
+
+In case any error occurs in evaluating this condition, system will use Label in exception message. So Admin can identify failing condition.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Label is used for internal identification. Provide logical name of condition. e.g., Is Opportunity is Closed Won.</inlineHelpText>
+    <label>Label</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

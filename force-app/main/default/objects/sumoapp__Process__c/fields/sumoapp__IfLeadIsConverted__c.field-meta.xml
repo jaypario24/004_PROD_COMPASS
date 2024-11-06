@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__IfLeadIsConverted__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>If LEAD is converted</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SCHEDULE_CONTACT</fullName>
+                <default>true</default>
+                <label>Schedule Contact - Self-Schedule Against the Contact that Resulted from the Converted Lead.</label>
+            </value>
+            <value>
+                <fullName>CREATE_NEW_LEAD</fullName>
+                <default>false</default>
+                <label>Create New Lead - Display the Lead Form, create a New Lead, and Self-Schedule Against the New Lead.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

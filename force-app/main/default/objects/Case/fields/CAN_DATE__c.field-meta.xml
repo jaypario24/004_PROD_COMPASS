@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAN_DATE__c</fullName>
+    <description>If the cycle was cancelled before OPU, enter the last date that FSH was administered.
+Otherwise, leave the field blank.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - The date the cycle was cancelle</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

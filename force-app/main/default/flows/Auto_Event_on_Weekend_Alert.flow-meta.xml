@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Fault_Email</name>
+        <label>Fault Email</label>
+        <locationX>760</locationX>
+        <locationY>1278</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <stringValue>There was an error sending an email to alert you to the fact that an event has been booked on a weekend. Please investigate. Thanks Binnacle </stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddressesArray</name>
+            <value>
+                <elementReference>EmailAddresses</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Fault with Weekend Event Alert</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_Email_Alert</name>
+        <label>Send Email Alert</label>
+        <locationX>466</locationX>
+        <locationY>1498</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <faultConnector>
+            <targetReference>Fault_Email</targetReference>
+        </faultConnector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>EmailTemplate</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <stringValue>info@compassfertility.com.au</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>New Event on Weekend</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>54.0</apiVersion>
+    <assignments>
+        <name>Assign_USer_to_Sollection</name>
+        <label>Assign USer to Sollection</label>
+        <locationX>554</locationX>
+        <locationY>983</locationY>
+        <assignmentItems>
+            <assignToReference>EmailAddresses</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Get_User.Email</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_Group_Members</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Is_on_Weekend</name>
+        <label>Is on Weekend</label>
+        <locationX>598</locationX>
+        <locationY>383</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_on_Weekend_Day</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>DayofWeek</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Saturday</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>DayofWeek</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Sunday</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Group</targetReference>
+            </connector>
+            <label>Is on Weekend Day</label>
+        </rules>
+    </decisions>
+    <formulas>
+        <name>DayofWeek</name>
+        <dataType>String</dataType>
+        <expression>CASE(
+  MOD( {!$Record.ActivityDate}- DATE( 1900, 1, 7 ), 7 ),
+  0, &quot;Sunday&quot;,
+  1, &quot;Monday&quot;,
+  2, &quot;Tuesday&quot;,
+  3, &quot;Wednesday&quot;,
+  4, &quot;Thursday&quot;,
+  5, &quot;Friday&quot;, 
+  &quot;Saturday&quot;
+)</expression>
+    </formulas>
+    <formulas>
+        <name>DayofWeekSimple</name>
+        <dataType>Number</dataType>
+        <expression>DAY({!$Record.ActivityDate})</expression>
+        <scale>0</scale>
+    </formulas>
+    <interviewLabel>Auto {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Auto Event on Weekend Alert</label>
+    <loops>
+        <name>Loop_Group_Members</name>
+        <label>Loop Group Members</label>
+        <locationX>466</locationX>
+        <locationY>743</locationY>
+        <collectionReference>Get_Group_Members</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Get_User</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Get_Patient</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Cycle</name>
+        <label>Get Cycle</label>
+        <locationX>466</locationX>
+        <locationY>1319</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Send_Email_Alert</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.WhatId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Case</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Group</name>
+        <label>Get Group</label>
+        <locationX>466</locationX>
+        <locationY>503</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Group_Members</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>Patient Services</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Group</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Group_Members</name>
+        <label>Get Group Members</label>
+        <locationX>466</locationX>
+        <locationY>623</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Loop_Group_Members</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>GroupId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Group.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>GroupMember</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Patient</name>
+        <label>Get Patient</label>
+        <locationX>466</locationX>
+        <locationY>1199</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Cycle</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.WhoId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Contact</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_User</name>
+        <label>Get User</label>
+        <locationX>554</locationX>
+        <locationY>863</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_USer_to_Sollection</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Loop_Group_Members.UserOrGroupId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>472</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Is_on_Weekend</targetReference>
+        </connector>
+        <object>Event</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>EmailTemplate</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;Hi,&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;This email is to alert you that an event has now been booked on the weekend. It is on {!$Record.ActivityDate} and is for {!Get_User.Name} and is related to cycle #{!Get_Cycle.CaseNumber}. Please note that no invoices have been edited or automatically raised as a result of this email. &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Thanks,&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Binnacle &lt;/p&gt;</text>
+    </textTemplates>
+    <variables>
+        <name>EmailAddresses</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

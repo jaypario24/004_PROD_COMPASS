@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>righteous__Apex_Validation</fullName>
+    <active>true</active>
+    <description>Validate required fields for Apex type validation</description>
+    <errorConditionFormula>AND(ISPICKVAL( righteous__Validation_Type__c , &apos;Apex Validation&apos;), OR(ISBLANK( righteous__Apex_Class_Name__c ), ISBLANK( righteous__Apex_Query_Fields__c ), ISBLANK( TEXT(righteous__Object__c ))))</errorConditionFormula>
+    <errorMessage>Please provide values for Apex Class Name and Apex Query Fields  for Apex Validation type.</errorMessage>
+</ValidationRule>

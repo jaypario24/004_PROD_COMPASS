@@ -1,0 +1,61 @@
+<apex:page showHeader="true" sidebar="true">
+    <apex:includeLightning />
+    <style>
+        body {
+            background-color: #2C2C2C; /* Dark grey background */
+            background-image: linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+            background-repeat: repeat, repeat;
+            background-size: 50px 50px, 50px 50px; /* Keep grid proportions */
+            background-blend-mode: normal, normal;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            height: 100%;
+        }
+        #flowContainer {
+            padding: 20px;
+            background: rgba(255, 255, 255, 1); /* Full opacity for flow container */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for effect */
+            position: absolute; /* Absolute positioning */
+            top: 50%; /* Center vertically */
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Center the element */
+            z-index: 1000; /* Ensure it stays on top */
+            width: 90%; /* Adjust width to fit your needs */
+            max-width: 1000px; /* Set a larger max width */
+        }
+        @media only screen and (max-width: 1024px) {
+            #flowContainer {
+                width: 95%; /* Increase width for iPad */
+                max-width: 1100px; /* Set a larger max width for iPad */
+                top: 40%; /* Adjust top value for iPads and smaller screens */
+                transform: translate(-50%, -40%); /* Adjust vertical centering */
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            #flowContainer {
+                top: 30%; /* Further adjust top value for smaller screens */
+                transform: translate(-50%, -30%); /* Adjust vertical centering */
+            }
+        }
+    </style>
+    <div id="flowContainer"></div>
+    <script>
+        $Lightning.use("c:FlowOutApp", function() {
+            $Lightning.createComponent("lightning:flow", 
+                {
+                    "aura:id": "myFlow",
+                    "flowApiName": "Developer_Waiting_Room_Alpha"
+                }, 
+                "flowContainer", 
+                function(cmp) {
+                    console.log("Flow component created successfully!");
+                    cmp.startFlow("Developer_Waiting_Room_Alpha");
+                }
+            );
+        });
+    </script>
+</apex:page>

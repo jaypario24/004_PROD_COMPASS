@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TSS_StickIt_MR1__Template__c</fullName>
+    <deprecated>false</deprecated>
+    <description>18 character ID of the Document record containing the label template associated with the stickIt Defaults custom setting record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the 18 character ID of the Document record containing the label template to be associated with this stickIt Defaults custom setting.</inlineHelpText>
+    <label>Template</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

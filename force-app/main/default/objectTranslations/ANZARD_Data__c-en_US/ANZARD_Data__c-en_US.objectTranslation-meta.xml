@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ANZARD Data</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ANZARD Data</value>
+    </caseValues>
+    <layouts>
+        <layout>ANZARD Data Layout</layout>
+        <sections>
+            <label><!-- Baby Outcome Data --></label>
+            <section>Baby Outcome Data</section>
+        </sections>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Cycle Information --></label>
+            <section>Cycle Information</section>
+        </sections>
+        <sections>
+            <label><!-- Donor Data --></label>
+            <section>Donor Data</section>
+        </sections>
+        <sections>
+            <label><!-- Egg Info --></label>
+            <section>Egg Info</section>
+        </sections>
+        <sections>
+            <label><!-- Embryo Information --></label>
+            <section>Embryo Information</section>
+        </sections>
+        <sections>
+            <label><!-- Fertility Data --></label>
+            <section>Fertility Data</section>
+        </sections>
+        <sections>
+            <label><!-- Morbidity Info --></label>
+            <section>Morbidity Info</section>
+        </sections>
+        <sections>
+            <label><!-- Patient Data --></label>
+            <section>Patient Data</section>
+        </sections>
+        <sections>
+            <label><!-- Sperm Info --></label>
+            <section>Sperm Info</section>
+        </sections>
+        <sections>
+            <label><!-- Transfer Information --></label>
+            <section>Transfer Information</section>
+        </sections>
+        <sections>
+            <label><!-- Unit Data --></label>
+            <section>Unit Data</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

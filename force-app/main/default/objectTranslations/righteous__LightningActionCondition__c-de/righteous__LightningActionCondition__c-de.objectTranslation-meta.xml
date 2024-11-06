@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage><!-- Please select Lightning Action or Lightning Action Group for record. --></errorMessage>
+        <name>righteous__Action_and_Group_Blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide values for Apex Class Name and Apex Query Fields  for Apex Validation type. --></errorMessage>
+        <name>righteous__Apex_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide values for Object Field, Operator and Target Type is required when Field Validation type is selected. --></errorMessage>
+        <name>righteous__Field_Validation_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Condition Object value must be matching with Object specified in Lightning Action Configuration. You may use &apos;Current User&apos; as Object or Object matching with Lightning Action Configuration record for this record. --></errorMessage>
+        <name>righteous__Object_is_not_same_Config_Object</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value is required when Target Type is &apos;Field&apos;. --></errorMessage>
+        <name>righteous__Target_Field_is_Blank</name>
+    </validationRules>
+</CustomObjectTranslation>

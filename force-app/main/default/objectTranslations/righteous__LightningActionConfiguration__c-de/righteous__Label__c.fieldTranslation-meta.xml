@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Provide Static Text or Custom Label API Name. Text will be displayed on Action Panel Header. --></help>
+    <label><!-- Label --></label>
+    <name>righteous__Label__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>N_FH__c</fullName>
+    <description>Number of fetal hearts seen on first ultrasound (intrauterine only)
+This field must be completed if PR_CLIN field is “y”.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Number of fetal hearts</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

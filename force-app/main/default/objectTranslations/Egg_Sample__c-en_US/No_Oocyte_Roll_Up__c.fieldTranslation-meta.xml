@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- No Oocyte Roll Up --></label>
+    <name>No_Oocyte_Roll_Up__c</name>
+</CustomFieldTranslation>

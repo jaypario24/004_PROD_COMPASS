@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Laboratory_Weekly</fullName>
+    <columns>SUBJECT</columns>
+    <columns>DUE_DATE</columns>
+    <columns>STATUS</columns>
+    <columns>PRIORITY</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>DUE_DATE</field>
+        <operation>lessOrEqual</operation>
+        <value>THIS_WEEK</value>
+    </filters>
+    <filters>
+        <field>STATUS</field>
+        <operation>notEqual</operation>
+        <value>Completed</value>
+    </filters>
+    <filters>
+        <field>Recurring_Task_Type__c</field>
+        <operation>equals</operation>
+        <value>Weekly</value>
+    </filters>
+    <label>Laboratory Weekly</label>
+    <queue>Laboratory</queue>
+    <sharedTo>
+        <group>Laboratory</group>
+    </sharedTo>
+</ListView>

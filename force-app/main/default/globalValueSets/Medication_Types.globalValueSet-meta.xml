@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Trigger</fullName>
+        <default>false</default>
+        <label>Trigger</label>
+    </customValue>
+    <customValue>
+        <fullName>FSH</fullName>
+        <default>false</default>
+        <label>FSH</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>GnRH/down reg</fullName>
+        <default>false</default>
+        <label>GnRH/down reg</label>
+    </customValue>
+    <customValue>
+        <fullName>Ov Stim</fullName>
+        <default>false</default>
+        <label>Ov Stim</label>
+    </customValue>
+    <customValue>
+        <fullName>Contraceptive</fullName>
+        <default>false</default>
+        <label>Contraceptive</label>
+    </customValue>
+    <customValue>
+        <fullName>Luteal support</fullName>
+        <default>false</default>
+        <label>Luteal support</label>
+    </customValue>
+    <masterLabel>Medication Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

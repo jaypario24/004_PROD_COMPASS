@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Result Type --></label>
+    <name>Result_Type__c</name>
+    <picklistValues>
+        <masterLabel>Anti Mullerian Hormone</masterLabel>
+        <translation><!-- Anti Mullerian Hormone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Antral Follicle Count</masterLabel>
+        <translation><!-- Antral Follicle Count --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blood Test Result</masterLabel>
+        <translation><!-- Blood Test Result --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infectious Screens</masterLabel>
+        <translation><!-- Infectious Screens --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PGT Result</masterLabel>
+        <translation><!-- PGT Result --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pregnancy Histopathology</masterLabel>
+        <translation><!-- Pregnancy Histopathology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pregnancy Scan</masterLabel>
+        <translation><!-- Pregnancy Scan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pregnancy Test Result</masterLabel>
+        <translation><!-- Pregnancy Test Result --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Record Ovulation</masterLabel>
+        <translation><!-- Record Ovulation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scan</masterLabel>
+        <translation><!-- Scan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Where in Cycle Blood</masterLabel>
+        <translation><!-- Where in Cycle Blood --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

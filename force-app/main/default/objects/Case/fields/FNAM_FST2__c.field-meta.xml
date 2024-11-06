@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FNAM_FST2__c</fullName>
+    <description>Facilitates creation of the statistical linkage key used by ANZARD to track cycles undertaken by the same woman.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - First two letters of female pat</label>
+    <length>2</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

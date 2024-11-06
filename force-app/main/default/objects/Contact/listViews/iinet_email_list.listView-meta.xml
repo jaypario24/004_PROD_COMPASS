@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iinet_email_list</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CONTACT.BIRTHDATE</columns>
+    <columns>Medicare_Number__c</columns>
+    <columns>Last_Day_1__c</columns>
+    <columns>Cycles_in_Last_12_months__c</columns>
+    <columns>GP_Referral_Expiry_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.EMAIL</field>
+        <operation>contains</operation>
+        <value>iinet</value>
+    </filters>
+    <label>iinet email list</label>
+</ListView>

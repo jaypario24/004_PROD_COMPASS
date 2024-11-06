@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Determines the UI Label. 
+1. Value - Static Value from Label field
+2. Custom Label - Reference to given Label name. Provide the API name in Label field
+3. Lightning Label - Data from external object with translations. Lookup to be used. -->
+    </help>
+    <label><!-- Label Type --></label>
+    <name>righteous__Label_Type__c</name>
+    <picklistValues>
+        <masterLabel>Lightning Label</masterLabel>
+        <translation><!-- Lightning Label --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Value</masterLabel>
+        <translation><!-- Value --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

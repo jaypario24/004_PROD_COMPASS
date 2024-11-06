@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ABN_LESS__c</fullName>
+    <description>Applies to elective terminations of pregnancy and fetal reductions due to fetal abnormality. Specify as much detail as possible.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Fetal abnormality in a pregnanc</label>
+    <length>2000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Semen_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>Donor_Owner__c</fields>
+    <fields>Birthday__c</fields>
+    <fields>Analysis_Date_Time__c</fields>
+    <fields>Analysis_Scientist__c</fields>
+    <fields>Patient_Mobile__c</fields>
+    <label>New Semen Compact Layout</label>
+</CompactLayout>

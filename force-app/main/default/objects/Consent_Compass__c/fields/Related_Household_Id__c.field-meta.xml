@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Household_Id__c</fullName>
+    <description>This is used in the send storage financial consent flow and referenced in the storage consent to allow for exporting of credit card details between consent record id and the household.</description>
+    <externalId>false</externalId>
+    <formula>Patients_Donors__r.Account.Id</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Related Household Id</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

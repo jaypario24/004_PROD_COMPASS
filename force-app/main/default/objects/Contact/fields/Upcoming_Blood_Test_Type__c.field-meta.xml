@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Upcoming_Blood_Test_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Upcoming Blood Test Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LH, E2, P4</fullName>
+                <default>false</default>
+                <label>LH, E2, P4</label>
+            </value>
+            <value>
+                <fullName>HCG, P4</fullName>
+                <default>false</default>
+                <label>HCG, P4</label>
+            </value>
+            <value>
+                <fullName>E2 P4 LH BHCG</fullName>
+                <default>false</default>
+                <label>E2 P4 LH BHCG</label>
+            </value>
+            <value>
+                <fullName>E2 P4 LH FSH</fullName>
+                <default>false</default>
+                <label>E2 P4 LH FSH</label>
+            </value>
+            <value>
+                <fullName>P4 only</fullName>
+                <default>false</default>
+                <label>P4 only</label>
+            </value>
+            <value>
+                <fullName>Other Combination of Bloods</fullName>
+                <default>false</default>
+                <label>Other Combination of Bloods</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

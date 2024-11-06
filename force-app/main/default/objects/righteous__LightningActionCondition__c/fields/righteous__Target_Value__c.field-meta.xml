@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>righteous__Target_Value__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Provide predefined/static value against which value of &quot;Object Field&quot; should be compared.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Provide predefined/static value against which value of &quot;Object Field&quot; should be compared.</inlineHelpText>
+    <label>Target Value</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

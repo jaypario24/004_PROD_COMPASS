@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__VideoConferenceDetailsType__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Video Conference Details Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Host</fullName>
+                <default>true</default>
+                <label>Host</label>
+            </value>
+            <value>
+                <fullName>Primary Participant</fullName>
+                <default>false</default>
+                <label>Primary Participant</label>
+            </value>
+            <value>
+                <fullName>Get details from the Host</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Get details from the Host</label>
+            </value>
+            <value>
+                <fullName>Let primary client provide his link</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Let primary client provide his link</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

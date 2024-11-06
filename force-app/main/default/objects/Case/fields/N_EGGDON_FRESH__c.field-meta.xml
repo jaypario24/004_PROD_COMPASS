@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>N_EGGDON_FRESH__c</fullName>
+    <description>The number of fresh oocytes provided/donated to another patient for immediate or later use. To record the donation/provision of cryopreserved oocytes, use one of N_EGFZ_S or N_EGFZ_V data items instead.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - Number of fresh oocytes donated</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

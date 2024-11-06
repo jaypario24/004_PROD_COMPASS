@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the total number of spaces a single person can reserve at once.  For example, some events allow one person to book 4 people for a table without requiring each person to register. --></help>
+    <label><!-- Max Bookings --></label>
+    <name>sumoapp__MaxBookings__c</name>
+</CustomFieldTranslation>

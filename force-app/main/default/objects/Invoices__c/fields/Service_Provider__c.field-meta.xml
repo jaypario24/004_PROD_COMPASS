@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Provider__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(   Related_Cycle__c  = &quot;&quot;,   Patients_Donors__r.Account.Doctor2__r.Name ,  Related_Cycle__r.Doctor_Initiating_Cycle__r.Name )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Service Provider</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

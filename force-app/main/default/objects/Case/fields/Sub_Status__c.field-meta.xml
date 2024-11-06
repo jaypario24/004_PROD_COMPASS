@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Waiting to Start</fullName>
+                <default>true</default>
+                <label>Waiting to Start</label>
+            </value>
+            <value>
+                <fullName>In Cycle</fullName>
+                <default>false</default>
+                <label>In Cycle</label>
+            </value>
+            <value>
+                <fullName>WFPR</fullName>
+                <default>false</default>
+                <label>WFPR</label>
+            </value>
+            <value>
+                <fullName>Awaiting Live Birth</fullName>
+                <default>false</default>
+                <label>Awaiting Live Birth</label>
+            </value>
+            <value>
+                <fullName>Awaiting Clinical Pregnancy</fullName>
+                <default>false</default>
+                <label>Awaiting Clinical Pregnancy</label>
+            </value>
+            <value>
+                <fullName>Cycle Closed</fullName>
+                <default>false</default>
+                <label>Cycle Closed</label>
+            </value>
+            <value>
+                <fullName>Cycle Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled Cycle</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

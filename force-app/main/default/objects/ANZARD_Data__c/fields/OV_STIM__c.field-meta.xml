@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OV_STIM__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    OR(
+        CYCLE_ID__r.Cycle_Record_Type_Name__c = &quot;IVF Cycle&quot;, 
+        CYCLE_ID__r.Cycle_Record_Type_Name__c = &quot;Egg Freeze Cycle&quot;, 
+        CYCLE_ID__r.Cycle_Record_Type_Name__c = &quot;Fresh Egg Donor Cycle&quot;,
+        CYCLE_ID__r.Cycle_Record_Type_Name__c = &quot;VOT Cycle&quot;,
+        CYCLE_ID__r.Cycle_Record_Type_Name__c = &quot;IUI Cycle&quot;,
+CYCLE_ID__r.Cycle_Record_Type_Name__c = &quot;FET Cycle&quot;
+    ),
+    IF(
+        OR(
+            CYCLE_TYPE__c = &quot;1&quot;,
+            CYCLE_TYPE__c = &quot;2&quot;,
+            CYCLE_TYPE__c = &quot;3&quot;,
+            CYCLE_TYPE__c = &quot;6&quot;
+        ),
+        IF(
+            CYCLE_ID__r.FSH_Used_In_Cycle__c &gt; 0,
+            &quot;y&quot;,
+            &quot;n&quot;
+        ),
+        NULL
+    ),
+    &quot;&quot;
+)</formula>
+    <label>OV_STIM</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

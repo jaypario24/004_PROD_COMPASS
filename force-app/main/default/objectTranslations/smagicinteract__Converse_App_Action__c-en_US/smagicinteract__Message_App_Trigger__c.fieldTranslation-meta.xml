@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Message App Trigger --></label>
+    <name>smagicinteract__Message_App_Trigger__c</name>
+    <picklistValues>
+        <masterLabel>Detail</masterLabel>
+        <translation><!-- Detail --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manual</masterLabel>
+        <translation><!-- Manual --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manual-Scheduled</masterLabel>
+        <translation><!-- Manual-Scheduled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketo</masterLabel>
+        <translation><!-- Marketo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pardot</masterLabel>
+        <translation><!-- Pardot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Process Builder</masterLabel>
+        <translation><!-- Process Builder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Workflow</masterLabel>
+        <translation><!-- Workflow --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

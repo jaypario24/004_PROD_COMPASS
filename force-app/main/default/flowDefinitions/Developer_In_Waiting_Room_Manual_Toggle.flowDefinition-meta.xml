@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>13</activeVersionNumber>
+    <description>Adds admin edit controls within the waiting room data table.</description>
+    <masterLabel>Developer Waiting Room Admin Edit Controls [WR_003]</masterLabel>
+</FlowDefinition>

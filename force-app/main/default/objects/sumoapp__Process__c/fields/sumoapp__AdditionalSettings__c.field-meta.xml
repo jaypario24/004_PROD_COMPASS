@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__AdditionalSettings__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Additional Settings</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>RESOURCE_POOL</fullName>
+                <default>true</default>
+                <label>Resource Pool</label>
+            </value>
+            <value>
+                <fullName>USER_CHOOSE</fullName>
+                <default>false</default>
+                <label>Let User Choose</label>
+            </value>
+            <value>
+                <fullName>DISPLAY_ERROR</fullName>
+                <default>false</default>
+                <label>Display Error</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

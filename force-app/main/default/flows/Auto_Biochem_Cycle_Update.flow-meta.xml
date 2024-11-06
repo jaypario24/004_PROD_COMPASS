@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <decisions>
+        <name>HCG_Less_Than_5</name>
+        <label>HCG Less Than 5</label>
+        <locationX>182</locationX>
+        <locationY>384</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Less_than_5</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.HCG__c</leftValueReference>
+                <operator>LessThan</operator>
+                <rightValue>
+                    <numberValue>5.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Cycle_Outcome</targetReference>
+            </connector>
+            <label>Less than 5</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>HCG_Less_Than_5_0</name>
+        <label>HCG Less Than 5</label>
+        <locationX>710</locationX>
+        <locationY>384</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Less_than_5_0</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.HCG__c</leftValueReference>
+                <operator>LessThan</operator>
+                <rightValue>
+                    <numberValue>5.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Cycle_Outcome_0</targetReference>
+            </connector>
+            <label>Less than 5</label>
+        </rules>
+    </decisions>
+    <description>Updates a cycle outcome when the HCG has tracked to &lt;5. This in effect closes the cycle to allow a new cycle to begin.</description>
+    <environments>Default</environments>
+    <interviewLabel>Auto Biochem Cycle Update {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Auto Biochem Cycle Update</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Cycle</name>
+        <label>Get Cycle</label>
+        <locationX>182</locationX>
+        <locationY>276</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>HCG_Less_Than_5</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Cycle__r.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Pregnancy_Outcome__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Biochem</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Case</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Cycle_0</name>
+        <label>Get Cycle</label>
+        <locationX>710</locationX>
+        <locationY>276</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>HCG_Less_Than_5_0</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Cycle__r.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Pregnancy_Outcome__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Biochem</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Case</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Cycle_Outcome</name>
+        <label>Update Cycle Outcome</label>
+        <locationX>50</locationX>
+        <locationY>492</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Cycle.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Cycle_Outcome__c</field>
+            <value>
+                <stringValue>Not Pregnant</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>PR_CLIN__c</field>
+            <value>
+                <stringValue>n = No</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Closed Cycle - Completed</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Sub_Status__c</field>
+            <value>
+                <stringValue>Cycle Closed</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Cycle_Outcome_0</name>
+        <label>Update Cycle Outcome</label>
+        <locationX>578</locationX>
+        <locationY>492</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Cycle.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Cycle_Outcome__c</field>
+            <value>
+                <stringValue>Not Pregnant</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>PR_CLIN__c</field>
+            <value>
+                <stringValue>n = No</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Closed Cycle - Completed</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Sub_Status__c</field>
+            <value>
+                <stringValue>Cycle Closed</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+    </recordUpdates>
+    <start>
+        <locationX>320</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Cycle</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>HCG__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>Result__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <scheduledPaths>
+            <name>Delay_Path</name>
+            <connector>
+                <targetReference>Get_Cycle_0</targetReference>
+            </connector>
+            <label>Delay Path</label>
+            <offsetNumber>20</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <recordField>LastModifiedDate</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

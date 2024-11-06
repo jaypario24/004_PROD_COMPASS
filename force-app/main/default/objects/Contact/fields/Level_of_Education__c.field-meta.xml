@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Level_of_Education__c</fullName>
+    <externalId>false</externalId>
+    <label>Level of Education</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Year 11 or Below (includes Certificate I/I/nfd)</fullName>
+                <default>false</default>
+                <label>Year 11 or Below (includes Certificate I/I/nfd)</label>
+            </value>
+            <value>
+                <fullName>Year 12</fullName>
+                <default>false</default>
+                <label>Year 12</label>
+            </value>
+            <value>
+                <fullName>Certificate III/IV</fullName>
+                <default>false</default>
+                <label>Certificate III/IV</label>
+            </value>
+            <value>
+                <fullName>Advanced Diploma and Diploma</fullName>
+                <default>false</default>
+                <label>Advanced Diploma and Diploma</label>
+            </value>
+            <value>
+                <fullName>Bachelor Degree</fullName>
+                <default>false</default>
+                <label>Bachelor Degree</label>
+            </value>
+            <value>
+                <fullName>Graduate Diploma and Graduate Certificate</fullName>
+                <default>false</default>
+                <label>Graduate Diploma and Graduate Certificate</label>
+            </value>
+            <value>
+                <fullName>Postgraduate Degree</fullName>
+                <default>false</default>
+                <label>Postgraduate Degree</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

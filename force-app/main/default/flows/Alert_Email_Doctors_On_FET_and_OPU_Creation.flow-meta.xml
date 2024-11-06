@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_Email_To_Doctors</name>
+        <label>Send Email To Doctors</label>
+        <locationX>176</locationX>
+        <locationY>455</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>EmailtoDoctors</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>DoctorEmail</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <elementReference>$Record.LastModifiedBy.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>New Booking From Compass Fertility</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>55.0</apiVersion>
+    <description>This flow simply sends an email when a FET, Transfer or OPU is booked.</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>DoctorEmail</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Assigned_Doctor__r.Email__c}</expression>
+    </formulas>
+    <interviewLabel>Alert Email Doctors On FET and OPU Creation {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Alert Email Doctors On FET and OPU Creation</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Patient_Details</name>
+        <label>Get Patient Details</label>
+        <locationX>176</locationX>
+        <locationY>335</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Send_Email_To_Doctors</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.WhoId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Contact</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Patient_Details</targetReference>
+        </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>Procedure_Types__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>EPU</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Procedure_Types__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>FET</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Procedure_Types__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Transfer</stringValue>
+            </value>
+        </filters>
+        <object>Event</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <textTemplates>
+        <name>EmailtoDoctors</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Dear {!$Record.Assigned_Doctor__r.Name},
+
+This email is to inform you that we have just booked a {!$Record.Procedure_Types__c} on the {!$Record.ActivityDateTime} for {!Get_Patient_Details.FirstName} {!Get_Patient_Details.LastName}. Please alert us as soon as practicable if you are unable to undertake this procedure. 
+
+Kind Regards,
+Compass Team</text>
+    </textTemplates>
+</Flow>

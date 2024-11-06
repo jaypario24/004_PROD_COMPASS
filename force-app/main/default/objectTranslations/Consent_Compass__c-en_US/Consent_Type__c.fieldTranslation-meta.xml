@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Consent Type --></label>
+    <name>Consent_Type__c</name>
+    <picklistValues>
+        <masterLabel>Cycle Consent</masterLabel>
+        <translation><!-- Cycle Consent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disposal Consent</masterLabel>
+        <translation><!-- Disposal Consent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Donor Consent</masterLabel>
+        <translation><!-- Donor Consent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Consent</masterLabel>
+        <translation><!-- General Consent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PGT Consent</masterLabel>
+        <translation><!-- PGT Consent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PRP Consent</masterLabel>
+        <translation><!-- PRP Consent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recipient Consents</masterLabel>
+        <translation><!-- Recipient Consents --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Storage Consent</masterLabel>
+        <translation><!-- Storage Consent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waivers</masterLabel>
+        <translation><!-- Waivers --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

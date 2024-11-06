@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FP_TYPE__c</fullName>
+    <description>Indicate whether the reason for fertility preservation was medical or non-medical.</description>
+    <externalId>false</externalId>
+    <label>ANZARD - The reason for female fertility</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 = Medical reason</fullName>
+                <default>false</default>
+                <label>1 = Medical reason</label>
+            </value>
+            <value>
+                <fullName>2 = Non-medical reason</fullName>
+                <default>false</default>
+                <label>2 = Non-medical reason</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

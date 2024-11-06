@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Provide Name of Global Apex class which should be invoked at the time of evaluating this Condition. Given Apex class must have implemented &quot;ILightningActionConditionValidator&quot; interface --></help>
+    <label><!-- Apex Class Name --></label>
+    <name>righteous__Apex_Class_Name__c</name>
+</CustomFieldTranslation>

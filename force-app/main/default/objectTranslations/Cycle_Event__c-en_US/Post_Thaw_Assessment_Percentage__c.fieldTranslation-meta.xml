@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Percentage of cells survived during the fz/thaw process. --></help>
+    <label><!-- Post-Thaw Assessment % --></label>
+    <name>Post_Thaw_Assessment_Percentage__c</name>
+</CustomFieldTranslation>

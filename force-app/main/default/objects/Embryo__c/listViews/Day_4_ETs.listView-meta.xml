@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Day_4_ETs</fullName>
+    <booleanFilter>1 AND (2 OR 3 OR 4)</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Household__c</columns>
+    <columns>Embryo_Cycle_Transferred_In__c</columns>
+    <columns>Cell_Number__c</columns>
+    <columns>Fragmentation__c</columns>
+    <columns>Other__c</columns>
+    <columns>Grading__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Embryo_Status__c</field>
+        <operation>equals</operation>
+        <value>Transferred</value>
+    </filters>
+    <filters>
+        <field>Cycle_Day__c</field>
+        <operation>equals</operation>
+        <value>3</value>
+    </filters>
+    <filters>
+        <field>Cycle_Day__c</field>
+        <operation>equals</operation>
+        <value>2</value>
+    </filters>
+    <filters>
+        <field>Cycle_Day__c</field>
+        <operation>equals</operation>
+        <value>4</value>
+    </filters>
+    <label>Day 3 ETs</label>
+</ListView>

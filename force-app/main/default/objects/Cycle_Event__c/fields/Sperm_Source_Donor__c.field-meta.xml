@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sperm_Source_Donor__c</fullName>
+    <externalId>false</externalId>
+    <label>Sperm Source Relationship</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Known Donor</fullName>
+                <default>false</default>
+                <label>Known Donor</label>
+            </value>
+            <value>
+                <fullName>Open-ID Donor</fullName>
+                <default>false</default>
+                <label>Open-ID Donor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Organizer Options --></label>
+    <name>sumoapp__OrganizerOptions__c</name>
+    <picklistValues>
+        <masterLabel>Make Lead Owner the person who Appointment was Scheduled with</masterLabel>
+        <translation><!-- Make Lead Owner the person who Appointment was Scheduled with --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schedule Appointment with Lead Owner</masterLabel>
+        <translation><!-- Schedule Appointment with Lead Owner --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

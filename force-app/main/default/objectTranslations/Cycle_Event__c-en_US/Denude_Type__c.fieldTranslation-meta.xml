@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Denude Type --></label>
+    <name>Denude_Type__c</name>
+    <picklistValues>
+        <masterLabel>Denude Selected Eggs</masterLabel>
+        <translation><!-- Denude Selected Eggs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trim Selected Eggs</masterLabel>
+        <translation><!-- Trim Selected Eggs --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

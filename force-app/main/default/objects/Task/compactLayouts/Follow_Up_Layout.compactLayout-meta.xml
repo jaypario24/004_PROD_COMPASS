@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Follow_Up_Layout</fullName>
+    <fields>WhoId</fields>
+    <fields>WhatId</fields>
+    <fields>Mobile__c</fields>
+    <label>Follow Up Layout</label>
+</CompactLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Field Type --></label>
+    <name>smagicinteract__Field_Type__c</name>
+    <picklistValues>
+        <masterLabel>API Name</masterLabel>
+        <translation><!-- API Name --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data Type</masterLabel>
+        <translation><!-- Data Type --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

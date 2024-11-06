@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Doctor_Result_Summary__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OR(ISBLANK(E2__c), E2__c = 0), &quot;&quot;, &quot;E2: &quot; + TEXT(E2__c) + &quot; &quot;) &amp;
+IF(OR(ISBLANK(LH__c), LH__c = 0), &quot;&quot;, &quot;LH: &quot; + TEXT(LH__c) + &quot; &quot;) &amp;
+IF(OR(ISBLANK(P4__c), P4__c = 0), &quot;&quot;, &quot;P4: &quot; + TEXT(P4__c) + &quot; &quot;) &amp;
+IF(ISBLANK(HCG__c), &quot;&quot;, IF(HCG__c = 0, &quot;HCG: &lt;5 &quot;, &quot;HCG: &quot; + TEXT(HCG__c) + &quot; &quot;))  &amp;
+IF(ISBLANK(Left_Follicle_Summary__c), &quot;&quot;, &quot;Left Folls: &quot; + Left_Follicle_Summary__c + &quot; &quot;) &amp;
+IF(ISBLANK(Right_Follicle_Summary__c), &quot;&quot;, &quot;Right Fols: &quot; + Right_Follicle_Summary__c + &quot; &quot;) &amp;
+IF(OR(ISBLANK(Endometrium_Thickness__c), Endometrium_Thickness__c = 0), &quot;&quot;, &quot;ET: &quot; + TEXT(Endometrium_Thickness__c) + &quot; &quot;) &amp;
+IF(ISBLANK(TEXT(Endometrium_Type__c)), &quot;&quot;, &quot;Endometrium Type: &quot; + TEXT(Endometrium_Type__c))</formula>
+    <label>Doctor Result Summary</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

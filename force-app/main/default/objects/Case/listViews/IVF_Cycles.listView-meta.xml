@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IVF_Cycles</fullName>
+    <columns>CONTACT.ACCOUNT</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Day_1__c</columns>
+    <columns>Eggs_Collected_In_Cycle__c</columns>
+    <columns>N_V_EGTH__c</columns>
+    <columns>N_IVF__c</columns>
+    <columns>N_ICSI__c</columns>
+    <columns>N_FERT__c</columns>
+    <columns>N_BL_ET__c</columns>
+    <columns>N_BLFZ_V__c</columns>
+    <columns>Cycle_Outcome__c</columns>
+    <columns>Sub_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Fresh_Egg_Donor_Cycle,Case.IVF_Cycle,Case.VOT_Cycle</value>
+    </filters>
+    <filters>
+        <field>Cycle_Outcome__c</field>
+        <operation>notEqual</operation>
+        <value>Cycle Cancelled,Not Started</value>
+    </filters>
+    <filters>
+        <field>Egg_Donation_Event_Created__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>IVF Cycles</label>
+</ListView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Test Picklist --></label>
+    <name>Tigerface1__Test_Picklist__c</name>
+    <picklistValues>
+        <masterLabel>MaybeC</masterLabel>
+        <translation><!-- MaybeC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NoB</masterLabel>
+        <translation><!-- NoB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>YesA</masterLabel>
+        <translation><!-- YesA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

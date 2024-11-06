@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Checking this will enable the internal note functionality --></help>
+    <label><!-- Internal Note Enabled --></label>
+    <name>smagicinteract__Internal_Note_Enabled__c</name>
+</CustomFieldTranslation>

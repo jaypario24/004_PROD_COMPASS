@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Had Either Ovary Removed? --></label>
+    <name>Either_Ovary_Removed__c</name>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation><!-- No --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes - Both</masterLabel>
+        <translation><!-- Yes - Both --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes - Left</masterLabel>
+        <translation><!-- Yes - Left --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes - Right</masterLabel>
+        <translation><!-- Yes - Right --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

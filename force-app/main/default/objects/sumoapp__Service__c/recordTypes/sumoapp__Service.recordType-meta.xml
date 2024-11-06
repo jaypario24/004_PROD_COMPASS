@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sumoapp__Service</fullName>
+    <active>true</active>
+    <label>Appt Services</label>
+    <picklistValues>
+        <picklist>sumoapp__LocationOptions__c</picklist>
+        <values>
+            <fullName>IN_HOUSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OUR_LOCATION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PHONE_INBOUND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VID_CONFERENCE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

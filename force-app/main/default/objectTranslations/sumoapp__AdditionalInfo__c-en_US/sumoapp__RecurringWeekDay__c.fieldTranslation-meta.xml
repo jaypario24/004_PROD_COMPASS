@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Recurring Week Day --></label>
+    <name>sumoapp__RecurringWeekDay__c</name>
+    <picklistValues>
+        <masterLabel>Fr</masterLabel>
+        <translation><!-- Fr --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M</masterLabel>
+        <translation><!-- M --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sa</masterLabel>
+        <translation><!-- Sa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Su</masterLabel>
+        <translation><!-- Su --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Th</masterLabel>
+        <translation><!-- Th --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tu</masterLabel>
+        <translation><!-- Tu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>W</masterLabel>
+        <translation><!-- W --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

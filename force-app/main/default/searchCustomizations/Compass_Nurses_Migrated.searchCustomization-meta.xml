@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchCustomization xmlns="http://soap.sforce.com/2006/04/metadata">
+    <channel>GlobalSearch</channel>
+    <masterLabel>Compass_Nurses_Migrated</masterLabel>
+    <objectToAlwaysSearch>Case</objectToAlwaysSearch>
+    <objectToAlwaysSearch>Contact</objectToAlwaysSearch>
+    <objectToAlwaysSearch>Event</objectToAlwaysSearch>
+    <profile>Compass Nurses</profile>
+</SearchCustomization>

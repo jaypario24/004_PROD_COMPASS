@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Updated_Cycle_Compact_Layout</fullName>
+    <fields>Cycle_Name__c</fields>
+    <fields>CaseNumber</fields>
+    <fields>ContactId</fields>
+    <fields>Patient_ID__c</fields>
+    <fields>Doctor_Initiating_Cycle__c</fields>
+    <fields>Age__c</fields>
+    <fields>Birthdate__c</fields>
+    <fields>Status</fields>
+    <fields>Mobile__c</fields>
+    <fields>Cycle_Outcome__c</fields>
+    <label>Updated Cycle Compact Layout</label>
+</CompactLayout>
